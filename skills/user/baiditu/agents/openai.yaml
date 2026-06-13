@@ -1,0 +1,4 @@
+interface:
+  display_name: "白底图"
+  short_description: "调用阿里云视觉智能平台对图片进行主体分割，输出白底图、透明PNG或裁剪图"
+  default_prompt: "对图片进行抠图去背景，生成白底图"

@@ -1,0 +1,85 @@
+﻿model = "MiniMax-M3"
+model_provider = "CodexPlusPlus"
+
+notify = [ "C:\\Users\\Administrator\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\789504f803e82e2b\\bin\\node_modules\\@oai\\sky\\bin\\windows\\codex-computer-use.exe", "turn-ended" ]
+
+[model_providers.CodexPlusPlus]
+name = "CodexPlusPlus"
+wire_api = "responses"
+requires_openai_auth = true
+base_url = "http://127.0.0.1:57321/v1"
+experimental_bearer_token = "sk-cp-***REDACTED***"
+
+[marketplaces.openai-bundled]
+last_updated = "2026-06-12T14:36:47Z"
+source_type = "local"
+source = '\\?\C:\Users\Administrator\.codex\.tmp\bundled-marketplaces\openai-bundled'
+
+[windows]
+sandbox = "elevated"
+
+[projects.'c:\users\administrator\documents\鎶€鑳借縼绉?]
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\钁ｄ簨浼?]
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\鐢熷浘']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\鎶€鑳藉浠?]
+trust_level = "trusted"
+
+[plugins."computer-use@openai-bundled"]
+enabled = true
+
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[plugins."chrome@openai-bundled"]
+enabled = true
+
+
+# ============================================================
+# MCP Servers (鐢辨仮澶嶈剼鏈啓鍏ヤ簬 2026-06-12 18:50:21)
+# ============================================================
+
+[mcp_servers.tavily]
+command = "npx"
+args = ["-y", "tavily-mcp"]
+env = { TAVILY_API_KEY = "tvly-dev-***REDACTED***" }
+
+[mcp_servers.minimax_coding_plan_mcp]
+command = "npx"
+args = ["-y", "minimax-coding-plan-mcp"]
+env = { MINIMAX_API_KEY = "sk-cp-***REDACTED***", MINIMAX_API_HOST = "https://api.minimaxi.com" }
+
+[mcp_servers.minimax_mcp]
+command = "uvx"
+args = ["minimax-mcp"]
+env = { MINIMAX_API_KEY = "sk-cp-***REDACTED***", MINIMAX_MCP_BASE_PATH = "C:/Users/Administrator/AppData/Local/Temp/minimax-mcp", MINIMAX_API_HOST = "https://api.minimaxi.com" }
+
+[mcp_servers.node_repl]
+args = []
+command = 'C:\Users\Administrator\AppData\Local\OpenAI\Codex\runtimes\cua_node\789504f803e82e2b\bin\node_repl.exe'
+startup_timeout_sec = 120
+
+[mcp_servers.node_repl.env]
+NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS = "1000"
+NODE_REPL_NODE_MODULE_DIRS = 'C:\Users\Administrator\AppData\Local\OpenAI\Codex\runtimes\cua_node\789504f803e82e2b\bin\node_modules'
+NODE_REPL_NODE_PATH = 'C:\Users\Administrator\AppData\Local\OpenAI\Codex\runtimes\cua_node\789504f803e82e2b\bin\node.exe'
+NODE_REPL_TRUSTED_CODE_PATHS = 'C:\Users\Administrator\.codex'
+CODEX_HOME = 'C:\Users\Administrator\.codex'
+NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S = "a3f3ca79fe2bff56076b895f1f13a8f673168160bd79d880cc34b4500e08a71c,bdc61752e0f9d9b1e73e3cba25ca71d3d9fe54d335ed8196378106081474d7c1"
+BROWSER_USE_AVAILABLE_BACKENDS = "chrome,iab"
+NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER = "Control the in-app browser in conjunction with the Browser Plugin."
+NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME = "Control the Chrome browser in conjunction with the Chrome Plugin. Prefer this method of controlling Chrome over alternatives (such as Computer Use) unless the user explicitly mentions an alternative."
+BROWSER_USE_CODEX_APP_BUILD_FLAVOR = "prod"
+BROWSER_USE_CODEX_APP_VERSION = "26.609.30741"
+SKY_CUA_NATIVE_PIPE = "1"
+SKY_CUA_NATIVE_PIPE_DIRECTORY = '\\.\pipe\codex-computer-use-d421fd63-8062-491e-9702-5763e4e45b84'
+CODEX_CLI_PATH = 'C:\Users\Administrator\AppData\Local\OpenAI\Codex\bin\f1c7ee7a13db5fed\codex.exe'
+
+[features]
+js_repl = false
+

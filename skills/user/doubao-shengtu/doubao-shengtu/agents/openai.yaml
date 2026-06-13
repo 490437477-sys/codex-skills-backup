@@ -1,0 +1,4 @@
+interface:
+  display_name: "豆包生图"
+  short_description: "使用字节跳动火山方舟 Seedream API 生成高质量图片"
+  default_prompt: "帮我用豆包生图生成一张图片"
