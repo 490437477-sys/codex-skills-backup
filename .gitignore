@@ -1,0 +1,21 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Codex runtime
+.codex/
+.codex-global-state.json
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
