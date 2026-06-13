@@ -1,8 +1,8 @@
-﻿# Codex 技能与工具备份
+# Codex 技能与工具备份
 
 把当前 Codex 环境里所有可重装的 **skills**、**plugin skills** 与 **工具配置** 备份到本目录，便于在新机器/重装后一键还原。
 
-> 备份时间：' + ([DateTime]::Now.ToString('yyyy-MM-dd HH:mm:ss')) + '（Asia/Shanghai）
+> 备份时间：2026-06-13 18:27:36（Asia/Shanghai）
 > 备份源：`$env:USERPROFILE\.codex\skills`、`$env:USERPROFILE\.codex\plugins\cache\openai-bundled\*\skills`、`$env:USERPROFILE\.codex\config.toml`
 
 ## 目录结构
@@ -13,7 +13,7 @@
 ├── MANIFEST.md                     # 全部 skills 清单（含 description）
 ├── skills/
 │   ├── system/                     # 5 个 Codex 内置 skills
-│   └── user/                       # 19 个用户/市场安装的 skills
+│   └── user/                       # 36 个用户/市场安装的 skills
 ├── plugins/
 │   └── skills/                     # 3 个插件贡献的 skills（browser/chrome/computer-use）
 └── tools/
@@ -22,8 +22,7 @@
     ├── mcp.md                      # MCP 工具清单
     ├── sub-agents.md               # 子代理工具清单
     ├── config.toml.sanitized       # config.toml 备份（密钥已脱敏）
-    ├── _gen_manifest.py            # 重新生成 MANIFEST.md 的脚本
-    └── _gen_manifest.ps1           # 同上 PowerShell 版本（已废弃）
+    └── _gen_manifest.py            # 重新生成 MANIFEST.md 的脚本
 ```
 
 ## 数量统计
@@ -31,9 +30,9 @@
 | 类别 | 数量 |
 |------|------|
 | 内置 skills（`skills/system/`） | 5 |
-| 用户 skills（`skills/user/`） | 19 |
+| 用户 skills（`skills/user/`） | 36 |
 | 插件 skills（`plugins/skills/`） | 3 |
-| **合计** | **27** |
+| **合计** | **44** |
 | 内置工具 | 10+ |
 | MCP 工具 | 17（4 个 server） |
 | 子代理工具 | 5 |
@@ -54,7 +53,7 @@
 Copy-Item -Recurse -Force .\skills\user\* "$env:USERPROFILE\.codex\skills\"
 ```
 
-> 注意：原环境下 `doubao-shengtu/` 是空目录，重装后保留即可，不影响其他 skills。
+> 注意：`doubao-shengtu/` 当前的 `SKILL.md` 嵌套在 `doubao-shengtu/doubao-shengtu/` 子目录下，复制时保持现有结构即可。
 
 ### 3) 还原内置 skills（`skills/system/`）
 
@@ -70,7 +69,7 @@ Copy-Item -Recurse -Force .\skills\user\* "$env:USERPROFILE\.codex\skills\"
 把 `plugins/skills/` 下的三个插件目录放回 `~/.codex/plugins/cache/<marketplace>/<plugin>/<version>/skills/`：
 
 ```powershell
-$ver = "26.609.30741"   # 与当前 Codex 版本对齐
+$ver = "26.609.41114"   # 与当前 Codex 版本对齐（按 ~/.codex/plugins/cache/openai-bundled/<plugin>/ 下的版本目录调整）
 $dst = "$env:USERPROFILE\.codex\plugins\cache\openai-bundled"
 Copy-Item -Recurse -Force .\plugins\skills\browser        "$dst\browser\$ver\skills\"
 Copy-Item -Recurse -Force .\plugins\skills\chrome         "$dst\chrome\$ver\skills\"
@@ -106,7 +105,7 @@ enabled = true
 列出你的技能
 ```
 
-应能完整看到 24 个 skills + 3 个插件 skills。
+应能完整看到 41 个 skills + 3 个插件 skills。
 
 ## 维护
 
