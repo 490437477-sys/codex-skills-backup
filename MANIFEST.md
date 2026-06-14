@@ -1,6 +1,6 @@
 # Skills 清单
 
-> 备份时间：2026-06-14 08:50:45
+> 备份时间：2026-06-14 14:29:05
 > 来源：$env:USERPROFILE\.codex\skills 与 $env:USERPROFILE\.codex\plugins\cache\openai-bundled\*\skills
 
 ## 内置 Skills（skills/system/，5 项）
@@ -13,7 +13,7 @@
 | skill-creator | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an exis… |
 | skill-installer | Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list in… |
 
-## 用户 Skills（skills/user/，37 项）
+## 用户 Skills（skills/user/，39 项）
 
 | Skill | 用途 |
 |-------|------|
@@ -43,7 +43,9 @@
 | howard-marks-perspective | \| Howard Marks（霍华德·马克斯）的思维框架与表达方式——克制型判断者。 不是投资金句集合，而是第二层思维、周期位置判断和克制等待的系统化方法论。 基于《投资最重要的事》、《Horizons》、橡树资本备忘录、TED演讲、投… |
 | jeff-bezos-perspective | \| 贝索斯的思维操作系统。核心定位：首席商业架构师——以「客户反向工作 + 长期资本耐心 + 可逆决策机制」三角框架审视战略问题。 不是研究员，不是分析师，是把客户洞察转化为可积累商业优势的架构师。 当用户提到「用贝索斯的视角」「贝索斯… |
 | mercado-product-research | Comprehensive product research and opportunity analysis for Mercado Libre (美客多) cross-border sellers. Analyzes demand,… |
+| mmx-cli | Use mmx to generate text, images, video, speech, and music via the MiniMax AI platform. Use when the user wants to crea… |
 | munger-perspective | \| 查理·芒格的思维框架与表达方式。基于《穷查理宝典》、伯克希尔/Daily Journal股东会、 USC/哈佛演讲、访谈记录、外部批评等50+来源的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维… |
+| ozon-product-research | Comprehensive product research and opportunity analysis for Ozon (Озон) sellers. Analyzes demand, competition, profit p… |
 | peter-thiel-perspective | \| Peter Thiel的思维框架与表达方式。基于《从0到1》、《竞争不是斗争》、Stanford CS183课程、 Lex Fridman/Tim Ferriss访谈、PayPal/Palantir/Founders Fund投资案… |
 | premium-a4-printable-pdf-starter | Use when creating a new premium A4 printable worksheet, canvas, checklist, scorecard, or report and a copyable HTML sta… |
 | premium-a4-printable-pdf-system | Use when working with the premium A4 printable PDF skill set and a quick overview is needed for which skill to use firs… |
@@ -66,6 +68,6 @@
 ## 总计
 
 - 内置 skills：5
-- 用户 skills：37
+- 用户 skills：39
 - 插件 skills：3
-- 合计：45
+- 合计：47

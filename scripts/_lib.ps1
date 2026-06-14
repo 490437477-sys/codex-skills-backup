@@ -1,4 +1,4 @@
-﻿# scripts/_lib.ps1
+# scripts/_lib.ps1
 # Shared helpers for diff/backup/restore.
 # Dot-source this from each script:
 #   . (Join-Path $PSScriptRoot '_lib.ps1')
@@ -101,12 +101,11 @@ function Sync-Directory {
         return @{ Copied = 0; Removed = 0 }
     }
     $Source = [System.IO.Path]::GetFullPath($Source)
-
+    if (Test-Path $Target) { $Target = [System.IO.Path]::GetFullPath($Target) }
     if (-not (Test-Path $Target)) {
         if ($WhatIf) { Write-Host "  [would mkdir] $Target" }
         else { New-Item -ItemType Directory -Force -Path $Target | Out-Null }
     }
-    if (Test-Path $Target) { $Target = [System.IO.Path]::GetFullPath($Target) }
 
     $copied = 0; $removed = 0
 
@@ -114,7 +113,8 @@ function Sync-Directory {
     $allFiles = Get-ChildItem -Force -File -Recurse -Path $Source | Where-Object { -not (Test-IsJunk $_.FullName) }
     if ($dirFilter) {
         $allFiles = $allFiles | Where-Object {
-            $firstSeg = ($_.FullName.Substring($Source.Length)) -replace '^([\\/]+)|([\\/].*)$', ''
+            $rel = $_.FullName.Substring($Source.Length).TrimStart([char[]]'\\/')
+            $firstSeg = ($rel -split '[\\/]')[0]
             -not $dirFilter.IsMatch($firstSeg)
         }
     }
