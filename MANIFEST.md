@@ -1,6 +1,6 @@
 # Skills 清单
 
-> 备份时间：2026-06-13 18:35:04
+> 备份时间：2026-06-14 08:50:45
 > 来源：$env:USERPROFILE\.codex\skills 与 $env:USERPROFILE\.codex\plugins\cache\openai-bundled\*\skills
 
 ## 内置 Skills（skills/system/，5 项）
@@ -13,7 +13,7 @@
 | skill-creator | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an exis… |
 | skill-installer | Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list in… |
 
-## 用户 Skills（skills/user/，36 项）
+## 用户 Skills（skills/user/，37 项）
 
 | Skill | 用途 |
 |-------|------|
@@ -39,6 +39,7 @@
 | doubao-shengtu | 使用字节跳动火山方舟 Seedream API 生成高质量图片。当用户需要生成图片、创作图像、文生图、豆包生图、或使用 Seedream/火山方舟/豆包生成图片时使用。支持 doubao-seedream-5.0-lite 模型。 |
 | elon-musk-perspective | \| 马斯克的思维操作系统。基于传记、播客、推文、法庭证词、决策记录和外部批评的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用马斯克的视角分析问题、审视决策、拆解成本结构、挑战行业假设。 当用… |
 | expert-council | \| Use when the user wants a multi-expert council that debates one question using several installed personas, then retu… |
+| find-skills | Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is t… |
 | howard-marks-perspective | \| Howard Marks（霍华德·马克斯）的思维框架与表达方式——克制型判断者。 不是投资金句集合，而是第二层思维、周期位置判断和克制等待的系统化方法论。 基于《投资最重要的事》、《Horizons》、橡树资本备忘录、TED演讲、投… |
 | jeff-bezos-perspective | \| 贝索斯的思维操作系统。核心定位：首席商业架构师——以「客户反向工作 + 长期资本耐心 + 可逆决策机制」三角框架审视战略问题。 不是研究员，不是分析师，是把客户洞察转化为可积累商业优势的架构师。 当用户提到「用贝索斯的视角」「贝索斯… |
 | mercado-product-research | Comprehensive product research and opportunity analysis for Mercado Libre (美客多) cross-border sellers. Analyzes demand,… |
@@ -65,6 +66,6 @@
 ## 总计
 
 - 内置 skills：5
-- 用户 skills：36
+- 用户 skills：37
 - 插件 skills：3
-- 合计：44
+- 合计：45
