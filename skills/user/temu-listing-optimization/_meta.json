@@ -1,0 +1,8 @@
+{
+  "ownerId": "local-temu-skills",
+  "slug": "temu-listing-optimization",
+  "version": "1.0.0",
+  "publishedAt": null,
+  "dependsOn": ["temu-product-research", "temu-keyword-research"],
+  "companionTo": ["temu-keyword-research"]
+}
