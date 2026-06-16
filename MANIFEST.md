@@ -1,6 +1,6 @@
 # Skills 清单
 
-> 备份时间：2026-06-15 23:00:28
+> 备份时间：2026-06-16 20:21:51
 > 来源：$env:USERPROFILE\.codex\skills 与 $env:USERPROFILE\.codex\plugins\cache\openai-bundled\*\skills
 
 ## 内置 Skills（skills/system/，5 项）
@@ -13,7 +13,7 @@
 | skill-creator | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an exis… |
 | skill-installer | Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list in… |
 
-## 用户 Skills（skills/user/，50 项）
+## 用户 Skills（skills/user/，53 项）
 
 | Skill | 用途 |
 |-------|------|
@@ -34,7 +34,7 @@
 | amazon-shipping-calculator | Amazon FBA and FBM shipping cost calculator and fulfillment optimization. Dimensional weight analysis, storage fee calc… |
 | andrew-ng-perspective | \| 吴恩达 (Andrew Ng) 思维顾问：AI教育家与AI工业落地布道者。 专治对AI大模型感到迷茫、技术焦虑或者不知道如何让大模型真正在业务流里产生价值的用户。核心包含：Agentic Workflow (四大智能体工作流设计模式… |
 | andy-grove-perspective | \| Andy Grove（安迪·格鲁夫）的思维框架与表达方式。基于《Only the Paranoid Survive》《High Output Management》、Intel转型与CEO时期访谈、外部评价与重大决策记录、关键历史节… |
-| baiditu | 调用阿里云视觉智能平台进行图片主体分割，输出白底图、透明PNG或裁剪图。支持商品分割、人体分割、通用分割、食品分割、服饰分割、Logo分割、车辆分割、动物分割、天空分割、高清通用分割共10种模型。当用户需要对图片进行抠图、去背景、商品白底… |
+| baiditu | 调用阿里云视觉智能平台（imageseg.cn-shanghai）对图片进行主体分割，输出白底图、透明 PNG 或裁剪图。默认在源目录创建「白底图」子目录保存结果。支持商品分割、人体分割、通用分割、食品分割、服饰分割、Logo 分割、车辆… |
 | dalio-perspective | \| 瑞·达利欧（Ray Dalio）思维顾问：基于桥水基业和《原则》的系统化模型。剥离人类自尊障碍，把经济、组织和自我看作一台机器。核心涵盖：大周期规律、极其机械化的因果倒推、以及"痛苦+反思=进步"纠错回路。 用途：作为思维顾问，用达… |
 | doubao-shengtu | 使用字节跳动火山方舟 Seedream API 生成高质量图片。当用户需要生成图片、创作图像、文生图、豆包生图、或使用 Seedream/火山方舟/豆包生成图片时使用。支持 doubao-seedream-5.0-lite 模型。 |
 | elon-musk-perspective | \| 马斯克的思维操作系统。基于传记、播客、推文、法庭证词、决策记录和外部批评的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用马斯克的视角分析问题、审视决策、拆解成本结构、挑战行业假设。 当用… |
@@ -44,16 +44,18 @@
 | jeff-bezos-perspective | \| 贝索斯的思维操作系统。核心定位：首席商业架构师——以「客户反向工作 + 长期资本耐心 + 可逆决策机制」三角框架审视战略问题。 不是研究员，不是分析师，是把客户洞察转化为可积累商业优势的架构师。 当用户提到「用贝索斯的视角」「贝索斯… |
 | mercado-keyword-research | Mercado Libre (美客多) keyword research and market opportunity analysis for cross-border sellers. Retrieve autocomplete &… |
 | mercado-listing-optimization | Mercado Libre (美客多) listing builder and optimizer for cross-border sellers. Two modes: (A) Create — build keyword-optim… |
+| mercado-ppc-campaign | Mercado Ads (美客多广告) campaign builder and optimizer for cross-border sellers. Two modes: (A) Build — design a complete M… |
 | mercado-product-research | Comprehensive product research and opportunity analysis for Mercado Libre (美客多) cross-border sellers. Analyzes demand,… |
-| mmx-cli | Use mmx to generate text, images, video, speech, and music via the MiniMax AI platform. Use when the user wants to crea… |
+| mmx-cli |  |
 | munger-perspective | \| 查理·芒格的思维框架与表达方式。基于《穷查理宝典》、伯克希尔/Daily Journal股东会、 USC/哈佛演讲、访谈记录、外部批评等50+来源的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维… |
 | noon-fbn-calculator |  |
 | noon-keyword-research |  |
 | noon-listing-optimization |  |
-| noon-ppc-campaign |  |
+| noon-ppc-campaign | noon Ads (Sponsored Products) campaign builder and optimizer for noon.sa (KSA) / noon.ae (UAE) / noon.com (Egypt). Two… |
 | noon-product-research |  |
 | ozon-keyword-research | Ozon (Озон) keyword research and market opportunity analysis for sellers. Mines long-tail Russian keywords from Ozon au… |
 | ozon-listing-optimization | Ozon (Озон) listing builder and optimizer for Russian-market sellers. Two modes: (A) Create — build keyword-optimized R… |
+| ozon-ppc-campaign | Ozon Performance (Продвижение / Трафареты / Product Targeting) campaign builder and optimizer for Russian-market seller… |
 | ozon-product-research | Comprehensive product research and opportunity analysis for Ozon (Озон) sellers. Analyzes demand, competition, profit p… |
 | peter-thiel-perspective | \| Peter Thiel的思维框架与表达方式。基于《从0到1》、《竞争不是斗争》、Stanford CS183课程、 Lex Fridman/Tim Ferriss访谈、PayPal/Palantir/Founders Fund投资案… |
 | premium-a4-printable-pdf-starter | Use when creating a new premium A4 printable worksheet, canvas, checklist, scorecard, or report and a copyable HTML sta… |
@@ -65,6 +67,7 @@
 | taleb-perspective | \| 塔勒布(Nassim Nicholas Taleb)的思维框架与表达方式。基于40+个来源的深度调研， 提炼6个核心心智模型、9条决策启发式和完整的表达DNA。 用途：作为思维顾问，用塔勒布的视角分析问题、审视决策、质疑主流叙事。… |
 | temu-keyword-research | TEMU keyword research and market opportunity analysis for cross-border sellers. Mine long-tail English keywords from TE… |
 | temu-listing-optimization | TEMU listing builder and optimizer for cross-border sellers. Two modes: (A) Create �� build keyword-optimized title + b… |
+| temu-ppc-campaign | TEMU Ads (��Ʒ�ƹ�) campaign builder and optimizer for cross-border sellers. Two modes: (A) Build �� design a complete ad… |
 | temu-product-research | TEMU 跨境电商选品研究与机会评估。覆盖 TEMU 半托管/全托管模式特性、核价机制、佣金与扣点、平台爆款节奏、欧美/日韩/拉美主战场差异、退货与售后扣款风险、以及全链路利润模型。当用户询问 TEMU 选品、TEMU 卖什么、TEMU… |
 | zhangxiaolong-perspective | \| 张小龙 (Allen Zhang) 思维顾问：基于微信背后的产品观、历年演讲及10年前饭否语录的深度调研。 提炼5个核心心智模型（极简与克制、上帝视角的生态演化、人性本能洞察、用完即走、去中心化连接），7条决策启发式和完整的表达DN… |
 
@@ -79,6 +82,6 @@
 ## 总计
 
 - 内置 skills：5
-- 用户 skills：50
+- 用户 skills：53
 - 插件 skills：3
-- 合计：58
+- 合计：61

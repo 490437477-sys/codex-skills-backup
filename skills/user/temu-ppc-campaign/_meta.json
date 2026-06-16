@@ -1,0 +1,8 @@
+{
+  "ownerId": "local-temu-skills",
+  "slug": "temu-ppc-campaign",
+  "version": "1.0.0",
+  "publishedAt": null,
+  "dependsOn": ["temu-product-research", "temu-listing-optimization", "temu-keyword-research"],
+  "companionTo": ["temu-product-research", "temu-listing-optimization", "temu-keyword-research"]
+}
