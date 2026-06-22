@@ -1,0 +1,5 @@
+interface:
+  display_name: "Ozon Shipping Calculator"
+  short_description: "Ozon shipping cost calculator for FBO and FBS fulfillment, including inbound shipping from China to Russian Ozon ware..."
+    default_prompt: "Use $ozon-shipping-calculator to calculate Ozon inbound and last-mile shipping costs."
+  brand_color: "#005BFF"

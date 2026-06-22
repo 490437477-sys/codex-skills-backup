@@ -1,5 +1,5 @@
 interface:
   display_name: "Ozon Listing Optimization"
   short_description: "Ozon listing builder, audit, and Russian SEO optimization"
-  default_prompt: "Use $ozon-listing-optimization to build or optimize an Ozon listing in Russian."
+    default_prompt: "Use $ozon-listing-optimization to build or optimize an Ozon listing in Russian."
   brand_color: "#005BFF"

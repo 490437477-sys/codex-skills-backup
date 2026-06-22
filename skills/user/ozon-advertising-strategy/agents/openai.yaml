@@ -1,0 +1,5 @@
+interface:
+  display_name: "Ozon Advertising Strategy"
+  short_description: "Build a comprehensive Ozon Performance advertising strategy combining search and product promotion, banner ads, and o..."
+    default_prompt: "Use $ozon-advertising-strategy to plan an Ozon Performance advertising strategy."
+  brand_color: "#005BFF"

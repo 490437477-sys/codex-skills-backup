@@ -1,0 +1,5 @@
+interface:
+  display_name: "Ozon Negative Keywords"
+  short_description: "Optimize Ozon Performance (advertising) campaigns by identifying and managing negative keywords in Russian + English...."
+    default_prompt: "Use $ozon-negative-keywords to identify negative keywords to cut Ozon ad waste."
+  brand_color: "#005BFF"

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Ozon Competitor Analysis"
+  short_description: "Full-spectrum competitor analysis for the Ozon marketplace. Compares listings, pricing in RUB/KZT/BYN, Russian copy, ..."
+    default_prompt: "Use $ozon-competitor-analysis to analyze Ozon competitors."
+  brand_color: "#005BFF"

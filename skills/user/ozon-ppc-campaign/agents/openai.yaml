@@ -1,5 +1,5 @@
 interface:
   display_name: "Ozon PPC Campaign"
   short_description: "Ozon Performance campaign builder, audit, and ДРР optimization"
-  default_prompt: "Use $ozon-ppc-campaign to build or optimize an Ozon Performance ad campaign with Russian keywords."
+    default_prompt: "Use $ozon-ppc-campaign to build or optimize an Ozon Performance ad campaign."
   brand_color: "#005BFF"

@@ -1,5 +1,5 @@
 interface:
   display_name: "Ozon Keyword Research"
   short_description: "Russian keyword expansion and Ozon market opportunity analysis"
-  default_prompt: "Use $ozon-keyword-research to mine Russian long-tail keywords for an Ozon listing."
+    default_prompt: "Use $ozon-keyword-research to mine Russian long-tail keywords for an Ozon listing."
   brand_color: "#005BFF"

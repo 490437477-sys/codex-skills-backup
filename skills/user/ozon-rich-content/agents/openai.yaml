@@ -1,0 +1,5 @@
+interface:
+  display_name: "Ozon Rich Content"
+  short_description: "Plan and create Ozon Rich Content (similar to Amazon A+ Content). Design Russian-language module layouts, write persu..."
+    default_prompt: "Use $ozon-rich-content to design Ozon Rich Content modules."
+  brand_color: "#005BFF"

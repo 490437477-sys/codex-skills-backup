@@ -1,0 +1,5 @@
+interface:
+  display_name: "Ozon Review Analyzer"
+  short_description: "Deep Ozon review analysis for competitive intelligence and product improvement. Extract Russian-language review senti..."
+    default_prompt: "Use $ozon-review-analyzer to mine Russian-language Ozon reviews for product insights."
+  brand_color: "#005BFF"

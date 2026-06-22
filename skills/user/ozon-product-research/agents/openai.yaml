@@ -1,5 +1,5 @@
 interface:
   display_name: "Ozon Product Research"
   short_description: "Ozon cross-border product research and profit modeling"
-  default_prompt: "Use $ozon-product-research to evaluate whether a product is worth selling on Ozon.ru."
+    default_prompt: "Use $ozon-product-research to evaluate whether a product is worth selling on Ozon."
   brand_color: "#005BFF"

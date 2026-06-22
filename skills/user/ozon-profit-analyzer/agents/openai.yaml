@@ -1,0 +1,5 @@
+interface:
+  display_name: "Ozon Profit Analyzer"
+  short_description: "Comprehensive Ozon profit analysis and revenue optimization. Revenue waterfall analysis with Ozon commission, FBO sto..."
+    default_prompt: "Use $ozon-profit-analyzer to break down true Ozon profit per SKU."
+  brand_color: "#005BFF"

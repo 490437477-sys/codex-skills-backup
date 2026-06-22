@@ -1,0 +1,5 @@
+interface:
+  display_name: "Ozon Sales Estimator"
+  short_description: "Ozon sales volume estimator for sellers and product researchers. Estimate monthly sales and revenue for a SKU on Ozon..."
+    default_prompt: "Use $ozon-sales-estimator to estimate Ozon monthly sales and revenue."
+  brand_color: "#005BFF"

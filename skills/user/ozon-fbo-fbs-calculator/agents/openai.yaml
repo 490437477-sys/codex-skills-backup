@@ -1,0 +1,5 @@
+interface:
+  display_name: "Ozon Fbo Fbs Calculator"
+  short_description: "Ozon FBO (Fulfilled by Ozon) and FBS (Fulfilled by Seller) cost calculator. Computes FBO storage and last-mile fees b..."
+    default_prompt: "Use $ozon-fbo-fbs-calculator to calculate Ozon FBO vs FBS fulfillment costs."
+  brand_color: "#005BFF"

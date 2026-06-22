@@ -1,0 +1,5 @@
+interface:
+  display_name: "Ozon Backend Keywords"
+  short_description: "Optimize Ozon backend search terms (used in product description and category attributes) for maximum Russian + CIS di..."
+    default_prompt: "Use $ozon-backend-keywords to optimize Ozon backend search terms."
+  brand_color: "#005BFF"

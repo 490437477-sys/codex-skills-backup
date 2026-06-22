@@ -1,0 +1,5 @@
+interface:
+  display_name: "Ozon Niche Finder"
+  short_description: "Profitable niche discovery for the Ozon marketplace. Identifies underserved CIS markets across Ozon.ru, Ozon.kz, and ..."
+    default_prompt: "Use $ozon-niche-finder to discover profitable niches on the Ozon marketplace."
+  brand_color: "#005BFF"
