@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """TEMU Backend Keyword Deduper.
 
 Build a deduped, multilingual backend keyword set for TEMU listings from

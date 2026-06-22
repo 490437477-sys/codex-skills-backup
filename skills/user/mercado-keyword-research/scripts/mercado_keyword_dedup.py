@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Mercado Libre backend keyword deduplicator.
 
 Build a clean backend search-term string for Mercado Libre listings from

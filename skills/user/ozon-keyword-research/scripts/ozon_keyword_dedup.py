@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Ozon backend keyword deduplicator for Ozon.ru / Ozon.kz / Ozon.by.
 

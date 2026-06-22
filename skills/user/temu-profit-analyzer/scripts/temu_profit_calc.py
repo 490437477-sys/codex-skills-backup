@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """TEMU Profit Calculator.
 
 Compute per-order net profit, contribution margin, break-even ACOS, and a

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Mercado Libre profit calculator.
 
 Compute the per-order net profit, contribution margin, break-even ACOS,

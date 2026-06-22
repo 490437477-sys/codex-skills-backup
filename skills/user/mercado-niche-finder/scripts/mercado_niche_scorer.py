@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Mercado Libre niche scorer.
 
 Score a product idea across the five Mercado Libre marketplaces (MLM, MLB,

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """TEMU Niche Scorer.
 
 Score a product niche opportunity on TEMU across US/UK/DE/FR/MX/BR/JP/KR
