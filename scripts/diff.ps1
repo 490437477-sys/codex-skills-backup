@@ -1,21 +1,25 @@
 ﻿# scripts/diff.ps1
 <#
 .SYNOPSIS
-  Compare installed Codex skills with this project's backup.
+  Compare installed Codex skills with this project backup.
 
 .DESCRIPTION
-  Walks both $env:USERPROFILE\.codex\skills and <project>/skills, and reports:
+  Walks both $env:USERPROFILE\.codex\skills (r0) and $env:USERPROFILE\.agents\skills (r1),
+  merges them (r0 takes priority on conflict), and reports:
     NEW       - present in source but missing from backup
     REMOVED   - present in backup but missing from source
     MODIFIED  - present in both but file contents differ
 
-  Also compares openai-bundled plugin skills under .codex/plugins\cache.
+  Also compares openai-bundled plugin skills under .codex\plugins\cache.
 
 .PARAMETER Detailed
   For modified skills, also list which files changed (OnlySource / OnlyBackup / Changed).
 
 .PARAMETER SourceSkills
-  Override the source Codex skills root. Default: $env:USERPROFILE\.codex\skills.
+  Override the r0 source root. Default: $env:USERPROFILE\.codex\skills.
+
+.PARAMETER SourceAgents
+  Override the r1 source root. Default: $env:USERPROFILE\.agents\skills.
 
 .PARAMETER SourcePlugins
   Override the source plugins cache root. Default: $env:USERPROFILE\.codex\plugins\cache\openai-bundled.
@@ -28,6 +32,7 @@
 param(
     [switch]$Detailed,
     [string]$SourceSkills = (Join-Path $env:USERPROFILE '.codex\skills'),
+    [string]$SourceAgents = (Join-Path $env:USERPROFILE '.agents\skills'),
     [string]$SourcePlugins = (Join-Path $env:USERPROFILE '.codex\plugins\cache\openai-bundled')
 )
 
@@ -78,15 +83,31 @@ function Compare-SkillCategory {
 
 Write-Host ""
 Write-Host "Codex skills diff" -ForegroundColor Cyan
-Write-Host ("  source : {0}" -f $SourceSkills)
+Write-Host ("  source : {0} (r0)" -f $SourceSkills)
+Write-Host ("  source : {0} (r1)" -f $SourceAgents)
 Write-Host ("  backup : {0}" -f $BackupSkills)
 Write-Host ("  plugins: {0}" -f $SourcePlugins)
 
 Write-Section 'skills/system'
 Compare-SkillCategory 'system' (Join-Path $SourceSkills '.system') (Join-Path $BackupSkills 'system')
 
-Write-Section 'skills/user'
-Compare-SkillCategory 'user' $SourceSkills (Join-Path $BackupSkills 'user')
+# Build merged user source: r0 first, then r1 (r0 wins on conflict).
+Write-Section 'skills/user (r0 + r1)'
+$userStage = Join-Path $env:TEMP ("diff-user-stage-" + [guid]::NewGuid().ToString('N'))
+New-Item -ItemType Directory -Force -Path $userStage | Out-Null
+try {
+    foreach ($src in @($SourceSkills, $SourceAgents)) {
+        if (-not (Test-Path $src)) { continue }
+        foreach ($d in (Get-ChildItem -Force -Directory $src | Where-Object { -not $_.Name.StartsWith('.') })) {
+            $dest = Join-Path $userStage $d.Name
+            if (Test-Path $dest) { continue }  # r0 wins
+            Copy-Item -Recurse -Force $d.FullName $dest | Out-Null
+        }
+    }
+    Compare-SkillCategory 'user' $userStage (Join-Path $BackupSkills 'user')
+} finally {
+    if (Test-Path $userStage) { Remove-Item -Recurse -Force $userStage }
+}
 
 Write-Section 'plugins/skills'
 if (-not (Test-Path $SourcePlugins)) {

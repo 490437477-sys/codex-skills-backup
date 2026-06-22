@@ -1,4 +1,4 @@
-# scripts/_lib.ps1
+﻿# scripts/_lib.ps1
 # Shared helpers for diff/backup/restore.
 # Dot-source this from each script:
 #   . (Join-Path $PSScriptRoot '_lib.ps1')
@@ -7,12 +7,22 @@ Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
 # --- Paths ---------------------------------------------------------------
-function Get-CodexHome       { return $env:USERPROFILE }
-function Get-SourceSkills    { return Join-Path (Get-CodexHome) '.codex\skills' }
-function Get-SourcePlugins   { return Join-Path (Get-CodexHome) '.codex\plugins\cache\openai-bundled' }
-function Get-ProjectRoot     { return (Resolve-Path (Join-Path $PSScriptRoot '..')).Path }
-function Get-BackupSkills    { return Join-Path (Get-ProjectRoot) 'skills' }
-function Get-BackupPlugins   { return Join-Path (Get-ProjectRoot) 'plugins\skills' }
+function Get-CodexHome          { return $env:USERPROFILE }
+function Get-SourceSkills       { return Join-Path (Get-CodexHome) '.codex\skills' }
+function Get-SourceAgentsSkills { return Join-Path (Get-CodexHome) '.agents\skills' }
+function Get-SourcePlugins      { return Join-Path (Get-CodexHome) '.codex\plugins\cache\openai-bundled' }
+function Get-ProjectRoot        { return (Resolve-Path (Join-Path $PSScriptRoot '..')).Path }
+function Get-BackupSkills       { return Join-Path (Get-ProjectRoot) 'skills' }
+function Get-BackupPlugins      { return Join-Path (Get-ProjectRoot) 'plugins\skills' }
+
+# Returns all user-skill source roots in priority order (r0 first, r1 second).
+# r0 (.codex/skills) takes precedence on name conflicts; r1 (.agents/skills) fills in skills not in r0.
+function Get-AllUserSkillSources {
+    return @(
+        (Get-SourceSkills),
+        (Get-SourceAgentsSkills)
+    )
+}
 
 # --- Filtering ------------------------------------------------------------
 $Script:JunkRegex = '__pycache__|\.git|\.DS_Store$|Thumbs\.db$'

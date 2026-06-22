@@ -1,6 +1,6 @@
 # Skills 清单
 
-> 备份时间：2026-06-22 14:29:46
+> 备份时间：2026-06-22 23:11:25
 > 来源：$env:USERPROFILE\.codex\skills 与 $env:USERPROFILE\.codex\plugins\cache\openai-bundled\*\skills
 
 ## 内置 Skills（skills/system/，5 项）
@@ -13,7 +13,7 @@
 | skill-creator | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an exis… |
 | skill-installer | Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list in… |
 
-## 用户 Skills（skills/user/，63 项）
+## 用户 Skills（skills/user/，96 项）
 
 | Skill | 用途 |
 |-------|------|
@@ -42,10 +42,21 @@
 | find-skills | Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is t… |
 | howard-marks-perspective | \| Howard Marks（霍华德·马克斯）的思维框架与表达方式——克制型判断者。 不是投资金句集合，而是第二层思维、周期位置判断和克制等待的系统化方法论。 基于《投资最重要的事》、《Horizons》、橡树资本备忘录、TED演讲、投… |
 | jeff-bezos-perspective | \| 贝索斯的思维操作系统。核心定位：首席商业架构师——以「客户反向工作 + 长期资本耐心 + 可逆决策机制」三角框架审视战略问题。 不是研究员，不是分析师，是把客户洞察转化为可积累商业优势的架构师。 当用户提到「用贝索斯的视角」「贝索斯… |
+| mercado-advertising-strategy |  |
+| mercado-backend-keywords |  |
+| mercado-competitor-analysis |  |
+| mercado-fulfillment-calculator |  |
 | mercado-keyword-research | Mercado Libre (美客多) keyword research and market opportunity analysis for cross-border sellers. Retrieve autocomplete &… |
 | mercado-listing-optimization | Mercado Libre (美客多) listing builder and optimizer for cross-border sellers. Two modes: (A) Create — build keyword-optim… |
+| mercado-negative-keywords |  |
+| mercado-niche-finder |  |
 | mercado-ppc-campaign | Mercado Ads (美客多广告) campaign builder and optimizer for cross-border sellers. Two modes: (A) Build — design a complete M… |
 | mercado-product-research | Comprehensive product research and opportunity analysis for Mercado Libre (美客多) cross-border sellers. Analyzes demand,… |
+| mercado-profit-analyzer |  |
+| mercado-review-analyzer |  |
+| mercado-rich-content |  |
+| mercado-sales-estimator |  |
+| mercado-shipping-calculator |  |
 | mmx-cli | Use mmx to generate text, images, video, speech, and music via the MiniMax AI platform. Use when the user wants to crea… |
 | munger-perspective | \| 查理·芒格的思维框架与表达方式。基于《穷查理宝典》、伯克希尔/Daily Journal股东会、 USC/哈佛演讲、访谈记录、外部批评等50+来源的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维… |
 | noon-advertising-strategy |  |
@@ -63,10 +74,21 @@
 | noon-rich-content |  |
 | noon-sales-estimator |  |
 | noon-shipping-calculator |  |
+| ozon-advertising-strategy |  |
+| ozon-backend-keywords |  |
+| ozon-competitor-analysis |  |
+| ozon-fbo-fbs-calculator |  |
 | ozon-keyword-research | Ozon (Озон) keyword research and market opportunity analysis for sellers. Mines long-tail Russian keywords from Ozon au… |
 | ozon-listing-optimization | Ozon (Озон) listing builder and optimizer for Russian-market sellers. Two modes: (A) Create — build keyword-optimized R… |
+| ozon-negative-keywords |  |
+| ozon-niche-finder |  |
 | ozon-ppc-campaign | Ozon Performance (Продвижение / Трафареты / Product Targeting) campaign builder and optimizer for Russian-market seller… |
 | ozon-product-research | Comprehensive product research and opportunity analysis for Ozon (Озон) sellers. Analyzes demand, competition, profit p… |
+| ozon-profit-analyzer |  |
+| ozon-review-analyzer |  |
+| ozon-rich-content |  |
+| ozon-sales-estimator |  |
+| ozon-shipping-calculator |  |
 | peter-thiel-perspective | \| Peter Thiel的思维框架与表达方式。基于《从0到1》、《竞争不是斗争》、Stanford CS183课程、 Lex Fridman/Tim Ferriss访谈、PayPal/Palantir/Founders Fund投资案… |
 | premium-a4-printable-pdf-starter | Use when creating a new premium A4 printable worksheet, canvas, checklist, scorecard, or report and a copyable HTML sta… |
 | premium-a4-printable-pdf-system | Use when working with the premium A4 printable PDF skill set and a quick overview is needed for which skill to use firs… |
@@ -75,10 +97,21 @@
 | soros-perspective | \| 乔治·索罗斯思维顾问：基于其6个维度的深度追踪，提炼5个核心心智模型（可错性、反射性、盛衰周期、结构脆弱点、开放社会）、7条决策启发式和完整的表达DNA。 用途：作为思维顾问，用索罗斯的视角分析宏观博弈、市场拐点、政策脆弱性和制度设… |
 | taiichi-ohno-perspective | \| 大野耐一 (Taiichi Ohno) 思维顾问：丰田生产方式 (TPS) 与精益生产之父。 专治流程臃肿、效率低下、掩盖问题和瞎忙活。核心包含：识别七大浪费、现场大野圈观察、连续推演5个为什么（5 Whys）以发掘根本原因、以及绝… |
 | taleb-perspective | \| 塔勒布(Nassim Nicholas Taleb)的思维框架与表达方式。基于40+个来源的深度调研， 提炼6个核心心智模型、9条决策启发式和完整的表达DNA。 用途：作为思维顾问，用塔勒布的视角分析问题、审视决策、质疑主流叙事。… |
+| temu-advertising-strategy |  |
+| temu-backend-keywords |  |
+| temu-competitor-analysis |  |
+| temu-fulfillment-calculator |  |
 | temu-keyword-research | TEMU keyword research and market opportunity analysis for cross-border sellers. Mine long-tail English keywords from TE… |
 | temu-listing-optimization | TEMU listing builder and optimizer for cross-border sellers. Two modes: (A) Create �� build keyword-optimized title + b… |
+| temu-negative-keywords |  |
+| temu-niche-finder |  |
 | temu-ppc-campaign | TEMU Ads (��Ʒ�ƹ�) campaign builder and optimizer for cross-border sellers. Two modes: (A) Build �� design a complete ad… |
 | temu-product-research | TEMU 跨境电商选品研究与机会评估。覆盖 TEMU 半托管/全托管模式特性、核价机制、佣金与扣点、平台爆款节奏、欧美/日韩/拉美主战场差异、退货与售后扣款风险、以及全链路利润模型。当用户询问 TEMU 选品、TEMU 卖什么、TEMU… |
+| temu-profit-analyzer |  |
+| temu-review-analyzer |  |
+| temu-rich-content |  |
+| temu-sales-estimator |  |
+| temu-shipping-calculator |  |
 | zhangxiaolong-perspective | \| 张小龙 (Allen Zhang) 思维顾问：基于微信背后的产品观、历年演讲及10年前饭否语录的深度调研。 提炼5个核心心智模型（极简与克制、上帝视角的生态演化、人性本能洞察、用完即走、去中心化连接），7条决策启发式和完整的表达DN… |
 
 ## 插件贡献 Skills（plugins/skills/，3 项）
@@ -92,6 +125,6 @@
 ## 总计
 
 - 内置 skills：5
-- 用户 skills：63
+- 用户 skills：96
 - 插件 skills：3
-- 合计：71
+- 合计：104
