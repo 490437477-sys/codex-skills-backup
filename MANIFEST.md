@@ -1,6 +1,6 @@
 # Skills 清单
 
-> 备份时间：2026-06-16 20:21:51
+> 备份时间：2026-06-22 14:29:46
 > 来源：$env:USERPROFILE\.codex\skills 与 $env:USERPROFILE\.codex\plugins\cache\openai-bundled\*\skills
 
 ## 内置 Skills（skills/system/，5 项）
@@ -13,7 +13,7 @@
 | skill-creator | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an exis… |
 | skill-installer | Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list in… |
 
-## 用户 Skills（skills/user/，53 项）
+## 用户 Skills（skills/user/，63 项）
 
 | Skill | 用途 |
 |-------|------|
@@ -46,13 +46,23 @@
 | mercado-listing-optimization | Mercado Libre (美客多) listing builder and optimizer for cross-border sellers. Two modes: (A) Create — build keyword-optim… |
 | mercado-ppc-campaign | Mercado Ads (美客多广告) campaign builder and optimizer for cross-border sellers. Two modes: (A) Build — design a complete M… |
 | mercado-product-research | Comprehensive product research and opportunity analysis for Mercado Libre (美客多) cross-border sellers. Analyzes demand,… |
-| mmx-cli |  |
+| mmx-cli | Use mmx to generate text, images, video, speech, and music via the MiniMax AI platform. Use when the user wants to crea… |
 | munger-perspective | \| 查理·芒格的思维框架与表达方式。基于《穷查理宝典》、伯克希尔/Daily Journal股东会、 USC/哈佛演讲、访谈记录、外部批评等50+来源的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维… |
+| noon-advertising-strategy |  |
+| noon-backend-keywords |  |
+| noon-competitor-analysis |  |
 | noon-fbn-calculator |  |
 | noon-keyword-research |  |
 | noon-listing-optimization |  |
+| noon-negative-keywords |  |
+| noon-niche-finder |  |
 | noon-ppc-campaign | noon Ads (Sponsored Products) campaign builder and optimizer for noon.sa (KSA) / noon.ae (UAE) / noon.com (Egypt). Two… |
 | noon-product-research |  |
+| noon-profit-analyzer |  |
+| noon-review-analyzer |  |
+| noon-rich-content |  |
+| noon-sales-estimator |  |
+| noon-shipping-calculator |  |
 | ozon-keyword-research | Ozon (Озон) keyword research and market opportunity analysis for sellers. Mines long-tail Russian keywords from Ozon au… |
 | ozon-listing-optimization | Ozon (Озон) listing builder and optimizer for Russian-market sellers. Two modes: (A) Create — build keyword-optimized R… |
 | ozon-ppc-campaign | Ozon Performance (Продвижение / Трафареты / Product Targeting) campaign builder and optimizer for Russian-market seller… |
@@ -82,6 +92,6 @@
 ## 总计
 
 - 内置 skills：5
-- 用户 skills：53
+- 用户 skills：63
 - 插件 skills：3
-- 合计：61
+- 合计：71
