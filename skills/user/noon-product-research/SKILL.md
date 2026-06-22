@@ -1,4 +1,4 @@
-﻿---
+---
 name: noon-product-research
 description: "Comprehensive product research and opportunity analysis for the noon marketplace (noon.sa Saudi Arabia, noon.ae UAE, noon.com Egypt). Analyzes demand, competition, profit potential, FBN feasibility, Arabic-market localization, Ramadan seasonality, and regulatory compliance (SASO/SFDA/ESMA). Use when the user asks about researching a product for noon, validating a MENA e-commerce idea, comparing noon vs Amazon.sa/Amazon.ae, calculating noon FBN fees, checking Arabic keyword demand, evaluating Ramadan product opportunities, assessing SFDA/SASO compliance requirements, or any general MENA cross-border product research questions."
 metadata: {"category":"noon","locale":"mena"}

@@ -1,4 +1,4 @@
-﻿---
+---
 name: noon-advertising-strategy
 description: "Build a comprehensive noon advertising strategy combining Sponsored Products, Sponsored Brands (where available), and display / off-platform retargeting. Plans budget allocation across noon.sa, noon.ae, and noon.com, designs keyword grouping strategies with Arabic dialect coverage, sets competitive bids in SAR/AED/EGP, and builds ACoS targets per lifecycle stage. Use when the user asks about noon advertising strategy, MENA PPC planning, Sponsored Products on noon, Ramadan / White Friday ad budget allocation, ACOS targets on noon, or how to scale advertising across noon marketplaces."
 metadata: {"category":"noon","locale":"mena"}

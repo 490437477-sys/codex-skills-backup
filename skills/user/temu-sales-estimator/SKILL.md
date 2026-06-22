@@ -1,4 +1,4 @@
-﻿---
+---
 name: temu-sales-estimator
 description: "TEMU 销量预估工具。基于 BSR / 类目排名 / 商品列表位 / 关键词热度 / 广告投放 / 季节性因素 / 平台流量分配规则，估算月销量、月营业额、利润区间。覆盖全托管、半托管、本地对本地三种模式的销量差异，对比自然流量与广告流量的占比，识别 Black Friday / Christmas / Mothers Day / Fathers Day / Easter / Back-to-School 等旺季节点。当用户询问 TEMU 销量、TEMU 月销、TEMU 能卖多少、TEMU 类目排名、TEMU BSR、TEMU 流量、TEMU 爆款、TEMU 旺季、TEMU 节日销量、TEMU 销量预估、TEMU 单量、TEMU 营业额预估时使用。"
 metadata: {"category":"temu","emoji":"馃尭"}

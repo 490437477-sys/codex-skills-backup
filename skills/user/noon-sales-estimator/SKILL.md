@@ -1,4 +1,4 @@
-﻿---
+---
 name: noon-sales-estimator
 description: "noon sales volume estimator for sellers and product researchers. Estimate monthly sales and revenue for a SKU on noon.sa, noon.ae, or noon.com from BSR-equivalent (noon best-seller rank), category-level demand signals, review velocity, and Arabic search volume. Three modes: (A) BSR-style rank calculator, (B) ASIN-style SKU lookup, (C) Arabic keyword demand estimator. Accounts for MENA-specific factors: COD mix, Ramadan / White Friday spikes, three-marketplace split, and SAR/AED/EGP pricing. Use when the user asks about noon sales estimate, noon revenue forecast, how many units a SKU sells on noon, BSR-equivalent on noon, or whether noon demand justifies a launch."
 metadata: {"category":"noon","locale":"mena"}

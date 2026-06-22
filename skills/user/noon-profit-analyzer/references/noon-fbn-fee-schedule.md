@@ -1,4 +1,4 @@
-﻿# noon FBN Fee Schedule Reference
+# noon FBN Fee Schedule Reference
 
 Used by: noon-profit-analyzer, noon-shipping-calculator, noon-niche-finder.
 

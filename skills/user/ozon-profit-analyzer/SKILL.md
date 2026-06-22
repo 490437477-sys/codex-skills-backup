@@ -1,4 +1,4 @@
-﻿---
+---
 name: ozon-profit-analyzer
 description: "Comprehensive Ozon profit analysis and revenue optimization. Revenue waterfall analysis with Ozon commission, FBO storage and delivery fees, FBS shipping cost, returns reserve, advertising ACoS impact, currency conversion (USD/CNY to RUB/KZT/BYN), and VAT handling (20% Russia, 12% Kazakhstan, 20% Belarus). Identifies hidden fees and ranks SKUs by true contribution margin. Use when the user asks about Ozon profit, Ozon fees breakdown, FBO economics, RUB margin, advertising ACoS impact on Ozon profit, or which Ozon SKUs are actually profitable."
 metadata: {"emoji":"馃嚪馃嚭","category":"ozon"}

@@ -1,4 +1,4 @@
-﻿---
+---
 name: ozon-backend-keywords
 description: "Optimize Ozon backend search terms (used in product description and category attributes) for maximum Russian + CIS discoverability. Generate the optimal keyword set by deduplicating from the visible listing, balancing Russian MSA + colloquial variants, removing competitor brand names, and respecting Ozon character limits. Use when the user asks about Ozon backend keywords, Ozon search terms, Russian keyword optimization, Ozon SEO, 芯锌褌懈屑懈蟹邪褑懈褟 泻谢褞褔械胁褘褏 褋谢芯胁, or CIS keyword variants."
 metadata: {"emoji":"馃嚪馃嚭","category":"ozon"}

@@ -1,4 +1,4 @@
-﻿---
+---
 name: noon-fbn-calculator
 version: 1.0.0
 description: "noon FBN Calculator - Complete Fulfilled-by-noon fee breakdown and profit analysis for noon.sa (KSA, SAR), noon.ae (UAE, AED), and noon.com (Egypt, EGP). Calculates size tier, FBN fulfillment fee, storage (off-peak / peak / long-term), commission by category, VAT cash-flow line, returns reserve, COD friction, net margin, and ROI. Bilingual output (English / Arabic) via --ar flag. JSON output via --json flag. No API key required. Use when the user asks about noon FBN fees, noon fulfillment costs, noon profit calculator, noon fee estimation, FBN size tier, noon仓储费, or any FBN-related cost question."

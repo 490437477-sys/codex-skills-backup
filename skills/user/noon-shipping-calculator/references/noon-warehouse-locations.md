@@ -1,4 +1,4 @@
-﻿# noon FBN Warehouse Locations
+# noon FBN Warehouse Locations
 
 Used by: noon-shipping-calculator, noon-profit-analyzer, noon-product-research.
 

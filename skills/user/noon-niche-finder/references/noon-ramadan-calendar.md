@@ -1,4 +1,4 @@
-﻿# noon Ramadan & MENA Seasonal Calendar
+# noon Ramadan & MENA Seasonal Calendar
 
 Used by: noon-niche-finder, noon-advertising-strategy, noon-sales-estimator, noon-profit-analyzer.
 

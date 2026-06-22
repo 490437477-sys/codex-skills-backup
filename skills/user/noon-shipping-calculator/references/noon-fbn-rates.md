@@ -1,4 +1,4 @@
-﻿# noon FBN 费率速查表（2026 标准，noon.com 政策参考）
+# noon FBN 费率速查表（2026 标准，noon.com 政策参考）
 
 noon 的 FBN (Fulfilled by Noon) 费率按 tier × season × country 三维定价。下表为典型区间，实际以 noon Seller Central 后台为准。
 

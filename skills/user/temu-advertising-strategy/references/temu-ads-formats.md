@@ -1,4 +1,4 @@
-﻿# TEMU 广告形式与投放指南 (Ads Formats & Playbook)
+# TEMU 广告形式与投放指南 (Ads Formats & Playbook)
 
 > 适用: TEMU 站内广告投放。覆盖搜索推荐位、首页 banner、Deal 活动、联盟营销 CPS 体系与 ROAS 基准。TEMU 广告仍处早期红利期，竞价远低于 Amazon。
 

@@ -1,4 +1,4 @@
-﻿---
+---
 name: temu-backend-keywords
 description: "TEMU 后台搜索词与商品标签优化。覆盖 TEMU 卖家中心「商品描述」「搜索词」「类目属性」字段的填法、多语言（英 / 德 / 法 / 西 / 日 / 韩 / 葡）本地化、去重排序、字符限制利用、TEMU 搜索 A9-like 算法适配。当用户询问 TEMU 后台关键词、TEMU 搜索词、TEMU 商品标签、TEMU listing 后台词、TEMU SEO、TEMU 搜索优化、TEMU 多语言后台词、TEMU 字符限制、temu backend keywords、temu search terms、temu listing SEO 时使用。"
 metadata: {"category":"temu","emoji":"馃徑"}

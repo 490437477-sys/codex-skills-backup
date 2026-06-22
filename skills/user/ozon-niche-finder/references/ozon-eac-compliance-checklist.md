@@ -1,4 +1,4 @@
-﻿# Ozon EAC / GOST Compliance Checklist
+# Ozon EAC / GOST Compliance Checklist
 
 Used by: ozon-niche-finder, ozon-product-research, ozon-listing-optimization.
 

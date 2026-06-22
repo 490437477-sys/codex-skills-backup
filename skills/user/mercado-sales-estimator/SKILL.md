@@ -1,4 +1,4 @@
-﻿---
+---
 name: mercado-sales-estimator
 description: "Mercado Libre sales volume estimator using search rank position, category best-seller rank, listing health score (MercadoLider bronze/silver/gold), and seasonal multipliers. Estimates monthly units and revenue across MLM MXN, MLB BRL, MLC CLP, MCO COP, MLA ARS, MPE PEN. Models Hot Sale May MX, Buen Fin Nov MX, Black Friday BR, Dia de las Madres 5月, Navidad December, Carnaval February spike. Use when user asks about 美客多销量预估, 美客多一个月能卖多少, Mercado Libre sales estimate, 美客多日出单, estimar ventas Mercado Libre, estimar vendas Mercado Livre, faturamento Mercado Livre, monthly revenue LATAM cross-border, MELI sales forecast."
 metadata: {"category":"mercado","emoji":"馃嚰馃嚭"}

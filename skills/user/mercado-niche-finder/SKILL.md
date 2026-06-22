@@ -1,4 +1,4 @@
-﻿---
+---
 name: mercado-niche-finder
 description: "Profitable niche discovery for Mercado Libre 美客多 cross-border sellers. Identify underserved categories with high demand and low competition across Mexico (MLM), Brazil (MLB), Chile (MLC), Colombia (MCO), Argentina (MLA). Combines MELI Trends + autocomplete mining + Full fulfillment coverage gap analysis + MercadoLider white-space detection. Scores 1-10 with LATAM seasonality (Hot Sale / Buen Fin / Black Friday / Dia de las Madres / Navidad / Carnaval). Use when the user mentions 美客多蓝海, 拉美选品, mercado libre niche finder, nicho mercado libre, nicho mercado livre, blue ocean LATAM, underserved category MLM MLB, full coverage gap, mercado libre que vender, o que vender no mercado livre, 美客多蓝海词, 美客多小众类目, 拉美蓝海市场."
 metadata: {"category":"mercado","emoji":"🌎🌎"}

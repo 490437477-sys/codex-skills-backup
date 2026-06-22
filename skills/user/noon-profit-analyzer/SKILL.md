@@ -1,4 +1,4 @@
-﻿---
+---
 name: noon-profit-analyzer
 description: "Comprehensive noon profit analysis and revenue optimization. Revenue waterfall analysis with noon commission, FBN storage and delivery fees, payment gateway fees, COD bounce cost, advertising ACoS impact, return cost (high in MENA), currency conversion (USD cost to SAR/AED/EGP retail), and VAT handling (15% KSA, 5% UAE, 14% Egypt). Identifies hidden fees and ranks SKUs by true contribution margin. Use when the user asks about noon profit, noon fees breakdown, FBN economics, COD cost impact on noon, SAR/AED/EGP margin, advertising ACoS impact on noon profit, or which noon SKUs are actually profitable."
 metadata: {"category":"noon","locale":"mena"}

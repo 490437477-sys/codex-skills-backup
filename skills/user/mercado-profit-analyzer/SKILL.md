@@ -1,4 +1,4 @@
-﻿---
+---
 name: mercado-profit-analyzer
 description: "Comprehensive Mercado Libre profit analysis and revenue optimization for cross-border LATAM sellers. Calculates real unit economics across MLM (MXN), MLB (BRL), MLC (CLP), MCO (COP), MLA (ARS), MPE (PEN). Includes category commission 11-17%, listing fee, low-price unit fee, Mercado Pago 3.99% + installment absorption (cuotas sin interes 3/6/12), Mercado Envios shipping, Full warehouse storage, Brazil 2026 CBS/IBS tax reform, currency volatility drag, Hot Sale Buen Fin seasonal ROI. Use when user asks about mercado libre profit, 美客多利润分析, 美客多净利润, ganancia neta Mercado Libre, lucro liquido Mercado Livre, rentabilidade vendedor, 美客多能赚钱吗, LATAM unit economics, MELI margin."
 metadata: {"category":"mercado","emoji":"馃嚰馃嚭"}

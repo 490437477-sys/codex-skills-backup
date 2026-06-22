@@ -1,34 +1,34 @@
 # TEMU Ads 4-Dimension Diagnosis Playbook
 
-> When TEMU ad performance is below target, diagnose by 4 dimensions: ÆØ¹â / µã»÷ÂÊ / ×ª»¯ÂÊ / ROAS. Each has a specific root cause cluster and fix.
+> When TEMU ad performance is below target, diagnose by 4 dimensions: æ›å…‰ / ç‚¹å‡»ç‡ / è½¬åŒ–ç‡ / ROAS. Each has a specific root cause cluster and fix.
 
 ## Diagnostic Decision Tree
 
 ```
-Ad performance poor ¡ú check in this order:
-  ¡ı
-1. ÆØ¹â (impressions) is it < 5,000/day?
-   ©À©¤ YES ¡ú ÆØ¹â²»×ã: out of game, no diagnosis possible
-   ©¦        Fix: raise ROAS tier / check listing quality / check category
-   ©¸©¤ NO  ¡ú continue
-  ¡ı
+Ad performance poor â†’ check in this order:
+  â†“
+1. æ›å…‰ (impressions) is it < 5,000/day?
+   â”œâ”€ YES â†’ æ›å…‰ä¸è¶³: out of game, no diagnosis possible
+   â”‚        Fix: raise ROAS tier / check listing quality / check category
+   â””â”€ NO  â†’ continue
+  â†“
 2. CTR < 2.0%?
-   ©À©¤ YES ¡ú µã»÷ÂÊµÍ: people see but don''t click
-   ©¦        Fix: main image + price + title
-   ©¸©¤ NO  ¡ú continue
-  ¡ı
+   â”œâ”€ YES â†’ ç‚¹å‡»ç‡ä½: people see but don''t click
+   â”‚        Fix: main image + price + title
+   â””â”€ NO  â†’ continue
+  â†“
 3. CVR < 2.0%?
-   ©À©¤ YES ¡ú ×ª»¯ÂÊµÍ: people click but don''t buy
-   ©¦        Fix: detail page + price + reviews
-   ©¸©¤ NO  ¡ú continue
-  ¡ı
+   â”œâ”€ YES â†’ è½¬åŒ–ç‡ä½: people click but don''t buy
+   â”‚        Fix: detail page + price + reviews
+   â””â”€ NO  â†’ continue
+  â†“
 4. ROAS < target?
-   ©À©¤ YES ¡ú ROAS²»´ï±ê: clicks convert, but CPC too high
-   ©¦        Fix: lower ROAS tier / lower CPC / fix listing
-   ©¸©¤ NO  ¡ú all good, scale up
+   â”œâ”€ YES â†’ ROASä¸è¾¾æ ‡: clicks convert, but CPC too high
+   â”‚        Fix: lower ROAS tier / lower CPC / fix listing
+   â””â”€ NO  â†’ all good, scale up
 ```
 
-## Dimension 1: ÆØ¹â²»×ã (Low Impressions)
+## Dimension 1: æ›å…‰ä¸è¶³ (Low Impressions)
 
 ### Symptoms
 - Daily impressions < 5,000
@@ -40,20 +40,20 @@ Ad performance poor ¡ú check in this order:
 | # | Cause | Diagnostic Check | Fix |
 |---|---|---|---|
 | 1 | **Bid too low** (ROAS target too high) | Compare to category ROAS avg | Lower ROAS target by 0.5-1.0 |
-| 2 | **Listing quality score too low** | Check listing score in `temu-listing-optimization` | Fix listing to ¡İ 90 score |
+| 2 | **Listing quality score too low** | Check listing score in `temu-listing-optimization` | Fix listing to â‰¥ 90 score |
 | 3 | **Category mismatch** | Verify product in correct leaf category | Move to correct category |
-| 4 | **Price not competitive** | Compare to top 10 in category | Adjust price to category median ¡À10% |
+| 4 | **Price not competitive** | Compare to top 10 in category | Adjust price to category median Â±10% |
 | 5 | **Daily budget too low** | Check actual spend vs budget | Increase budget to $30+ |
-| 6 | **New listing, no sales history** | First 7-14 days | Normal ¡ª wait, or boost via ¿ìËÙÅÜÁ¿ |
+| 6 | **New listing, no sales history** | First 7-14 days | Normal â€” wait, or boost via å¿«é€Ÿè·‘é‡ |
 | 7 | **Inventory zero / low** | Check stock | Restock |
 | 8 | **Store has compliance flag** | Check Seller Center alerts | Resolve flag first |
 
 ### Fast Fixes
 - **Day 1 quick fix**: Drop ROAS target by 0.5 (faster volume)
 - **Day 3 quick fix**: Increase budget by 50%
-- **Day 7 quick fix**: Verify listing score ¡İ 90, fix any <80 dimensions
+- **Day 7 quick fix**: Verify listing score â‰¥ 90, fix any <80 dimensions
 
-## Dimension 2: µã»÷ÂÊµÍ (Low CTR, < 2.0%)
+## Dimension 2: ç‚¹å‡»ç‡ä½ (Low CTR, < 2.0%)
 
 ### Symptoms
 - Impressions OK (5,000+/day)
@@ -75,14 +75,14 @@ Ad performance poor ¡ú check in this order:
 
 | Category | Poor CTR | Average CTR | Good CTR |
 |---|---|---|---|
-| 3C µç×Ó | < 1.0% | 1.5-2.5% | > 3.0% |
-| ¼Ò¾Ó | < 0.8% | 1.2-2.0% | > 2.5% |
-| ·ş×° | < 0.5% | 1.0-1.8% | > 2.2% |
-| ÃÀ×± | < 1.0% | 1.8-2.8% | > 3.5% |
-| Íæ¾ß/STEM | < 1.2% | 2.0-3.5% | > 4.0% |
-| ³èÎï | < 0.8% | 1.5-2.5% | > 3.0% |
+| 3C ç”µå­ | < 1.0% | 1.5-2.5% | > 3.0% |
+| å®¶å±… | < 0.8% | 1.2-2.0% | > 2.5% |
+| æœè£… | < 0.5% | 1.0-1.8% | > 2.2% |
+| ç¾å¦† | < 1.0% | 1.8-2.8% | > 3.5% |
+| ç©å…·/STEM | < 1.2% | 2.0-3.5% | > 4.0% |
+| å® ç‰© | < 0.8% | 1.5-2.5% | > 3.0% |
 
-**STEM category is high-CTR by nature** ¡ª your robotic arm should target CTR > 2.5%.
+**STEM category is high-CTR by nature** â€” your robotic arm should target CTR > 2.5%.
 
 ### A/B Test Main Image
 Run two images for 5-7 days each, compare CTR:
@@ -90,7 +90,7 @@ Run two images for 5-7 days each, compare CTR:
 - B: new (different angle, lifestyle, or with feature callout)
 Pick winner, set as default.
 
-## Dimension 3: ×ª»¯ÂÊµÍ (Low CVR, < 2.0%)
+## Dimension 3: è½¬åŒ–ç‡ä½ (Low CVR, < 2.0%)
 
 ### Symptoms
 - Impressions and clicks OK
@@ -102,7 +102,7 @@ Pick winner, set as default.
 | # | Cause | Diagnostic Check | Fix |
 |---|---|---|---|
 | 1 | **Detail page weak** | Check 9 sections filled? | Add lifestyle, scale, exploded view |
-| 2 | **Price too high vs category** | Compare to top 10 median | Adjust price to median ¡À10% |
+| 2 | **Price too high vs category** | Compare to top 10 median | Adjust price to median Â±10% |
 | 3 | **No reviews / low rating** | Check review count | Drive reviews via post-purchase flow |
 | 4 | **Description lacks trust signals** | Check return policy, warranty | Add 30-day return, 1-year warranty |
 | 5 | **Wrong product for query** | Check search terms in title | Refine title to match search intent |
@@ -122,7 +122,7 @@ Pick winner, set as default.
 
 **For your $109.99 robotic arm**: target CVR > 1.5% minimum, > 2.5% ideal.
 
-## Dimension 4: ROAS²»´ï±ê (ROAS Below Target)
+## Dimension 4: ROASä¸è¾¾æ ‡ (ROAS Below Target)
 
 ### Symptoms
 - All upstream metrics look OK
@@ -145,10 +145,10 @@ Pick winner, set as default.
 
 | Current Performance | Migration Action |
 |---|---|
-| ROAS > target ¡Á 1.5 for 7+ days | **Upgrade tier** (ÎÈ¶¨Ôö³¤) ¡ª capture more profit |
-| ROAS between target and 1.5¡Á target for 7+ days | **Hold tier** ¡ª stable, optimize listing |
-| ROAS between target ¡Á 0.7 and target for 7+ days | **Downgrade tier** (¿ìËÙÅÜÁ¿) ¡ª trade margin for volume |
-| ROAS < target ¡Á 0.7 for 3+ days | **Pause ad** ¡ª fix listing before retry |
+| ROAS > target Ã— 1.5 for 7+ days | **Upgrade tier** (ç¨³å®šå¢é•¿) â€” capture more profit |
+| ROAS between target and 1.5Ã— target for 7+ days | **Hold tier** â€” stable, optimize listing |
+| ROAS between target Ã— 0.7 and target for 7+ days | **Downgrade tier** (å¿«é€Ÿè·‘é‡) â€” trade margin for volume |
+| ROAS < target Ã— 0.7 for 3+ days | **Pause ad** â€” fix listing before retry |
 
 ## Common Compound Issues
 
@@ -183,25 +183,25 @@ This is a **fundamental listing failure**.
 Product: _______________
 Date: _______
 
-Step 1: ÆØ¹âÕï¶Ï
+Step 1: æ›å…‰è¯Šæ–­
   Daily impressions: _____
-  Target: ¡İ 5,000
+  Target: â‰¥ 5,000
   Status: ?? / ?? / ??
   Action: _____________
 
-Step 2: CTRÕï¶Ï
+Step 2: CTRè¯Šæ–­
   CTR: _____%
-  Target: ¡İ 2.0%
+  Target: â‰¥ 2.0%
   Status: ?? / ?? / ??
   Action: _____________
 
-Step 3: CVRÕï¶Ï
+Step 3: CVRè¯Šæ–­
   CVR: _____%
-  Target: ¡İ 2.0%
+  Target: â‰¥ 2.0%
   Status: ?? / ?? / ??
   Action: _____________
 
-Step 4: ROASÕï¶Ï
+Step 4: ROASè¯Šæ–­
   ROAS: _____
   Break-even: _____
   Target: _____

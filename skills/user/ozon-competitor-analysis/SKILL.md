@@ -1,4 +1,4 @@
-﻿---
+---
 name: ozon-competitor-analysis
 description: "Full-spectrum competitor analysis for the Ozon marketplace. Compares listings, pricing in RUB/KZT/BYN, Russian copy, FBO vs FBS choice, review velocity, advertising strategy, and seasonality positioning against direct competitors. Detects cross-platform overflow from Wildberries, Yandex Market, SberMegaMarket, AliExpress Russia, and Chinese cross-border. Use when the user asks about Ozon competitor analysis, ozon 竞争分析, 锌褉芯写邪胁褑 锌褉芯写邪胁邪褌褜 Russian listings teardown, pricing teardown in CIS, or how to beat a specific Ozon seller."
 metadata: {"emoji":"馃嚪馃嚭","category":"ozon"}

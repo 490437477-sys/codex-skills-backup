@@ -1,4 +1,4 @@
-﻿---
+---
 name: mercado-shipping-calculator
 description: "Mercado Libre shipping cost calculator covering Mercado Envios standard, Mercado Envios Flex, Mercado Envios Full pick-pack, and cross-border air-freight from China to LATAM. Computes dimensional weight surcharge, regional zone pricing (capital vs interior), free-shipping subsidy thresholds, last-mile carrier rates (Correios, Estafeta, Mercado Envios partner carriers in MX/BR/CL/CO/AR/PE). Use when user asks about 美客多运费计算, 美客多包邮阈值, Mercado Envios cost, Flex shipping rate, 美客多物流多少钱, calcular envio Mercado Libre, calcular frete Mercado Livre, custo envio Mercado Livre, Mercado Envios Flex tarifa, 美客多运费对比."
 metadata: {"category":"mercado","emoji":"馃嚰馃嚭"}

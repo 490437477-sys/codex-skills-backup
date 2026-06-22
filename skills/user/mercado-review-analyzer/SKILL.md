@@ -1,4 +1,4 @@
-﻿---
+---
 name: mercado-review-analyzer
 description: "Mercado Libre review analysis for competitive intelligence and product improvement. Extracts sentiment patterns, recurring complaints, feature requests from Spanish and Portuguese reviews across MLM MLB MLC MCO MLA MPE. Detects MercadoLider eligibility signals, star rating drift over time, defect complaint clusters (product quality, shipping damage, description mismatch, sizing issues, language localization gaps). Use when user asks about 美客多评论分析, 美客多差评分析, Mercado Libre review analysis, 分析美客多评价, reputacion vendedor Mercado Libre, reputacao vendedor Mercado Livre, analisis de opiniones, 美客多怎么提升评分, MELI reviews."
 metadata: {"category":"mercado","emoji":"馃嚰馃嚭"}

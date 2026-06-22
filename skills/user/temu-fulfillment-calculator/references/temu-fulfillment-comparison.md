@@ -1,4 +1,4 @@
-﻿# TEMU 三种履约模式深度对比 (Fulfillment Comparison)
+# TEMU 三种履约模式深度对比 (Fulfillment Comparison)
 
 > 适用: TEMU 卖家选型决策。覆盖全托管 / 半托管 / 本地对本地三种模式，在库存责任、跨境清关、最后一公里、时效与退货成本上的真实差异。
 

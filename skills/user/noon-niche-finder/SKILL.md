@@ -1,4 +1,4 @@
-﻿---
+---
 name: noon-niche-finder
 description: "Profitable niche discovery for the noon marketplace. Identifies underserved MENA markets across noon.sa, noon.ae, and noon.com with high Arabic-language demand but low local-seller competition. Analyzes demand vs supply, Ramadan/Eid seasonality, FBN viability, SASO/SFDA/ESMA compliance friction, COD vs prepaid split, and SAR/AED/EGP price elasticity. Use when the user asks about finding niches on noon, MENA blue ocean opportunities, Arabic product demand, White Friday niches, Ramadan product opportunities, Saudi/UAE/Egypt market gaps, or what to sell on noon."
 metadata: {"category":"noon","locale":"mena"}

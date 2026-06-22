@@ -1,4 +1,4 @@
-﻿---
+---
 name: noon-rich-content
 description: "Plan and create noon Enhanced Brand Content (also called noon Rich Content, similar to Amazon A+ Content). Design bilingual AR/EN module layouts, write persuasive Arabic-first copy with RTL imagery guidance, plan comparison charts, and create image briefs that convert browsers into buyers on noon.sa, noon.ae, and noon.com. Use when the user asks about noon Enhanced Brand Content, noon Rich Content, A+ style content on noon, branded content modules on noon, AR/EN product storytelling, or noon brand registry enrollment."
 metadata: {"category":"noon","locale":"mena"}

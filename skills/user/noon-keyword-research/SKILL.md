@@ -1,4 +1,4 @@
-﻿---
+---
 name: noon-keyword-research
 description: "Keyword research and market opportunity analysis for the noon marketplace (noon.sa Saudi Arabia, noon.ae UAE, noon.com Egypt). Mines bilingual Arabic + English long-tail keywords via web search, Google Trends with MENA geo, and competitor listing extraction. Scores demand and competition across noon-specific factors (Arabic ratio, FBN coverage, Ramadan seasonality, Hijri calendar overlays). Use when the user asks about noon关键词研究, noon Arabic keywords, noon选词, what people search on noon.sa/ae/com, comparing noon keywords, evaluating product demand in KSA/UAE/Egypt, finding bilingual keyword opportunities, or any general MENA cross-border keyword research. Triggers on phrases like 'noon关键词', '沙特阿拉伯语关键词', 'UAE选品词', 'MENA long-tail keywords', 'noon autocomplete', 'noon Arabic demand', 'Ramadan keyword lift', 'Hijri seasonality'."
 metadata: {"category":"noon","locale":"mena"}

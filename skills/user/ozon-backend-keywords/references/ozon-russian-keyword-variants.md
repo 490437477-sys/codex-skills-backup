@@ -1,4 +1,4 @@
-﻿# Ozon Russian Keyword Variants Reference
+# Ozon Russian Keyword Variants Reference
 
 Used by: ozon-backend-keywords, ozon-negative-keywords, ozon-keyword-research, ozon-listing-optimization.
 

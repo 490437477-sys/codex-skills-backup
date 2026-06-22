@@ -1,6 +1,6 @@
 ---
 name: temu-listing-optimization
-description: "TEMU listing builder and optimizer for cross-border sellers. Two modes: (A) Create ¡ª build keyword-optimized title + bullets + Rich Description from a keyword list (from temu-keyword-research) and product specs; (B) Optimize ¡ª audit an existing TEMU listing by URL, find keyword gaps, score across 8 dimensions (title length, attribute fill, image count, video presence, price positioning, rating, return-rate signal, SEO coverage), and rewrite with missing keywords. Use when: (1) creating a new TEMU listing, (2) auditing an existing TEMU listing, (3) checking TEMU keyword coverage in title/attributes, (4) generating TEMU-compliant title and bullet copy, (5) improving CTR for a TEMU listing, (6) preparing a listing for TEMU launch. Strongly recommend chaining with temu-keyword-research for keyword input."
+description: "TEMU listing builder and optimizer for cross-border sellers. Two modes: (A) Create â€” build keyword-optimized title + bullets + Rich Description from a keyword list (from temu-keyword-research) and product specs; (B) Optimize â€” audit an existing TEMU listing by URL, find keyword gaps, score across 8 dimensions (title length, attribute fill, image count, video presence, price positioning, rating, return-rate signal, SEO coverage), and rewrite with missing keywords. Use when: (1) creating a new TEMU listing, (2) auditing an existing TEMU listing, (3) checking TEMU keyword coverage in title/attributes, (4) generating TEMU-compliant title and bullet copy, (5) improving CTR for a TEMU listing, (6) preparing a listing for TEMU launch. Strongly recommend chaining with temu-keyword-research for keyword input."
 metadata: {"category":"cross-border-ecommerce","platform":"temu"}
 ---
 
@@ -15,7 +15,7 @@ Use this skill whenever the user:
 - Has an existing TEMU listing URL and wants SEO/conversion improvements
 - Wants to compare their TEMU listing against competitors
 - Asks about TEMU title optimization, TEMU bullet points, TEMU Rich Description
-- Mentions TEMUÉÏ¼Ü / TEMU listing ÓÅ»¯ / TEMU ±êÌâ / TEMU Ö÷Í¼
+- Mentions TEMUä¸Šæž¶ / TEMU listing ä¼˜åŒ– / TEMU æ ‡é¢˜ / TEMU ä¸»å›¾
 
 Do NOT use this skill for: Amazon listings (use `amazon-listing-optimization`), product selection (use `temu-product-research`), keyword discovery (use `temu-keyword-research`).
 
@@ -23,8 +23,8 @@ Do NOT use this skill for: Amazon listings (use `amazon-listing-optimization`), 
 
 | Mode | When to Use | Input | Output |
 |------|-------------|-------|--------|
-| **A ¡ª Create** | Building a new listing | Keywords + product info + tone | Full listing copy + coverage score + suggestions |
-| **B ¡ª Optimize** | Improving existing listing | TEMU URL or product ID (+ optional keywords/competitors) | Optimized listing + audit report + gap analysis |
+| **A â€” Create** | Building a new listing | Keywords + product info + tone | Full listing copy + coverage score + suggestions |
+| **B â€” Optimize** | Improving existing listing | TEMU URL or product ID (+ optional keywords/competitors) | Optimized listing + audit report + gap analysis |
 
 ## TEMU-Specific Listing Structure (Critical)
 
@@ -41,7 +41,7 @@ Unlike Amazon''s 200-char title and 5 bullets, TEMU has its own structure:
 | **Backend keywords** | DOES NOT EXIST | n/a | All SEO goes in title + attributes |
 | **A+ Content** | No | n/a | Use Rich Description instead |
 
-## Mode A ¡ª Create Listing
+## Mode A â€” Create Listing
 
 ### Step A1: Collect Inputs
 
@@ -61,7 +61,7 @@ Apply the formula:
 ```
 
 Constraints:
-- **60-100 chars** (strict ¡ª TEMU truncates over 100)
+- **60-100 chars** (strict â€” TEMU truncates over 100)
 - **No keyword stuffing** (no "robot arm robotic arm")
 - **No promotional words** ("best", "#1", "sale", "free shipping")
 - **No emoji or ALL CAPS** (trust penalty)
@@ -110,7 +110,7 @@ Tell the user to fill ALL available attributes in TEMU Seller Center (not just t
 ### Step A6: Output Format
 
 ```markdown
-# ? TEMU Listing ¡ª Ready to Use
+# ? TEMU Listing â€” Ready to Use
 
 ## Title
 [optimized title, 60-100 chars]
@@ -131,15 +131,15 @@ Tell the user to fill ALL available attributes in TEMU Seller Center (not just t
 - ...
 
 ## Image Brief (6-9 photos, 1:1 ratio)
-1. [Main image ¡ª product on white, 1:1, 800x800+]
-2. [Lifestyle ¡ª product in use]
-3. [Exploded view ¡ª parts labeled]
-4. [Scale reference ¡ª held in hand or next to coin]
+1. [Main image â€” product on white, 1:1, 800x800+]
+2. [Lifestyle â€” product in use]
+3. [Exploded view â€” parts labeled]
+4. [Scale reference â€” held in hand or next to coin]
 5. [Package contents laid out]
 6. [Comparison or feature callout]
 
 ## Video Brief (15-30 sec, optional but recommended)
-[30-second video script: hook ¡ú feature demo ¡ú result ¡ú CTA]
+[30-second video script: hook â†’ feature demo â†’ result â†’ CTA]
 
 ---
 
@@ -157,7 +157,7 @@ Tell the user to fill ALL available attributes in TEMU Seller Center (not just t
 ?? Covered in 3+ fields | ?? Covered in 1-2 | ?? Only in description | ?? Missing
 ```
 
-## Mode B ¡ª Optimize Existing Listing
+## Mode B â€” Optimize Existing Listing
 
 ### Step B1: Fetch Listing Data
 
@@ -192,7 +192,7 @@ Score 0-100 across 8 dimensions:
 | Video presence | 5 | Yes/No + 15-30 sec |
 | Attribute fill rate | 15 | X/30+ filled |
 | Price competitiveness | 10 | vs category median |
-| Rating + reviews | 10 | ¡Ý4.5 with 50+ reviews ideal |
+| Rating + reviews | 10 | â‰¥4.5 with 50+ reviews ideal |
 
 Total: 100
 
@@ -207,7 +207,7 @@ Output a table: which keywords are missing, which are weak.
 ### Step B4: Output Optimized Listing + Audit Report
 
 ```markdown
-# ? Optimized Listing ¡ª Ready to Use
+# ? Optimized Listing â€” Ready to Use
 
 ## New Title
 [improved title, 60-100 chars, with primary keyword + missing terms]
@@ -229,7 +229,7 @@ Output a table: which keywords are missing, which are weak.
 **Product**: [title] | **Marketplace**: TEMU [XX]
 **Current Price**: $[X] | **Rating**: [stars] ([count] reviews) | **Sold**: [N]
 
-## Score: [X/100] ¡ú [Y/100] (after optimization)
+## Score: [X/100] â†’ [Y/100] (after optimization)
 
 | Dimension | Before | After | Key Change |
 |---|---|---|---|
@@ -239,8 +239,8 @@ Output a table: which keywords are missing, which are weak.
 | Images | /15 | /15 | recommendation only |
 | Video | /5 | /5 | recommendation only |
 | Attribute fill | /15 | /15 | +[N] attributes added |
-| Price position | /10 | ¡ª | observation only |
-| Rating + reviews | /10 | ¡ª | observation only |
+| Price position | /10 | â€” | observation only |
+| Rating + reviews | /10 | â€” | observation only |
 | **Total** | **/100** | **/100** | |
 
 ## Keyword Gaps Found: [N]
@@ -251,17 +251,17 @@ Output a table: which keywords are missing, which are weak.
 | [kw2] | [H/M/L] | Add to bullet 3 |
 | [kw3] | [H/M/L] | Add to description + attribute |
 
-## What Changed (Before ¡ú After)
+## What Changed (Before â†’ After)
 
-**Title**: ? [original] ¡ú ? [optimized ¡ª added: +kw1, +kw2]
-**Bullets**: ? [original] ¡ú ? [optimized ¡ª added: +kw3, +kw4]
+**Title**: ? [original] â†’ ? [optimized â€” added: +kw1, +kw2]
+**Bullets**: ? [original] â†’ ? [optimized â€” added: +kw3, +kw4]
 **Attributes**: Added 8 missing fields including [color], [material], [age range]
 
 ## ?? Issues Fixed
-1. Title was 142 chars (truncated) ¡ú reduced to 88 chars with stronger keyword front-loading
-2. No bullet points visible ¡ú added 5 benefit-driven bullets
-3. Only 3 images ¡ú recommend uploading 6+ (lifestyle, scale, exploded view)
-4. Missing 12 category attributes ¡ú recommended fill-in
+1. Title was 142 chars (truncated) â†’ reduced to 88 chars with stronger keyword front-loading
+2. No bullet points visible â†’ added 5 benefit-driven bullets
+3. Only 3 images â†’ recommend uploading 6+ (lifestyle, scale, exploded view)
+4. Missing 12 category attributes â†’ recommended fill-in
 
 ## ?? Recommendations (requires seller action)
 1. [Image improvements: 1:1 ratio, white background, lifestyle shot]
@@ -292,18 +292,18 @@ End with: **"To beat the leader [competitor X], focus on: [top 2-3 actions]"**
 ## Multilingual Output
 
 Output language MUST match target marketplace:
-- TEMU US/UK/CA/AU ¡ú English
-- TEMU DE/AT ¡ú German
-- TEMU FR ¡ú French
-- TEMU IT ¡ú Italian
-- TEMU ES ¡ú Spanish
-- TEMU NL ¡ú Dutch
-- TEMU PL ¡ú Polish
-- TEMU PT ¡ú Portuguese
-- TEMU JP ¡ú Japanese
-- TEMU KR ¡ú Korean
-- TEMU MX ¡ú Spanish (Latin American)
-- TEMU BR ¡ú Portuguese (Brazilian)
+- TEMU US/UK/CA/AU â†’ English
+- TEMU DE/AT â†’ German
+- TEMU FR â†’ French
+- TEMU IT â†’ Italian
+- TEMU ES â†’ Spanish
+- TEMU NL â†’ Dutch
+- TEMU PL â†’ Polish
+- TEMU PT â†’ Portuguese
+- TEMU JP â†’ Japanese
+- TEMU KR â†’ Korean
+- TEMU MX â†’ Spanish (Latin American)
+- TEMU BR â†’ Portuguese (Brazilian)
 
 User can speak in any language, but the OUTPUT listing copy and audit must be in the marketplace language.
 
@@ -313,17 +313,17 @@ Strongly recommended chain:
 
 ```
 Step 1: "Research keywords for robotic arm on TEMU US"
-   ¡ú temu-keyword-research returns 100-200 candidates + top 10 ranked
+   â†’ temu-keyword-research returns 100-200 candidates + top 10 ranked
 
 Step 2: "Create a TEMU listing for my 4DOF robotic arm kit
          using these top 10 keywords: [list]
          Product: MG90S servos, 3D printed, ages 13+, USB wired
          Tone: Friendly"
-   ¡ú temu-listing-optimization Mode A generates full listing
+   â†’ temu-listing-optimization Mode A generates full listing
 
 Step 3: "Audit my live TEMU listing: <URL>
          Compare against these competitors: <URLs>"
-   ¡ú temu-listing-optimization Mode B returns audit + rewrite
+   â†’ temu-listing-optimization Mode B returns audit + rewrite
 ```
 
 ## Limitations

@@ -1,4 +1,4 @@
-﻿# Ozon Russian & CIS Seasonal Calendar
+# Ozon Russian & CIS Seasonal Calendar
 
 Used by: ozon-niche-finder, ozon-advertising-strategy, ozon-sales-estimator, ozon-profit-analyzer.
 

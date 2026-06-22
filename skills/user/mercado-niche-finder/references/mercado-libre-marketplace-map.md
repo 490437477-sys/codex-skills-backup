@@ -1,4 +1,4 @@
-﻿# Mercado Libre Marketplace Map — LATAM Sites Overview
+# Mercado Libre Marketplace Map — LATAM Sites Overview
 
 Multi-country LatAm operating map for Mercado Libre sellers. All rates approximate; verify with current regulations before quoting in offers.
 

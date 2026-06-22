@@ -1,4 +1,4 @@
-﻿---
+---
 name: temu-profit-analyzer
 description: "TEMU 跨境电商利润分析与回本测算工具。覆盖全托管、半托管、Local-to-Local 三种履约模式下的完整利润模型：供货价、平台佣金 5-15%、TEMU 持续核价压力、多币种结算 USD/EUR/GBP/JPY/KRW/MXN/BRL、退货成本 10-30%、质保扣款、广告费分摊。聚焦 TEMU 特有的「核价机制」「二次降价」「卖家被动定价」「高退货率」对利润的吞噬。当用户询问 TEMU 利润、TEMU 还赚钱吗、TEMU 利润怎么算、TEMU 核价、TEMU 全托管利润、TEMU 半托管利润、TEMU 回本周期、TEMU 卖家收益、TEMU 净利润率、TEMU 退货成本、TEMU 货款结算、TEMU 卖家中心利润表时使用。"
 metadata: {"category":"temu","emoji":"馃挵"}

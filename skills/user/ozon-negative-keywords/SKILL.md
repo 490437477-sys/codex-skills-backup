@@ -1,4 +1,4 @@
-﻿---
+---
 name: ozon-negative-keywords
 description: "Optimize Ozon Performance (advertising) campaigns by identifying and managing negative keywords in Russian + English. Reduce wasted ad spend on irrelevant CIS search terms while protecting converting Russian-colloquial queries. Distinguishes between exact and phrase negatives, Russian transliteration variants, and competitor brand terms. Use when the user asks about Ozon negative keywords, Ozon Performance waste reduction, 芯褌褉懈褑邪褌械谢褜薪褘械 泻谢褞褔懈 Russian search-term negatives, or ACoS reduction on Ozon ads."
 metadata: {"emoji":"馃嚪馃嚭","category":"ozon"}

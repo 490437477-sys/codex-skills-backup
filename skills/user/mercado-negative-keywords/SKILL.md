@@ -1,4 +1,4 @@
-﻿---
+---
 name: mercado-negative-keywords
 description: "Optimize Mercado Ads campaigns on Mercado Libre 美客多 by identifying and managing negative keywords. Reduce wasted ad spend on PADS (Productos Ads), Display retargeting, and Brand ads (MLB only) by eliminating irrelevant Spanish and Portuguese search terms while protecting high-converting terms. Includes brand-defense negatives to block competitor bidding, color and size mismatches, free-shipping-misquery negatives, and seasonal negative cleanup before Hot Sale, Buen Fin, Black Friday, Navidad, Dia de las Madres, Carnaval. Use when the user mentions 美客多否定关键词, 美客多否词, palabras clave negativas mercado ads, palavras-chave negativas mercado ads, reduce wasted spend PADS, exclude irrelevant searches Mercado Libre, Mercado Ads ACoS too high, 美客多广告ROI, exclude brand competitor MLM MLB."
 metadata: {"category":"mercado","emoji":"🌎🌎"}

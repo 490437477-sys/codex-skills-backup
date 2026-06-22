@@ -1,4 +1,4 @@
-﻿# noon MENA Compliance Checklist (SASO, SFDA, ESMA, GOEIC, IECEE)
+# noon MENA Compliance Checklist (SASO, SFDA, ESMA, GOEIC, IECEE)
 
 Used by: noon-niche-finder, noon-product-research, noon-listing-optimization.
 

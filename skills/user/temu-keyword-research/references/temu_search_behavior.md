@@ -102,9 +102,9 @@ These words in title/description can trigger CPSC scrutiny or platform downrank:
 
 ## Common Beginner Mistakes on TEMU
 
-1. **Translating directly from Chinese 1688 titles** ¡ª often ungrammatical English
-2. **Stuffing every keyword variation into title** ¡ª TEMU penalizes this
-3. **Skipping attributes** ¡ª loses 30-50% potential impressions
-4. **Setting price too high initially** ¡ª first 14 days'' conversion rate is critical
-5. **No video** ¡ª TEMU''s algo gives 3-5x more impressions to video listings
-6. **Slow ship from China to US warehouse** ¡ª violates 7-day fulfillment SLA in semi-managed mode
+1. **Translating directly from Chinese 1688 titles** â€” often ungrammatical English
+2. **Stuffing every keyword variation into title** â€” TEMU penalizes this
+3. **Skipping attributes** â€” loses 30-50% potential impressions
+4. **Setting price too high initially** â€” first 14 days'' conversion rate is critical
+5. **No video** â€” TEMU''s algo gives 3-5x more impressions to video listings
+6. **Slow ship from China to US warehouse** â€” violates 7-day fulfillment SLA in semi-managed mode

@@ -1,4 +1,4 @@
-﻿---
+---
 name: ozon-fbo-fbs-calculator
 description: "Ozon FBO (Fulfilled by Ozon) and FBS (Fulfilled by Seller) cost calculator. Computes FBO storage and last-mile fees by tier, FBS pick-and-pack and shipping label cost, inbound shipping cost from CN to Ozon warehouses in Russia, returns fees, and FBO vs FBS breakeven analysis. Includes CIS-specific factors: ruble volatility, EAC certification cost, Russian customs duty, cross-border consolidation, and RUB/KZT/BYN normalization. Use when the user asks about Ozon FBO fees, Ozon storage cost, FBS vs FBO breakeven, Ozon inbound shipping, or how much Ozon actually charges per fulfilled order."
 metadata: {"emoji":"馃嚪馃嚭","category":"ozon"}

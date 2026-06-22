@@ -49,13 +49,13 @@ To improve confidence, use this 3-source rule:
 
 ```
 For any keyword candidate:
-  1. Amazon autocomplete returns it     ¡ú high confidence (real buyer query)
-  2. TEMU site has < 500 products       ¡ú high opportunity
-  3. Google Trends shows growth         ¡ú rising demand
+  1. Amazon autocomplete returns it     â†’ high confidence (real buyer query)
+  2. TEMU site has < 500 products       â†’ high opportunity
+  3. Google Trends shows growth         â†’ rising demand
 
-If 2 of 3 are positive ¡ú pursue
-If only 1 of 3 ¡ú observe
-If 0 of 3 ¡ú skip
+If 2 of 3 are positive â†’ pursue
+If only 1 of 3 â†’ observe
+If 0 of 3 â†’ skip
 ```
 
 ## Per-Marketplace Tips

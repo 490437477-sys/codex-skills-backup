@@ -1,4 +1,4 @@
-﻿---
+---
 name: ozon-advertising-strategy
 description: "Build a comprehensive Ozon Performance advertising strategy combining search and product promotion, banner ads, and off-platform retargeting. Plans budget allocation across Ozon.ru, Ozon.kz, and Ozon.by, designs keyword grouping strategies with Russian colloquial coverage, sets competitive bids in RUB/KZT/BYN, and builds ACoS targets per lifecycle stage. Use when the user asks about Ozon advertising strategy, Ozon Performance planning, 褉械泻谢邪屑邪 袨蟹芯薪 Russian PPC planning, New Year / 3.8 / 9.1 ad budget allocation, ACoS targets on Ozon, or how to scale advertising on Ozon."
 metadata: {"emoji":"馃嚪馃嚭","category":"ozon"}

@@ -1,4 +1,4 @@
-﻿# noon Compliance & Regulatory Reference
+# noon Compliance & Regulatory Reference
 
 Use this checklist during Step 7 of the noon-product-research workflow. Mark each item Must-Have / Should-Have / N/A. Must-Have items are launch blockers; Should-Have can be addressed after first sale.
 

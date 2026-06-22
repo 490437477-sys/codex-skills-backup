@@ -1,4 +1,4 @@
-﻿---
+---
 name: mercado-competitor-analysis
 description: "Full-spectrum Mercado Libre 美客多 competitor analysis for cross-border sellers. Compare listings (titulo, ficha tecnica, descripcion, fotos, video), pricing in MXN BRL CLP COP, reputation (MercadoLider bronce plata oro, ventas concretadas, calificaciones), fulfillment mix (Mercado Envios vs Full vs Flex), Mercado Ads spend share, Mercado Pago cuotas strategy (6 / 12 sin interes), seasonal positioning (Hot Sale / Buen Fin / Black Friday / Navidad / Dia de las Madres / Carnaval). Identify weaknesses to exploit and strengths to counter. Use when the user mentions 竞品分析, 美客多竞品, 美客多对手, analisis de competencia mercado libre, analise de concorrencia mercado livre, MercadoLider benchmark, quien compite por mi palabra clave, who is competing for my keyword MLM MLB, audit competitor listing, 美客多调研."
 metadata: {"category":"mercado","emoji":"🌎🌎"}

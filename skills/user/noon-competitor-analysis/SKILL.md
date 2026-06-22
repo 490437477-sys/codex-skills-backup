@@ -1,4 +1,4 @@
-﻿---
+---
 name: noon-competitor-analysis
 description: "Full-spectrum competitor analysis for the noon marketplace. Compares listings, pricing in SAR/AED/EGP, Arabic/English copy, FBN vs FBM choice, review velocity, advertising strategy, and White Friday/Ramadan positioning against direct competitors. Detects cross-border overflow from Amazon.ae/Amazon.sa, Namshi, Ounass, 6thStreet. Use when the user asks about noon competitor analysis, ASIN-style SKU comparison on noon, pricing teardown in MENA, Arabic listing teardown, or how to beat a specific noon seller."
 metadata: {"category":"noon","locale":"mena"}

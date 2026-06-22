@@ -1,4 +1,4 @@
-﻿---
+---
 name: ozon-review-analyzer
 description: "Deep Ozon review analysis for competitive intelligence and product improvement. Extract Russian-language review sentiment, recurring complaints, CIS-specific feature requests (e.g. voltage 220V, Cyrillic packaging, cold-weather variants), star decay over rolling 90-day windows, competitor weaknesses from negative reviews, and seasonal review patterns. Distinguishes between FBO and FBS review patterns. Use when the user asks about Ozon review analysis, Russian review mining, 芯褌蟹褘胁褘 蟹邪泻邪蟹褔懈泻芯胁 analysis, what Russian buyers complain about, or how to improve a product based on Ozon reviews."
 metadata: {"emoji":"馃嚪馃嚭","category":"ozon"}

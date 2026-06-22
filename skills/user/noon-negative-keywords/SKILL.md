@@ -1,4 +1,4 @@
-﻿---
+---
 name: noon-negative-keywords
 description: "Optimize noon Sponsored Products campaigns by identifying and managing negative keywords in Arabic + English. Reduce wasted ad spend on irrelevant MENA search terms while protecting converting Arabic-dialect queries. Distinguishes between exact and phrase negatives, KSA/UAE/EG dialect variants, and competitor brand terms. Use when the user asks about noon negative keywords, MENA PPC waste reduction, Arabic search-term negatives, sponsored products optimization on noon, or ACoS reduction on noon ads."
 metadata: {"category":"noon","locale":"mena"}

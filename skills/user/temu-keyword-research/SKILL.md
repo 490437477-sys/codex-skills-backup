@@ -1,6 +1,6 @@
 ---
 name: temu-keyword-research
-description: "TEMU keyword research and market opportunity analysis for cross-border sellers. Mine long-tail English keywords from TEMU search, Google Trends, Amazon autocomplete (as proxy), and competitor listings. Analyze competition density, price range, return-rate signal, and seasonal trends on 13 TEMU marketplaces (US/UK/DE/FR/IT/ES/NL/PL/PT/MX/BR/JP/KR/SA/AE/PH). Score 1-10 market opportunity for any seed keyword. Use when: (1) user asks what to sell on TEMU, (2) user wants to find TEMU niche opportunities, (3) user wants to validate a keyword before launching a listing, (4) user wants to compare two keywords on TEMU, (5) user wants to know TEMU search demand for a product, (6) user mentions TEMUÑ¡´Ê, TEMUÈÈËÑ, TEMUËÑË÷´Ê, TEMU keyword ideas, TEMU SEO."
+description: "TEMU keyword research and market opportunity analysis for cross-border sellers. Mine long-tail English keywords from TEMU search, Google Trends, Amazon autocomplete (as proxy), and competitor listings. Analyze competition density, price range, return-rate signal, and seasonal trends on 13 TEMU marketplaces (US/UK/DE/FR/IT/ES/NL/PL/PT/MX/BR/JP/KR/SA/AE/PH). Score 1-10 market opportunity for any seed keyword. Use when: (1) user asks what to sell on TEMU, (2) user wants to find TEMU niche opportunities, (3) user wants to validate a keyword before launching a listing, (4) user wants to compare two keywords on TEMU, (5) user wants to know TEMU search demand for a product, (6) user mentions TEMUé€‰è¯, TEMUçƒ­æœ, TEMUæœç´¢è¯, TEMU keyword ideas, TEMU SEO."
 metadata: {"category":"cross-border-ecommerce","platform":"temu"}
 ---
 
@@ -15,7 +15,7 @@ Use this skill whenever the user:
 - Wants long-tail keyword ideas for a TEMU listing
 - Wants to compare 2-3 keywords on a TEMU marketplace
 - Asks about TEMU demand, TEMU hot searches, TEMU niche opportunities
-- Mentions Ñ¡TEMUÆ· / TEMUÑ¡´Ê / TEMUÈÈËÑ / TEMU SEO
+- Mentions é€‰TEMUå“ / TEMUé€‰è¯ / TEMUçƒ­æœ / TEMU SEO
 
 Do NOT use this skill for: Amazon keyword research (use `amazon-keyword-research`), Temu product/margin research (use `temu-product-research`), Temu listing copy generation (use `temu-listing-optimization`).
 
@@ -56,7 +56,7 @@ Before mining long-tails, confirm the seed is:
 - Not a banned/restricted category (medical, weapons, adult)
 - Has clear US English equivalent
 
-If user provides Chinese keyword (e.g. »úÐµ±Û), translate to English first via `mcp__minimax_coding_plan_mcp__web_search` or browser knowledge.
+If user provides Chinese keyword (e.g. æœºæ¢°è‡‚), translate to English first via `mcp__minimax_coding_plan_mcp__web_search` or browser knowledge.
 
 ### Step 2: Mine Long-tail Keywords
 
@@ -120,7 +120,7 @@ TEMU's price competitiveness is the #1 ranking factor. Use the price data from S
 - Compare to your target COGS + freight + 25% margin
 - If target > median * 1.2, you cannot compete (TEMU will rank you lower)
 
-**Why this matters**: A keyword with high demand but extremely low median price (e.g. $3 phone stand) is a trap ¡ª your $5 product will be ranked below $2 alternatives regardless of quality.
+**Why this matters**: A keyword with high demand but extremely low median price (e.g. $3 phone stand) is a trap â€” your $5 product will be ranked below $2 alternatives regardless of quality.
 
 ### Step 6: Synthesize Report
 
@@ -163,7 +163,7 @@ Use the Output Format below.
 | Top sellers price cluster | $[range of top 10 by sales] |
 | Average rating | [stars] |
 | Top brands | [list or "mostly unbranded white-label"] |
-| Return-rate signal | [low/medium/high ¡ª based on rating pattern + review complaints] |
+| Return-rate signal | [low/medium/high â€” based on rating pattern + review complaints] |
 
 ### 3. Seasonal Trends (12-month)
 
@@ -181,9 +181,9 @@ Use the Output Format below.
 - **Avg** = [X]/10
 
 **Recommendation**: [1-2 sentence actionable]
-- ¡Ý 7.5: GO ¡ª direct launch
-- 6.0-7.4: GO with caution ¡ª control first batch
-- 5.0-5.9: WATCH ¡ª look for differentiation angle
+- â‰¥ 7.5: GO â€” direct launch
+- 6.0-7.4: GO with caution â€” control first batch
+- 5.0-5.9: WATCH â€” look for differentiation angle
 - < 5.0: SKIP
 
 ### 5. Suggested TEMU Title Formula
@@ -225,9 +225,9 @@ End with one-line verdict on which to prioritize.
 - **temu-listing-optimization**: After finding keywords, use this to generate the actual title/bullets/description copy.
 
 Chain example:
-1. "Should I sell robotic arm on TEMU US?" ¡ú `temu-product-research`
-2. "What keywords should I target?" ¡ú `temu-keyword-research` (this skill)
-3. "Write the TEMU listing with these keywords" ¡ú `temu-listing-optimization`
+1. "Should I sell robotic arm on TEMU US?" â†’ `temu-product-research`
+2. "What keywords should I target?" â†’ `temu-keyword-research` (this skill)
+3. "Write the TEMU listing with these keywords" â†’ `temu-listing-optimization`
 
 ## Resources
 

@@ -1,4 +1,4 @@
-﻿---
+---
 name: noon-shipping-calculator
 description: "noon FBN (Fulfilled by Noon) and FBM shipping cost calculator. Computes storage fees by tier (Small / Medium / Large / XL) and season (peak vs off-peak), delivery fees by size tier and destination country, inbound shipping cost from CN/IN/TR to noon warehouses in KSA/UAE/EG, removal and disposal fees, and FBN vs FBM breakeven analysis. Includes MENA-specific factors: cross-border consolidation, Saudi Customs duty, GCC conformity surcharges, and SAR/AED/EGP normalization. Use when the user asks about noon FBN fees, noon storage cost, FBM vs FBN breakeven on noon, noon inbound shipping, SAR shipping cost, or how much noon actually charges per fulfilled order."
 metadata: {"category":"noon","locale":"mena"}

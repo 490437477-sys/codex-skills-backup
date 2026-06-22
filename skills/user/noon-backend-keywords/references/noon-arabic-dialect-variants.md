@@ -1,4 +1,4 @@
-﻿# noon Arabic Dialect Variants Reference
+# noon Arabic Dialect Variants Reference
 
 Used by: noon-backend-keywords, noon-keyword-research, noon-negative-keywords, noon-listing-optimization, noon-review-analyzer.
 

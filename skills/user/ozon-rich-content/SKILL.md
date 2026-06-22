@@ -1,4 +1,4 @@
-﻿---
+---
 name: ozon-rich-content
 description: "Plan and create Ozon Rich Content (similar to Amazon A+ Content). Design Russian-language module layouts, write persuasive Russian copy, plan comparison charts, and create image briefs that convert browsers into buyers on Ozon.ru, Ozon.kz, and Ozon.by. Use when the user asks about Ozon Rich Content, 斜芯谐邪褌褘泄 泻芯薪褌械薪褌, branded content modules on Ozon, Russian product storytelling, or Ozon brand program enrollment."
 metadata: {"emoji":"馃嚪馃嚭","category":"ozon"}

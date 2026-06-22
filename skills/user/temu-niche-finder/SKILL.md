@@ -1,4 +1,4 @@
-﻿---
+---
 name: temu-niche-finder
 description: "TEMU 跨境蓝海品类发现与机会评估。围绕全托管/半托管履约模式适配、TEMU 核价压力承受度、平台退货率扣减、跨站点天花板上探五个维度识别可做且能赚的细分机会。当用户询问 TEMU 卖什么、TEMU 选品、TEMU 蓝海、TEMU 品类机会、TEMU 做什么赚钱、TEMU 类目分析、TEMU 跨境新品类、TEMU 类目天花板、TEMU 适合做什么产品、半托管选品、全托管选品、本地对本地选品、temu niche、temu product opportunity、temu category research 时使用。"
 metadata: {"category":"temu","emoji":"馃徑"}

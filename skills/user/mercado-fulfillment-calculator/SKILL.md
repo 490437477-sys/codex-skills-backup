@@ -1,4 +1,4 @@
-﻿---
+---
 name: mercado-fulfillment-calculator
 description: "Mercado Libre fulfillment cost calculator comparing Mercado Full vs Mercado Envios vs Mercado Envios Flex vs cross-border self-shipping. Computes pick-pack fee, storage fee by size tier, inbound freight to Full warehouse, returns handling, dimensional weight surcharge, slow-mover penalty (60+ days), Cold Storage surcharge in MX/BR. Use when user asks about 美客多物流费用, 美客多仓储备货, Full vs Envios, 跨境拉美物流, Mercado Full warehouse, Mercado Envios Flex same-day, fulfillment fee Mercado Libre, costo de fulfillment Mercado Libre, custo fulfillment Mercado Livre, tarifa Full armazem, 美客多发货方式对比."
 metadata: {"category":"mercado","emoji":"馃嚰馃嚭"}

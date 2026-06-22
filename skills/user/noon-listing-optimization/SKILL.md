@@ -1,4 +1,4 @@
-﻿---
+---
 name: noon-listing-optimization
 description: "Arabic-first listing builder and optimizer for the noon marketplace (noon.sa / noon.ae / noon.com). Two modes: (A) Create — build keyword-optimized Arabic + English listings from a noon keyword list, product characteristics, and cultural tone; (B) Optimize — audit an existing noon listing, find Arabic coverage gaps, score across 8 dimensions, and rewrite to beat competitors. Mirrors the Amazon listing optimization workflow but adapts to MENA reality: Arabic title leading, RTL-safe imagery, bilingual backend keywords, modest-fashion & family imagery norms, Hijri calendar overlays in A+ content, and noon Brand Store content. Use when: (1) creating a new noon listing, (2) auditing an existing noon listing, (3) checking Arabic keyword coverage in title / bullets / description / backend, (4) generating Arabic listing copy, (5) comparing against noon competitors, (6) preparing a noon listing for Ramadan / White Friday / back-to-school launch."
 metadata: {"category":"noon","locale":"mena"}

@@ -1,4 +1,4 @@
-﻿# noon Arabic Review Topic Clusters
+# noon Arabic Review Topic Clusters
 
 Used by: noon-review-analyzer, noon-listing-optimization, noon-product-research.
 

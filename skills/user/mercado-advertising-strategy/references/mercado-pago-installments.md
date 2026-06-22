@@ -1,4 +1,4 @@
-﻿# Mercado Pago Installments Strategy
+# Mercado Pago Installments Strategy
 
 Reference for structuring cuotas sin interés (interest-free installments) offers across Mercado Libre sites. Numbers are approximate; verify with current Mercado Pago rate card.
 

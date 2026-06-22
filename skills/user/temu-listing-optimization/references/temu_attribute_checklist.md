@@ -44,7 +44,7 @@
 - [ ] Battery Cell Type
 - [ ] Compatible Devices (Arduino / Raspberry Pi / ESP32)
 - [ ] Age Range (13+ / 14+ / 16+ / Adult)
-- [ ] Safety Warning (Choking hazard ¡ª small parts)
+- [ ] Safety Warning (Choking hazard â€” small parts)
 
 ## Home & Kitchen (Cutting Boards, Containers)
 
@@ -102,7 +102,7 @@
 
 ## How to Use This Checklist
 
-1. Open TEMU Seller Center ¡ú your product ¡ú Edit listing ¡ú Attributes tab
+1. Open TEMU Seller Center â†’ your product â†’ Edit listing â†’ Attributes tab
 2. For your category, copy the relevant sub-checklist
 3. Mark off each attribute as you fill it
 4. Use Amazon competitor ASIN data to pre-fill values (Amazon is usually stricter about attribute data)

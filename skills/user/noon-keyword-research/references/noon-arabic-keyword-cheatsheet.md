@@ -1,4 +1,4 @@
-﻿# Arabic Keyword Cheatsheet for noon
+# Arabic Keyword Cheatsheet for noon
 
 Use this when the user provides only an English seed keyword and you need to generate the Arabic / transliterated counterpart, or when scoring Arabic candidates. Rules of thumb, not a glossary — verify with native speakers for high-stakes launches.
 

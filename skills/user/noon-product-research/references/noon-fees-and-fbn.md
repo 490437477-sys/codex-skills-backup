@@ -1,4 +1,4 @@
-﻿# noon FBN Fee Schedule & Profit Reference
+# noon FBN Fee Schedule & Profit Reference
 
 Use this sheet when running Step 4 of the noon-product-research workflow. Verify the current rates in noon Seller Central before committing P&L numbers — these are defaults and approximations as of 2024-2025.
 

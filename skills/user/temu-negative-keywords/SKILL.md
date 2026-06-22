@@ -1,4 +1,4 @@
-﻿---
+---
 name: temu-negative-keywords
 description: "TEMU Ads 否定关键词与否定商品管理。覆盖搜索词报告挖掘、低效词识别、否定匹配（精准 / 词组）策略、跨站点否定词库共享、节庆活动期临时屏蔽词、防误伤核心转化词机制。当用户询问 TEMU 否定词、TEMU Ads 否定、TEMU 广告浪费、TEMU 搜索词清理、TEMU 投放优化、TEMU 降 ACOS、TEMU 投放止损、temu negative keywords、temu ads waste、temu search term cleanup 时使用。"
 metadata: {"category":"temu","emoji":"馃徑"}

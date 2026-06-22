@@ -1,4 +1,4 @@
-﻿---
+---
 name: temu-competitor-analysis
 description: "TEMU 跨境卖家竞品全景分析。覆盖同款比价、Listing 拆解、TEMU 销量信号读取、TEMU Ads 投流反查、核价压力下的定价策略弱点识别、Review 痛点挖矿、跨站点竞品对照。当用户询问 TEMU 竞品分析、TEMU 同款比价、TEMU 怎么打败对手、TEMU 拆解对标、TEMU 销量判断、TEMU listing 优化对标、TEMU 价格战、TEMU 跟卖分析、TEMU 头部商家研究、temu competitor、temu competitor research、temu price comparison、temu teardown 时使用。"
 metadata: {"category":"temu","emoji":"馃徑"}

@@ -27,9 +27,9 @@
 - **Do**: Use natural English, front-load value, mention specific audience
 
 Examples (good):
-- `4DOF Robot Arm Kit MG90S Arduino STEM for Teens Ages 13+` (57 chars) ¡ª TOO SHORT
-- `4DOF Robot Arm Kit MG90S Metal Servo Arduino STEM Educational for Teens 13+ DIY` (82 chars) ¡ª GOOD
-- `Robot Arm Kit 4DOF MG90S Servo Arduino-Compatible STEM DIY Educational for Teens Ages 13+` (93 chars) ¡ª GOOD
+- `4DOF Robot Arm Kit MG90S Arduino STEM for Teens Ages 13+` (57 chars) â€” TOO SHORT
+- `4DOF Robot Arm Kit MG90S Metal Servo Arduino STEM Educational for Teens 13+ DIY` (82 chars) â€” GOOD
+- `Robot Arm Kit 4DOF MG90S Servo Arduino-Compatible STEM DIY Educational for Teens Ages 13+` (93 chars) â€” GOOD
 
 ### Key Selling Points (Bullets)
 - 5-8 bullets, each 30-50 characters
@@ -46,13 +46,13 @@ Examples:
 
 ### Rich Description
 - 500-1000 characters text + 3-5 supporting images
-- Structure: Hook (1 sentence) ¡ú 3-4 benefit paragraphs (50-100 chars each) ¡ú Spec line ¡ú Compliance note ¡ú CTA
+- Structure: Hook (1 sentence) â†’ 3-4 benefit paragraphs (50-100 chars each) â†’ Spec line â†’ Compliance note â†’ CTA
 - **Images embedded in description** carry additional conversion weight
 - Use 3-5 images inside description: lifestyle, exploded view, in-use, comparison, package contents
 
 Example skeleton:
 ```
-[Product Name] ¡ª Open the door to engineering and coding for teens ages 13+.
+[Product Name] â€” Open the door to engineering and coding for teens ages 13+.
 
 This 4DOF mechanical arm kit features 4 metal-gear MG90S servos for stable, precise movement...
 
@@ -96,19 +96,19 @@ Most-overlooked high-value attributes:
 
 ### Video (Optional but 3-5x algo boost)
 - 15-30 seconds, MP4, <50MB
-- Structure: Hook (0-3s) ¡ú Demo (3-20s) ¡ú Result (20-25s) ¡ú CTA (25-30s)
+- Structure: Hook (0-3s) â†’ Demo (3-20s) â†’ Result (20-25s) â†’ CTA (25-30s)
 - Show the product actually working, not just rotating
 - Include text overlays for key features
 
 ## Common Mistakes
 
-1. **Title over 100 chars** ¡ª silently truncated
-2. **Image with text overlay in first slot** ¡ª trust penalty
-3. **No video** ¡ª 3-5x fewer impressions vs competitors with video
-4. **Bullets that just repeat the title** ¡ª wasted SEO real estate
-5. **Description with no images** ¡ª half the conversion impact
-6. **Missing 50% of attributes** ¡ª invisible to filter searches
-7. **Translated Chinese title** ¡ª awkward English kills CTR
+1. **Title over 100 chars** â€” silently truncated
+2. **Image with text overlay in first slot** â€” trust penalty
+3. **No video** â€” 3-5x fewer impressions vs competitors with video
+4. **Bullets that just repeat the title** â€” wasted SEO real estate
+5. **Description with no images** â€” half the conversion impact
+6. **Missing 50% of attributes** â€” invisible to filter searches
+7. **Translated Chinese title** â€” awkward English kills CTR
 
 ## When to Update
 

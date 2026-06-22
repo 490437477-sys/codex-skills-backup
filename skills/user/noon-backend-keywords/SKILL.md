@@ -1,4 +1,4 @@
-﻿---
+---
 name: noon-backend-keywords
 description: "Optimize noon backend search terms (also called search keywords or generic keywords) for maximum Arabic + English discoverability. Generate the optimal backend keyword set by deduplicating from the visible listing, balancing Arabic MSA + dialect (KSA/UAE/EG) variants, removing competitor brand names, and respecting noon character limit per locale. Use when the user asks about noon backend keywords, noon search terms, Arabic keyword optimization, noon SEO, noon hidden keywords field, or MENA keyword variants."
 metadata: {"category":"noon","locale":"mena"}

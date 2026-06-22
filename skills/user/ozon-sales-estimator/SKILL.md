@@ -1,4 +1,4 @@
-﻿---
+---
 name: ozon-sales-estimator
 description: "Ozon sales volume estimator for sellers and product researchers. Estimate monthly sales and revenue for a SKU on Ozon.ru, Ozon.kz, or Ozon.by from sales rank, category-level demand signals, review velocity, and Yandex Wordstat volume. Three modes: (A) rank-based calculator, (B) SKU lookup, (C) Russian keyword demand estimator. Accounts for Russian-specific factors: FBO vs FBS mix, ruble volatility, New Year / 3.8 / 5.9 / 9.1 spikes, COD vs online payment, and RUB pricing. Use when the user asks about Ozon sales estimate, Ozon revenue forecast, how many units a SKU sells on Ozon, 袨蟹芯薪 锌褉芯写邪卸懈, or whether Ozon demand justifies a launch."
 metadata: {"emoji":"馃嚪馃嚭","category":"ozon"}

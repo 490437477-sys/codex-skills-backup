@@ -1,4 +1,4 @@
-﻿# noon Annual Seasonal Calendar for Advertising
+# noon Annual Seasonal Calendar for Advertising
 
 Used by: noon-advertising-strategy, noon-niche-finder, noon-sales-estimator.
 

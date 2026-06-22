@@ -1,4 +1,4 @@
-﻿---
+---
 name: temu-rich-content
 description: "TEMU 商品详情页 Rich Content 设计与制作指引。覆盖主图 5 张规范、视频规格、详情页模块（场景 / 卖点 / 参数 / 售后 / 资质）排版逻辑、A+ 风格长图文布局、多语言版本适配、节庆主题模板、退货率导向的售后模块设计。当用户询问 TEMU 详情页、TEMU 主图、TEMU 商品视频、TEMU 富文本、TEMU A+、TEMU 详情页设计、TEMU 商品图规范、TEMU 详情页模板、TEMU 卖点图、temu rich content、temu product images、temu listing visuals、temu A+ content 时使用。"
 metadata: {"category":"temu","emoji":"馃徑"}

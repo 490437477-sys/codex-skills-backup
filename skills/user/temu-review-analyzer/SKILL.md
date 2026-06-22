@@ -1,4 +1,4 @@
-﻿---
+---
 name: temu-review-analyzer
 description: "TEMU 评论分析工具。覆盖评论抓取（按 ASIN / SPU / 关键词搜索）、好评 / 差评主题聚类、情感分析、复购信号识别、产品改进建议。重点针对 TEMU 特有的「退货评论」「核价抱怨」「物流时效」「包装破损」「中文机翻英文」等评论模式做识别。当用户询问 TEMU 差评、TEMU 评论分析、TEMU 客户反馈、TEMU 退货原因、TEMU 爆款评论、TEMU 改进产品、TEMU 卖家中心评论、TEMU 买家秀、TEMU Review、TEMU rating、TEMU 4 星 5 星时使用。"
 metadata: {"category":"temu","emoji":"馃挕"}

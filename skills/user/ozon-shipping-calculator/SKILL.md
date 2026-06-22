@@ -1,4 +1,4 @@
-﻿---
+---
 name: ozon-shipping-calculator
 description: "Ozon shipping cost calculator for FBO and FBS fulfillment, including inbound shipping from China to Russian Ozon warehouses, last-mile delivery costs, returns processing, and cross-border consolidation routes. Includes CIS-specific factors: ruble volatility, EAC certification, Russian customs duty, BRICS trade routes, and RUB/KZT/BYN normalization. Use when the user asks about Ozon shipping cost, Ozon inbound from China, last-mile delivery cost on Ozon, 写芯褋褌邪胁泻邪 shipping to Russia, or CN to Russia freight for Ozon."
 metadata: {"emoji":"馃嚪馃嚭","category":"ozon"}

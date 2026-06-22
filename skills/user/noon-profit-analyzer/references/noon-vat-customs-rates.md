@@ -1,4 +1,4 @@
-﻿# noon VAT & Customs Duty Reference
+# noon VAT & Customs Duty Reference
 
 Used by: noon-profit-analyzer, noon-product-research, noon-shipping-calculator.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 name: temu-advertising-strategy
 description: "TEMU Ads 全站广告投放策略制定。覆盖搜索广告、推荐位广告、活动坑位争夺、关键词分层出价、预算分配与跨站点组合策略、ACOS 优化节奏、大促期 ROAS 目标管理、新品冷启动预算分配。当用户询问 TEMU 广告、TEMU Ads 投放、TEMU 推广预算、TEMU 广告策略、TEMU ACOS 优化、TEMU 大促投流、TEMU 新品推广、TEMU 关键词出价、TEMU 投流打法、temu ads、temu advertising strategy、temu ppc、temu sponsored products 时使用。"
 metadata: {"category":"temu","emoji":"馃徑"}

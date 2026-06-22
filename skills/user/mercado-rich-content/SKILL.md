@@ -1,4 +1,4 @@
-﻿---
+---
 name: mercado-rich-content
 description: "Plan and create Mercado Libre 美客多 rich content modules. Rich content on MercadoLibre covers descripcion larga (5000 chars), ficha tecnica completa, fotos HD (up to 10 per listing), video HD (up to 1 per listing), and pack presentations for multi-SKU listings. For Full-fulfilled items rich content boosts conversion 20-35 percent and unlocks Mercado Envios FREE badge. Includes LATAM seasonal banners for Hot Sale, Buen Fin, Black Friday, Navidad, Dia de las Madres, Carnaval and cuota (6 / 12 sin interes) call-outs in MXN BRL CLP COP. Use when the user mentions 美客多富文本, 美客多详情页, descripcion larga mercado libre, rich content MLM, conteudo rico MLB, mejorar ficha producto, MercadoLibre ficha tecnica completa, video listing 美客多, 美客多图文, 商品详情优化, Mercado Libre product description, MercadoLibre listing photos."
 metadata: {"category":"mercado","emoji":"🌎🌎"}

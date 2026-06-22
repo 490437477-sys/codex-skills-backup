@@ -1,4 +1,4 @@
-﻿---
+---
 name: temu-fulfillment-calculator
 description: "TEMU 履约模式选择计算器。对比全托管 (Fully Managed)、半托管 (Semi-Managed / Y2)、Local-to-Local (本地对本地) 三种模式在「库存归属、发货地、定价权、退货承担、结算账期、佣金扣点、回款速度、合规风险」等维度的差异。基于卖家实际情况（有无海外仓、SKU 数量、客单价、目标市场、合规资质）给出最优履约模式推荐与混合策略。当用户询问 TEMU 全托管 vs 半托管、TEMU 怎么发货、TEMU 履约模式、TEMU 半托管是什么、TEMU Y2、TEMU 本地对本地、TEMU 选哪种模式、TEMU 海外仓、TEMU 集运仓、TEMU 卖家发货流程、TEMU 物流方案时使用。"
 metadata: {"category":"temu","emoji":"馃摗"}

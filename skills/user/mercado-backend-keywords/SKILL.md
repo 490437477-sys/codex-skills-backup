@@ -1,4 +1,4 @@
-﻿---
+---
 name: mercado-backend-keywords
 description: "Optimize Mercado Libre 美客多 backend search terms for maximum discoverability. Mercado Libre backend surfaces in ficha tecnica atributos internos, tags, model number, and brand-line fields. Generate the optimal keyword set by deduplicating against front-end (titulo + ficha tecnica visible), prioritizing Spanish and Portuguese singular + plural + accent variants + synonyms, and formatting for MLM Mexico, MLB Brazil, MLC Chile, MCO Colombia, MLA Argentina. Includes hot-market LATAM events (Hot Sale, Buen Fin, Black Friday, Dia de las Madres, Navidad) embedded as seasonality tags. Use when the user mentions 美客多后台关键词, 美客多搜索词, 美客多 attributes, palabras clave backend mercado libre, palavras-chave backend mercado livre, optimize ficha tecnica tags, hidden keywords MLM, Mercado Libre atributos internos, 美客多关键词补全, backend SEO."
 metadata: {"category":"mercado","emoji":"🌎🌎"}

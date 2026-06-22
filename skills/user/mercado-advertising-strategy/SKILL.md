@@ -1,4 +1,4 @@
-﻿---
+---
 name: mercado-advertising-strategy
 description: "Build a comprehensive Mercado Ads 美客多 advertising strategy combining PADS (Productos Ads / Product Ads), Display retargeting, and Brand ads (MLB Brazil only). Budget allocation by category and marketplace, bid calculation for MXN BRL CLP COP, keyword strategy in Spanish and Portuguese with accent handling and singular + plural coverage, ACoS optimization targeting 15-25 percent, and seasonal ramp-up for Hot Sale Mexico, Buen Fin, Black Friday LATAM, Navidad, Dia de las Madres, Carnaval Brazil. Includes MercadoLider badge influence on ad rank, Full fulfillment boost on ad eligibility, and 6 / 12 cuotas sin interes bidding tactics. Use when the user mentions 美客多广告策略, 美客多广告投放, estrategia mercado ads, estrategia mercado ads PADS, PADS budget allocation, brand ads MLB, Mercado Ads campaign structure, 美客多 PADS, Mercado Ads ACoS optimization, full-funnel Mercado Libre advertising."
 metadata: {"category":"mercado","emoji":"🌎🌎"}

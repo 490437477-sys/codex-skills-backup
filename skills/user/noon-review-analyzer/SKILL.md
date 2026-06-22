@@ -1,4 +1,4 @@
-﻿---
+---
 name: noon-review-analyzer
 description: "Deep noon review analysis for competitive intelligence and product improvement. Extract Arabic + English review sentiment, recurring complaints, MENA-specific feature requests (e.g. voltage 220V, Arabic packaging, halal certification), star decay over rolling 90-day windows, competitor weaknesses from negative reviews, and Ramadan/Eid seasonal review patterns. Distinguishes between FBN and FBM review patterns (FBM reviews often mention shipping). Use when the user asks about noon review analysis, Arabic review mining, MENA customer feedback patterns, noon competitor weaknesses from reviews, what MENA buyers complain about, or how to improve a product based on noon reviews."
 metadata: {"category":"noon","locale":"mena"}

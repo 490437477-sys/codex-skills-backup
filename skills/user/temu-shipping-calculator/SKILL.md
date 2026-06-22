@@ -1,4 +1,4 @@
-﻿---
+---
 name: temu-shipping-calculator
 description: "TEMU 跨境电商物流成本计算器。覆盖全托管头程（中国至 TEMU 集运仓）、半托管头程（中国至海外仓）、尾程（海外仓至消费者）、退货回程、多渠道对比（海运拼柜 / 海运整柜 / 空派 / 国际快递 / 卡航 / 中欧班列）。包含体积重计算、TEMU 集运仓入库要求、各市场时效与报价区间、敏感货（带电/液体/粉末）特殊渠道。当用户询问 TEMU 物流、TEMU 头程、TEMU 尾程、TEMU 集运仓、TEMU 发货到仓、TEMU 体积重、TEMU 运费、TEMU 海运、TEMU 空派、TEMU 海外仓费用、TEMU 退货物流、TEMU 物流方案、TEMU 多久到货时使用。"
 metadata: {"category":"temu","emoji":"馃洜"}

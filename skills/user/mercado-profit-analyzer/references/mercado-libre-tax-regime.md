@@ -1,4 +1,4 @@
-﻿# Mercado Libre Tax Regime — LATAM Overview
+# Mercado Libre Tax Regime — LATAM Overview
 
 Reference for VAT, sales tax, and invoicing requirements when selling through Mercado Libre across Latin America. Numbers approximate; always validate against current SAT / SUNAT / AFIP / SII / DIAN regulations.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 name: ozon-niche-finder
 description: "Profitable niche discovery for the Ozon marketplace. Identifies underserved CIS markets across Ozon.ru, Ozon.kz, and Ozon.by with high Russian-language demand but low seller competition. Analyzes demand vs supply, Russian seasonality, FBO vs FBS fit, EAC compliance friction, COD vs online payment, and RUB price elasticity. Use when the user asks about finding niches on Ozon, Russian blue ocean opportunities, 袨蟹芯薪 胁褘谐芯写薪芯 谢懈 锌褉芯写邪胁邪褌褜, ozon product niche, what to sell on Ozon, CIS market gaps, or 9.1 / New Year seasonal opportunities."
 metadata: {"emoji":"馃嚪馃嚭","category":"ozon"}

@@ -1,4 +1,4 @@
-# TEMU Ads (ÉÌÆ·ÍÆ¹ã) ¡ª Complete System Reference
+# TEMU Ads (å•†å“æ¨å¹¿) â€” Complete System Reference
 
 > Reference for everything you need to know about TEMU''s advertising platform as of mid-2026. Updated regularly.
 
@@ -6,11 +6,11 @@
 
 | Spec | Detail |
 |---|---|
-| **Official name** | ÉÌÆ·ÍÆ¹ã (Product Promotion) / TEMU Ads |
+| **Official name** | å•†å“æ¨å¹¿ (Product Promotion) / TEMU Ads |
 | **Launch date** | 2025-01-20 (random beta) |
 | **General availability** | 2025 Q2 (broad rollout) |
-| **Entry point** | Seller Center sidebar ¡ú ÉÌÆ·ÍÆ¹ã |
-| **Pricing model** | CPC (°´µã»÷¸¶·Ñ) |
+| **Entry point** | Seller Center sidebar â†’ å•†å“æ¨å¹¿ |
+| **Pricing model** | CPC (æŒ‰ç‚¹å‡»ä»˜è´¹) |
 | **Bid control** | ROAS-based (3 preset tiers) |
 | **Auction type** | 1st-price (effective bid set by platform) |
 | **Ad positions** | Search results + category pages + recommendation slots (most in-site positions) |
@@ -20,11 +20,11 @@
 
 Sellers pick ONE of three preset tiers. Platform optimizes per-impression bid to maintain target ROAS.
 
-| Tier (ÖĞÎÄ) | Tier (English) | ROAS Range (typical) | Volume | Use Case |
+| Tier (ä¸­æ–‡) | Tier (English) | ROAS Range (typical) | Volume | Use Case |
 |---|---|---|---|---|
-| **¿ìËÙÅÜÁ¿** | Fast Volume | 1.5-2.5 | High | New product, no reviews |
-| **Ğ§Òæ¾ùºâ** | Balanced | 2.5-4.0 | Medium | Established, growing |
-| **ÎÈ¶¨Ôö³¤** | Steady Growth | 4.0+ | Lower (high efficiency) | Top sellers, scaling |
+| **å¿«é€Ÿè·‘é‡** | Fast Volume | 1.5-2.5 | High | New product, no reviews |
+| **æ•ˆç›Šå‡è¡¡** | Balanced | 2.5-4.0 | Medium | Established, growing |
+| **ç¨³å®šå¢é•¿** | Steady Growth | 4.0+ | Lower (high efficiency) | Top sellers, scaling |
 
 **Note**: These are typical ranges, not hard limits. Actual platform target depends on category competition and your historical performance.
 
@@ -32,7 +32,7 @@ Sellers pick ONE of three preset tiers. Platform optimizes per-impression bid to
 
 | Item | Detail |
 |---|---|
-| **Budget source** | **Frozen from »õ¿î** (order payments) ¡ª NOT separate credit card |
+| **Budget source** | **Frozen from è´§æ¬¾** (order payments) â€” NOT separate credit card |
 | **Minimum daily budget** | $10 (recommended $30+ for meaningful traffic) |
 | **Maximum daily budget** | No hard cap, but practical limit ~$5,000/day |
 | **Budget exhaustion** | Ad pauses when daily budget hit, but already-served impressions still billed |
@@ -60,17 +60,17 @@ TEMU''s algorithm:
 
 TEMU Seller Center provides these metrics (downloadable as CSV):
 
-| Metric | ÖĞÎÄ | Calculation | Healthy Range |
+| Metric | ä¸­æ–‡ | Calculation | Healthy Range |
 |---|---|---|---|
-| **ÆØ¹â** | Impressions | Times ad shown | > 1,000/day |
-| **µã»÷** | Clicks | Times ad clicked | > 20/day |
+| **æ›å…‰** | Impressions | Times ad shown | > 1,000/day |
+| **ç‚¹å‡»** | Clicks | Times ad clicked | > 20/day |
 | **CTR** | Click-through rate | Clicks / Impressions | > 2.0% |
-| **¶©µ¥** | Orders | Sales attributed to ad | > 3/day |
+| **è®¢å•** | Orders | Sales attributed to ad | > 3/day |
 | **CVR** | Conversion rate | Orders / Clicks | > 2.0% |
-| **»¨·Ñ** | Ad spend | Total CPC charged | Per budget |
+| **èŠ±è´¹** | Ad spend | Total CPC charged | Per budget |
 | **CPC** | Cost per click | Spend / Clicks | < $0.50 (varies) |
 | **ROAS** | Return on ad spend | Ad revenue / Ad spend | > 3.0 (target) |
-| **GMV** | Gross merchandise value | Orders ¡Á Price | Track growth |
+| **GMV** | Gross merchandise value | Orders Ã— Price | Track growth |
 
 **Note**: TEMU does NOT provide:
 - Search term reports (you don''t know which queries triggered your ad)
@@ -103,10 +103,10 @@ TEMU''s algorithm deprioritizes ads for low-quality listings. Common failure mod
 
 | Listing Score | Typical Ad Performance |
 |---|---|
-| **¡İ 90/100** | Strong impressions + 2-4% CTR + 2-4% CVR |
+| **â‰¥ 90/100** | Strong impressions + 2-4% CTR + 2-4% CVR |
 | **75-89/100** | Mediocre impressions + 1-2% CTR + 1-2% CVR |
 | **60-74/100** | Low impressions, ad may be auto-suppressed |
-| **< 60/100** | Almost no ad serving ¡ª platform protects buyer experience |
+| **< 60/100** | Almost no ad serving â€” platform protects buyer experience |
 
 **The brutal math**: If your listing CTR is 1% and CVR is 1%, even a $0.10 CPC will give you 1 sale per 1,000 clicks = $10 cost per sale. On a $30 product, that''s 33% of revenue gone to ads alone.
 
@@ -115,11 +115,11 @@ TEMU''s algorithm deprioritizes ads for low-quality listings. Common failure mod
 ### Mistake 1: Running ads on unready listings
 Sellers think ads = sales. They don''t. Ads = **exposure for ready listings**. 80% of TEMU ad waste comes from running ads on 60-70 point listings.
 
-### Mistake 2: Picking ÎÈ¶¨Ôö³¤ tier from Day 1
-High ROAS tier = low volume. New products need volume to build reviews. Start at ¿ìËÙÅÜÁ¿.
+### Mistake 2: Picking ç¨³å®šå¢é•¿ tier from Day 1
+High ROAS tier = low volume. New products need volume to build reviews. Start at å¿«é€Ÿè·‘é‡.
 
 ### Mistake 3: Setting budget too low
-$10-20/day will get 200-500 impressions ¡ª too small for the algorithm to learn. $30-50/day minimum for the first 2 weeks.
+$10-20/day will get 200-500 impressions â€” too small for the algorithm to learn. $30-50/day minimum for the first 2 weeks.
 
 ### Mistake 4: Never refreshing main image
 Ad CTR plateaus after 14-21 days as the same buyers see the same image. Rotate main image weekly.
@@ -128,10 +128,10 @@ Ad CTR plateaus after 14-21 days as the same buyers see the same image. Rotate m
 Spread risk. Even P0 SKUs should have a P1 backup running at 30-50% budget.
 
 ### Mistake 6: Ignoring seasonal windows
-- **Jan-Feb**: post-Christmas slump ¡ª cut budget 50%
-- **Aug-Sep**: back-to-school STEM peak ¡ª 2x budget
-- **Nov 1-Dec 20**: Q4 peak ¡ª 3x budget
-- **Dec 20-31**: shipping too late ¡ª pause
+- **Jan-Feb**: post-Christmas slump â€” cut budget 50%
+- **Aug-Sep**: back-to-school STEM peak â€” 2x budget
+- **Nov 1-Dec 20**: Q4 peak â€” 3x budget
+- **Dec 20-31**: shipping too late â€” pause
 
 ### Mistake 7: Not pausing losers
 If a product has 0 orders after 7 days at $30/day spend, it''s a listing problem, not an ad problem. Pause and fix.
@@ -163,29 +163,29 @@ If a product has 0 orders after 7 days at $30/day spend, it''s a listing problem
 | Red Flag | Threshold | Action |
 |---|---|---|
 | ROAS < 50% of break-even | 3+ consecutive days | Pause ad, fix listing |
-| CTR < 0.5% | 7+ days | Main image is broken ¡ª change immediately |
-| CVR < 0.5% | 7+ days | Listing detail page problem ¡ª fix description/price |
+| CTR < 0.5% | 7+ days | Main image is broken â€” change immediately |
+| CVR < 0.5% | 7+ days | Listing detail page problem â€” fix description/price |
 | Ad spend > 30% of revenue | Any day | Pause, restructure |
 | 0 orders after 1,000 clicks | 7 days | Pause, do not retry without listing overhaul |
 
 ## 11. Advanced Tips (Sellers With Experience)
 
-1. **Use ROAS target to test new products**: Set target ROAS = break-even ¡Á 1.5. If actual ROAS is 1.0¡Á, listing is good. If < 0.7¡Á, kill it.
+1. **Use ROAS target to test new products**: Set target ROAS = break-even Ã— 1.5. If actual ROAS is 1.0Ã—, listing is good. If < 0.7Ã—, kill it.
 
 2. **Multi-product budget weighting**: 60% to P0, 30% to P1, 10% to P2 (test budget). Re-balance weekly based on ROAS ranking.
 
 3. **Time-of-day insights from CPC fluctuations**: Although you can''t daypart, observe CPC patterns. Low CPC hours = high traffic. If your CVR is consistent, you''re getting cheap clicks.
 
-4. **Use ¿ìËÙÅÜÁ¿ to harvest reviews**: 30 days at ¿ìËÙÅÜÁ¿, even at low ROAS, can build 20-50 reviews. After that, migrate to Ğ§Òæ¾ùºâ and ROAS improves naturally.
+4. **Use å¿«é€Ÿè·‘é‡ to harvest reviews**: 30 days at å¿«é€Ÿè·‘é‡, even at low ROAS, can build 20-50 reviews. After that, migrate to æ•ˆç›Šå‡è¡¡ and ROAS improves naturally.
 
-5. **Inventory-driven ad spend**: Never spend > 30% of available inventory per day. If you have 300 units and want to clear in 60 days, max daily budget should support ~5 sales/day (= $5 ¡Á ROAS).
+5. **Inventory-driven ad spend**: Never spend > 30% of available inventory per day. If you have 300 units and want to clear in 60 days, max daily budget should support ~5 sales/day (= $5 Ã— ROAS).
 
-6. **Combine with Æ½Ì¨»î¶¯ (Temu platform promotions)**: During Æ½Ì¨´ó´Ù, the platform itself boosts promoted products. Plan ad spend spikes to align.
+6. **Combine with å¹³å°æ´»åŠ¨ (Temu platform promotions)**: During å¹³å°å¤§ä¿ƒ, the platform itself boosts promoted products. Plan ad spend spikes to align.
 
 ## 12. References & Further Reading
 
-- TEMU Seller Center ¡ú Help Center ¡ú ÉÌÆ·ÍÆ¹ã (in-app documentation)
-- Óê¹û¿ç¾³ (cifnews) ¡ª TEMU 2025 ¹ã¸æÍ¶·Å articles
-- Ò×²ÖERP ¡ª TEMU ¹ã¸æÏµÍ³ articles
-- µşµş¼ÓÊı¾İ ¡ª TEMU ad analytics platform
-- ¸ÇÑÇ¿ç¾³ÖúÊÖ ¡ª Multi-platform ad management with TEMU support
+- TEMU Seller Center â†’ Help Center â†’ å•†å“æ¨å¹¿ (in-app documentation)
+- é›¨æœè·¨å¢ƒ (cifnews) â€” TEMU 2025 å¹¿å‘ŠæŠ•æ”¾ articles
+- æ˜“ä»“ERP â€” TEMU å¹¿å‘Šç³»ç»Ÿ articles
+- å å åŠ æ•°æ® â€” TEMU ad analytics platform
+- ç›–äºšè·¨å¢ƒåŠ©æ‰‹ â€” Multi-platform ad management with TEMU support

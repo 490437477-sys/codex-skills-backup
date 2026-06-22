@@ -1,4 +1,4 @@
-﻿# Ozon FBO / FBS Fee Schedule Reference
+# Ozon FBO / FBS Fee Schedule Reference
 
 Used by: ozon-fbo-fbs-calculator, ozon-profit-analyzer, ozon-niche-finder.
 

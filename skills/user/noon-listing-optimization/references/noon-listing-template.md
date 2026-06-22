@@ -1,4 +1,4 @@
-﻿# noon Listing Field Template
+# noon Listing Field Template
 
 Use this when generating Mode A listings or rewriting in Mode B. Field limits are approximate and should be verified against the current noon Seller Central schema.
 
