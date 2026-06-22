@@ -1,0 +1,5 @@
+interface:
+  display_name: "noon Product Research"
+  short_description: "Comprehensive product research and opportunity analysis for the noon marketplace (noon.sa Saudi Arabia, noon.ae UAE, ..."
+  default_prompt: "Use $noon-product-research to evaluate whether a product is worth selling on noon."
+  brand_color: "#FEEE00"

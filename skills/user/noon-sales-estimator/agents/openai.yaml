@@ -1,0 +1,5 @@
+interface:
+  display_name: "noon Sales Estimator"
+  short_description: "noon sales volume estimator for sellers and product researchers. Estimate monthly sales and revenue for a SKU on noon..."
+  default_prompt: "Use $noon-sales-estimator to estimate noon monthly sales and revenue."
+  brand_color: "#FEEE00"

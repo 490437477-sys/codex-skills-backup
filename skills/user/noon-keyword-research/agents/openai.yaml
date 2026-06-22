@@ -1,0 +1,5 @@
+interface:
+  display_name: "noon Keyword Research"
+  short_description: "Keyword research and market opportunity analysis for the noon marketplace (noon.sa Saudi Arabia, noon.ae UAE, noon.co..."
+  default_prompt: "Use $noon-keyword-research to mine Arabic + English keywords for a noon listing."
+  brand_color: "#FEEE00"

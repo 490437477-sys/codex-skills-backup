@@ -1,0 +1,5 @@
+interface:
+  display_name: "noon Fbn Calculator"
+  short_description: "noon FBN Calculator - Complete Fulfilled-by-noon fee breakdown and profit analysis for noon.sa (KSA, SAR), noon.ae (U..."
+  default_prompt: "Use $noon-fbn-calculator to break down noon FBN fees and profit."
+  brand_color: "#FEEE00"

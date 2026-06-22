@@ -1,0 +1,5 @@
+interface:
+  display_name: "noon Rich Content"
+  short_description: "Plan and create noon Enhanced Brand Content (also called noon Rich Content, similar to Amazon A+ Content). Design bil..."
+  default_prompt: "Use $noon-rich-content to design noon Enhanced Brand Content modules."
+  brand_color: "#FEEE00"

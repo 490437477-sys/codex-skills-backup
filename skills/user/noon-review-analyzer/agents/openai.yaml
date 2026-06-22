@@ -1,0 +1,5 @@
+interface:
+  display_name: "noon Review Analyzer"
+  short_description: "Deep noon review analysis for competitive intelligence and product improvement. Extract Arabic + English review senti..."
+  default_prompt: "Use $noon-review-analyzer to mine Arabic + English noon reviews for product insights."
+  brand_color: "#FEEE00"

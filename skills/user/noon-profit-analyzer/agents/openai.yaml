@@ -1,0 +1,5 @@
+interface:
+  display_name: "noon Profit Analyzer"
+  short_description: "Comprehensive noon profit analysis and revenue optimization. Revenue waterfall analysis with noon commission, FBN sto..."
+  default_prompt: "Use $noon-profit-analyzer to break down true noon profit per SKU."
+  brand_color: "#FEEE00"

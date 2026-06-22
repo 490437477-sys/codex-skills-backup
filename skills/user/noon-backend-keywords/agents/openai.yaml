@@ -1,0 +1,5 @@
+interface:
+  display_name: "noon Backend Keywords"
+  short_description: "Optimize noon backend search terms (also called search keywords or generic keywords) for maximum Arabic + English dis..."
+  default_prompt: "Use $noon-backend-keywords to optimize noon backend search terms."
+  brand_color: "#FEEE00"

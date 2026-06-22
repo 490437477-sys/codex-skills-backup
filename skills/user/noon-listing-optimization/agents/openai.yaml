@@ -1,0 +1,5 @@
+interface:
+  display_name: "noon Listing Optimization"
+  short_description: "Arabic-first listing builder and optimizer for the noon marketplace (noon.sa / noon.ae / noon.com). Two modes: (A) Cr..."
+  default_prompt: "Use $noon-listing-optimization to build or optimize a noon listing in Arabic."
+  brand_color: "#FEEE00"

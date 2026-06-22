@@ -1,0 +1,5 @@
+interface:
+  display_name: "noon Competitor Analysis"
+  short_description: "Full-spectrum competitor analysis for the noon marketplace. Compares listings, pricing in SAR/AED/EGP, Arabic/English..."
+  default_prompt: "Use $noon-competitor-analysis to analyze noon competitors."
+  brand_color: "#FEEE00"

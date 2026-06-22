@@ -1,0 +1,5 @@
+interface:
+  display_name: "noon Ppc Campaign"
+  short_description: "noon Ads (Sponsored Products) campaign builder and optimizer for noon.sa (KSA) / noon.ae (UAE) / noon.com (Egypt). Tw..."
+  default_prompt: "Use $noon-ppc-campaign to build or optimize a noon Ads campaign."
+  brand_color: "#FEEE00"

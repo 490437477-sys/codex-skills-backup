@@ -1,0 +1,5 @@
+interface:
+  display_name: "noon Negative Keywords"
+  short_description: "Optimize noon Sponsored Products campaigns by identifying and managing negative keywords in Arabic + English. Reduce ..."
+  default_prompt: "Use $noon-negative-keywords to identify negative keywords to cut noon ad waste."
+  brand_color: "#FEEE00"

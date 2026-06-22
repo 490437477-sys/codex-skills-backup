@@ -1,0 +1,5 @@
+interface:
+  display_name: "noon Shipping Calculator"
+  short_description: "noon FBN (Fulfilled by Noon) and FBM shipping cost calculator. Computes storage fees by tier (Small / Medium / Large ..."
+  default_prompt: "Use $noon-shipping-calculator to calculate noon FBN and FBM shipping costs."
+  brand_color: "#FEEE00"

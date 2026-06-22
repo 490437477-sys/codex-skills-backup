@@ -1,6 +1,6 @@
 # Skills 清单
 
-> 备份时间：2026-06-23 00:28:58
+> 备份时间：2026-06-23 00:41:45
 > 来源：$env:USERPROFILE\.codex\skills 与 $env:USERPROFILE\.codex\plugins\cache\openai-bundled\*\skills
 
 ## 内置 Skills（skills/system/，5 项）

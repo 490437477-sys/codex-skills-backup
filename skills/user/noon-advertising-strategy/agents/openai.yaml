@@ -1,0 +1,5 @@
+interface:
+  display_name: "noon Advertising Strategy"
+  short_description: "Build a comprehensive noon advertising strategy combining Sponsored Products, Sponsored Brands (where available), and..."
+  default_prompt: "Use $noon-advertising-strategy to plan a noon advertising strategy."
+  brand_color: "#FEEE00"

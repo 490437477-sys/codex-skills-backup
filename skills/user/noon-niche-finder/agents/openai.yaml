@@ -1,0 +1,5 @@
+interface:
+  display_name: "noon Niche Finder"
+  short_description: "Profitable niche discovery for the noon marketplace. Identifies underserved MENA markets across noon.sa, noon.ae, and..."
+  default_prompt: "Use $noon-niche-finder to discover profitable niches on the noon marketplace."
+  brand_color: "#FEEE00"
