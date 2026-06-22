@@ -1,0 +1,5 @@
+interface:
+  display_name: "Temu Ppc Campaign"
+  short_description: "TEMU Ads (商品推广) campaign builder and optimizer for cross-border sellers. Two modes: (A) Build — design a complete ad ..."
+  default_prompt: "Use $temu-ppc-campaign to build or optimize a TEMU Ads campaign."
+  brand_color: "#FB7701"

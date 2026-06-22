@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mercado Niche Finder"
+  short_description: "Profitable niche discovery for Mercado Libre 美客多 cross-border sellers. Identify underserved categories with high dema..."
+  default_prompt: "Use $mercado-niche-finder to discover profitable niches on Mercado Libre."
+  brand_color: "#FFE600"

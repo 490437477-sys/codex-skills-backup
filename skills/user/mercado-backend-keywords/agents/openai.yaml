@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mercado Backend Keywords"
+  short_description: "Optimize Mercado Libre 美客多 backend search terms for maximum discoverability. Mercado Libre backend surfaces in ficha ..."
+  default_prompt: "Use $mercado-backend-keywords to optimize Mercado Libre backend search terms."
+  brand_color: "#FFE600"

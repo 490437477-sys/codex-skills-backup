@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mercado Advertising Strategy"
+  short_description: "Build a comprehensive Mercado Ads 美客多 advertising strategy combining PADS (Productos Ads / Product Ads), Display reta..."
+  default_prompt: "Use $mercado-advertising-strategy to plan a Mercado Ads strategy."
+  brand_color: "#FFE600"

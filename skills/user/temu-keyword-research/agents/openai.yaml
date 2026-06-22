@@ -1,0 +1,5 @@
+interface:
+  display_name: "Temu Keyword Research"
+  short_description: "TEMU keyword research and market opportunity analysis for cross-border sellers. Mine long-tail English keywords from ..."
+  default_prompt: "Use $temu-keyword-research to mine keywords for a TEMU listing."
+  brand_color: "#FB7701"

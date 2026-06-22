@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mercado Negative Keywords"
+  short_description: "Optimize Mercado Ads campaigns on Mercado Libre 美客多 by identifying and managing negative keywords. Reduce wasted ad s..."
+  default_prompt: "Use $mercado-negative-keywords to identify negative keywords to cut Mercado Ads waste."
+  brand_color: "#FFE600"

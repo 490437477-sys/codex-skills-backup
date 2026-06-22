@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mercado Fulfillment Calculator"
+  short_description: "Mercado Libre fulfillment cost calculator comparing Mercado Full vs Mercado Envios vs Mercado Envios Flex vs cross-bo..."
+  default_prompt: "Use $mercado-fulfillment-calculator to break down Mercado Envíos fulfillment costs."
+  brand_color: "#FFE600"

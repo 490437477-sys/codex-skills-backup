@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mercado Product Research"
+  short_description: "Comprehensive product research and opportunity analysis for Mercado Libre (美客多) cross-border sellers. Analyzes demand..."
+  default_prompt: "Use $mercado-product-research to evaluate whether a product is worth selling on Mercado Libre."
+  brand_color: "#FFE600"

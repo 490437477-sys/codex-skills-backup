@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mercado Shipping Calculator"
+  short_description: "Mercado Libre shipping cost calculator covering Mercado Envios standard, Mercado Envios Flex, Mercado Envios Full pic..."
+  default_prompt: "Use $mercado-shipping-calculator to calculate Mercado Envíos shipping costs."
+  brand_color: "#FFE600"

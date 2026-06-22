@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mercado Ppc Campaign"
+  short_description: "Mercado Ads (美客多广告) campaign builder and optimizer for cross-border sellers. Two modes: (A) Build — design a complete..."
+  default_prompt: "Use $mercado-ppc-campaign to build or optimize a Mercado Ads campaign."
+  brand_color: "#FFE600"

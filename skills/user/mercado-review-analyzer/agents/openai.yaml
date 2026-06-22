@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mercado Review Analyzer"
+  short_description: "Mercado Libre review analysis for competitive intelligence and product improvement. Extracts sentiment patterns, recu..."
+  default_prompt: "Use $mercado-review-analyzer to mine Spanish + Portuguese Mercado Libre reviews for product insights."
+  brand_color: "#FFE600"

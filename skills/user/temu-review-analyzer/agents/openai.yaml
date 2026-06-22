@@ -1,0 +1,5 @@
+interface:
+  display_name: "Temu Review Analyzer"
+  short_description: "TEMU 评论分析工具。覆盖评论抓取（按 ASIN / SPU / 关键词搜索）、好评 / 差评主题聚类、情感分析、复购信号识别、产品改进建议。重点针对 TEMU 特有的「退货评论」「核价抱怨」「物流时效」「包装破损」「中文机翻英文」..."
+  default_prompt: "Use $temu-review-analyzer to mine TEMU reviews for product insights."
+  brand_color: "#FB7701"

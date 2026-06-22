@@ -1,0 +1,5 @@
+interface:
+  display_name: "Temu Fulfillment Calculator"
+  short_description: "TEMU 履约模式选择计算器。对比全托管 (Fully Managed)、半托管 (Semi-Managed / Y2)、Local-to-Local (本地对本地) 三种模式在「库存归属、发货地、定价权、退货承担、结算账期、佣金扣点..."
+  default_prompt: "Use $temu-fulfillment-calculator to break down TEMU fulfillment costs (fully/semi-managed vs local)."
+  brand_color: "#FB7701"

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Temu Niche Finder"
+  short_description: "TEMU 跨境蓝海品类发现与机会评估。围绕全托管/半托管履约模式适配、TEMU 核价压力承受度、平台退货率扣减、跨站点天花板上探五个维度识别可做且能赚的细分机会。当用户询问 TEMU 卖什么、TEMU 选品、TEMU 蓝海、TEMU ..."
+  default_prompt: "Use $temu-niche-finder to discover profitable niches on TEMU."
+  brand_color: "#FB7701"

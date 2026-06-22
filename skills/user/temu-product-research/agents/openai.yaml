@@ -1,5 +1,5 @@
 interface:
   display_name: "TEMU Product Research"
   short_description: "TEMU cross-border product research and profit modeling"
-  default_prompt: "Use $temu-product-research to evaluate whether a product is worth selling on TEMU."
-  brand_color: "#FB7701"
+    default_prompt: "Use $temu-product-research to evaluate whether a product is worth selling on TEMU."
+    brand_color: "#FB7701"

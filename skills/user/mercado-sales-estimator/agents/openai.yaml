@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mercado Sales Estimator"
+  short_description: "Mercado Libre sales volume estimator using search rank position, category best-seller rank, listing health score (Mer..."
+  default_prompt: "Use $mercado-sales-estimator to estimate Mercado Libre monthly sales and revenue."
+  brand_color: "#FFE600"

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mercado Listing Optimization"
+  short_description: "Mercado Libre (美客多) listing builder and optimizer for cross-border sellers. Two modes: (A) Create — build keyword-opt..."
+  default_prompt: "Use $mercado-listing-optimization to build or optimize a Mercado Libre listing in Spanish."
+  brand_color: "#FFE600"

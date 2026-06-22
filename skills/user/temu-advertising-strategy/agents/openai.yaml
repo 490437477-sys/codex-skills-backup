@@ -1,0 +1,5 @@
+interface:
+  display_name: "Temu Advertising Strategy"
+  short_description: "TEMU Ads 全站广告投放策略制定。覆盖搜索广告、推荐位广告、活动坑位争夺、关键词分层出价、预算分配与跨站点组合策略、ACOS 优化节奏、大促期 ROAS 目标管理、新品冷启动预算分配。当用户询问 TEMU 广告、TEMU Ads..."
+  default_prompt: "Use $temu-advertising-strategy to plan a TEMU Ads strategy."
+  brand_color: "#FB7701"

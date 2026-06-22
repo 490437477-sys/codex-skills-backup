@@ -1,0 +1,5 @@
+interface:
+  display_name: "Temu Rich Content"
+  short_description: "TEMU 商品详情页 Rich Content 设计与制作指引。覆盖主图 5 张规范、视频规格、详情页模块（场景 / 卖点 / 参数 / 售后 / 资质）排版逻辑、A+ 风格长图文布局、多语言版本适配、节庆主题模板、退货率导向的售后模..."
+  default_prompt: "Use $temu-rich-content to design TEMU Rich Content modules."
+  brand_color: "#FB7701"

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Temu Competitor Analysis"
+  short_description: "TEMU 跨境卖家竞品全景分析。覆盖同款比价、Listing 拆解、TEMU 销量信号读取、TEMU Ads 投流反查、核价压力下的定价策略弱点识别、Review 痛点挖矿、跨站点竞品对照。当用户询问 TEMU 竞品分析、TEMU 同..."
+  default_prompt: "Use $temu-competitor-analysis to analyze TEMU competitors."
+  brand_color: "#FB7701"

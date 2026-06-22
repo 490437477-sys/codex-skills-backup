@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mercado Competitor Analysis"
+  short_description: "Full-spectrum Mercado Libre 美客多 competitor analysis for cross-border sellers. Compare listings (titulo, ficha tecnica..."
+  default_prompt: "Use $mercado-competitor-analysis to analyze Mercado Libre competitors."
+  brand_color: "#FFE600"

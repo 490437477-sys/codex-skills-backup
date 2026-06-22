@@ -1,0 +1,5 @@
+interface:
+  display_name: "Temu Listing Optimization"
+  short_description: "TEMU listing builder and optimizer for cross-border sellers. Two modes: (A) Create — build keyword-optimized title + ..."
+  default_prompt: "Use $temu-listing-optimization to build or optimize a TEMU listing."
+  brand_color: "#FB7701"

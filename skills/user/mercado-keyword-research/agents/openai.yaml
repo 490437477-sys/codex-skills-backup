@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mercado Keyword Research"
+  short_description: "Mercado Libre (美客多) keyword research and market opportunity analysis for cross-border sellers. Retrieve autocomplete ..."
+  default_prompt: "Use $mercado-keyword-research to mine Spanish + Portuguese keywords for a Mercado Libre listing."
+  brand_color: "#FFE600"

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mercado Rich Content"
+  short_description: "Plan and create Mercado Libre 美客多 rich content modules. Rich content on MercadoLibre covers descripcion larga (5000 c..."
+  default_prompt: "Use $mercado-rich-content to design Mercado Libre Rich Content modules."
+  brand_color: "#FFE600"

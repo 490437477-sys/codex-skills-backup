@@ -1,0 +1,5 @@
+interface:
+  display_name: "Temu Backend Keywords"
+  short_description: "TEMU 后台搜索词与商品标签优化。覆盖 TEMU 卖家中心「商品描述」「搜索词」「类目属性」字段的填法、多语言（英 / 德 / 法 / 西 / 日 / 韩 / 葡）本地化、去重排序、字符限制利用、TEMU 搜索 A9-like 算法..."
+  default_prompt: "Use $temu-backend-keywords to optimize TEMU backend search terms."
+  brand_color: "#FB7701"

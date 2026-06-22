@@ -1,0 +1,5 @@
+interface:
+  display_name: "Temu Profit Analyzer"
+  short_description: "TEMU 跨境电商利润分析与回本测算工具。覆盖全托管、半托管、Local-to-Local 三种履约模式下的完整利润模型：供货价、平台佣金 5-15%、TEMU 持续核价压力、多币种结算 USD/EUR/GBP/JPY/KRW/MXN..."
+  default_prompt: "Use $temu-profit-analyzer to break down true TEMU profit per SKU."
+  brand_color: "#FB7701"

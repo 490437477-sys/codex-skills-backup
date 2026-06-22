@@ -1,0 +1,5 @@
+interface:
+  display_name: "Temu Sales Estimator"
+  short_description: "TEMU 销量预估工具。基于 BSR / 类目排名 / 商品列表位 / 关键词热度 / 广告投放 / 季节性因素 / 平台流量分配规则，估算月销量、月营业额、利润区间。覆盖全托管、半托管、本地对本地三种模式的销量差异，对比自然流量与广..."
+  default_prompt: "Use $temu-sales-estimator to estimate TEMU monthly sales and revenue."
+  brand_color: "#FB7701"

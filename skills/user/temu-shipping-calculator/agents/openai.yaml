@@ -1,0 +1,5 @@
+interface:
+  display_name: "Temu Shipping Calculator"
+  short_description: "TEMU 跨境电商物流成本计算器。覆盖全托管头程（中国至 TEMU 集运仓）、半托管头程（中国至海外仓）、尾程（海外仓至消费者）、退货回程、多渠道对比（海运拼柜 / 海运整柜 / 空派 / 国际快递 / 卡航 / 中欧班列）。包含体积..."
+  default_prompt: "Use $temu-shipping-calculator to calculate TEMU shipping costs."
+  brand_color: "#FB7701"
