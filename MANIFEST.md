@@ -1,6 +1,6 @@
 # Skills 清单
 
-> 备份时间：2026-06-23 00:43:20
+> 备份时间：2026-06-28 10:35:05
 > 来源：$env:USERPROFILE\.codex\skills 与 $env:USERPROFILE\.codex\plugins\cache\openai-bundled\*\skills
 
 ## 内置 Skills（skills/system/，5 项）
@@ -13,7 +13,7 @@
 | skill-creator | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an exis… |
 | skill-installer | Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list in… |
 
-## 用户 Skills（skills/user/，95 项）
+## 用户 Skills（skills/user/，97 项）
 
 | Skill | 用途 |
 |-------|------|
@@ -87,12 +87,13 @@
 | ozon-review-analyzer | Deep Ozon review analysis for competitive intelligence and product improvement. Extract Russian-language review sentime… |
 | ozon-rich-content | Plan and create Ozon Rich Content (similar to Amazon A+ Content). Design Russian-language module layouts, write persuas… |
 | ozon-sales-estimator | Ozon sales volume estimator for sellers and product researchers. Estimate monthly sales and revenue for a SKU on Ozon.r… |
-| ozon-shipping-calculator | Ozon shipping cost calculator for FBO and FBS fulfillment, including inbound shipping from China to Russian Ozon wareho… |
+| ozon-shipping-calculator |  |
 | peter-thiel-perspective | \| Peter Thiel的思维框架与表达方式。基于《从0到1》、《竞争不是斗争》、Stanford CS183课程、 Lex Fridman/Tim Ferriss访谈、PayPal/Palantir/Founders Fund投资案… |
 | premium-a4-printable-pdf-starter | Use when creating a new premium A4 printable worksheet, canvas, checklist, scorecard, or report and a copyable HTML sta… |
 | premium-a4-printable-pdf-system | Use when working with the premium A4 printable PDF skill set and a quick overview is needed for which skill to use firs… |
 | premium-a4-printable-pdfs | Use when creating polished A4 printable worksheets, canvases, checklists, scorecards, or report-style documents that ne… |
 | reid-hoffman-perspective | \| 瑞德·霍夫曼(Reid Hoffman)的思维框架与表达方式。 核心定位：网络效应、冷启动、信任系统、职业联盟与平台扩张的专职专家。 不是"又一个懂增长的人"——不替代Thiel的竞争哲学、Bezos的规模飞轮、或张一鸣的推荐逻辑。… |
+| search-routing |  |
 | soros-perspective | \| 乔治·索罗斯思维顾问：基于其6个维度的深度追踪，提炼5个核心心智模型（可错性、反射性、盛衰周期、结构脆弱点、开放社会）、7条决策启发式和完整的表达DNA。 用途：作为思维顾问，用索罗斯的视角分析宏观博弈、市场拐点、政策脆弱性和制度设… |
 | taiichi-ohno-perspective | \| 大野耐一 (Taiichi Ohno) 思维顾问：丰田生产方式 (TPS) 与精益生产之父。 专治流程臃肿、效率低下、掩盖问题和瞎忙活。核心包含：识别七大浪费、现场大野圈观察、连续推演5个为什么（5 Whys）以发掘根本原因、以及绝… |
 | taleb-perspective | \| 塔勒布(Nassim Nicholas Taleb)的思维框架与表达方式。基于40+个来源的深度调研， 提炼6个核心心智模型、9条决策启发式和完整的表达DNA。 用途：作为思维顾问，用塔勒布的视角分析问题、审视决策、质疑主流叙事。… |
@@ -111,6 +112,7 @@
 | temu-rich-content | TEMU 商品详情页 Rich Content 设计与制作指引。覆盖主图 5 张规范、视频规格、详情页模块（场景 / 卖点 / 参数 / 售后 / 资质）排版逻辑、A+ 风格长图文布局、多语言版本适配、节庆主题模板、退货率导向的售后模块设… |
 | temu-sales-estimator | TEMU 销量预估工具。基于 BSR / 类目排名 / 商品列表位 / 关键词热度 / 广告投放 / 季节性因素 / 平台流量分配规则，估算月销量、月营业额、利润区间。覆盖全托管、半托管、本地对本地三种模式的销量差异，对比自然流量与广告流… |
 | temu-shipping-calculator | TEMU 跨境电商物流成本计算器。覆盖全托管头程（中国至 TEMU 集运仓）、半托管头程（中国至海外仓）、尾程（海外仓至消费者）、退货回程、多渠道对比（海运拼柜 / 海运整柜 / 空派 / 国际快递 / 卡航 / 中欧班列）。包含体积重计… |
+| view-product-folder | \| Inspect a folder of product images for Amazon/noon/Ozon/TEMU listings when the user asks Codex to "看图"、"了解产品"、"浏览图片"… |
 | zhangxiaolong-perspective | \| 张小龙 (Allen Zhang) 思维顾问：基于微信背后的产品观、历年演讲及10年前饭否语录的深度调研。 提炼5个核心心智模型（极简与克制、上帝视角的生态演化、人性本能洞察、用完即走、去中心化连接），7条决策启发式和完整的表达DN… |
 
 ## 插件贡献 Skills（plugins/skills/，3 项）
@@ -118,12 +120,12 @@
 | Skill 标识 | 路径 | 用途 |
 |-----------|------|------|
 | browser:control-in-app-browser | plugins/skills/browser/control-in-app-browser/SKILL.md | Control the in-app Browser. Use to open, navigate, inspect, test, click, type, screenshot, or verify local targets such as localhost, 127.0.0.1, ::1, file://, the current in-app browser tab, and webs… |
-| chrome:control-chrome | plugins/skills/chrome/control-chrome/SKILL.md | Control the user's Chrome browser for tasks that depend on existing Chrome state: tabs, logged-in sessions, cookies, or extensions. Prefer purpose-built connectors, APIs, or CLIs when available. |
+| chrome:control-chrome | plugins/skills/chrome/control-chrome/SKILL.md | Control the user's Chrome browser for tasks that depend on existing Chrome state: tabs, logged-in sessions, or extensions. Prefer purpose-built connectors, APIs, or CLIs when available. |
 | computer-use:computer-use | plugins/skills/computer-use/computer-use/SKILL.md | Control Windows apps from Codex |
 
 ## 总计
 
 - 内置 skills：5
-- 用户 skills：95
+- 用户 skills：97
 - 插件 skills：3
-- 合计：103
+- 合计：105

@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "看产品图文件夹"
+  short_description: "Product image folder tools: contact sheet, compress, single view"
+  default_prompt: "Use $view-product-folder to inspect a folder of product images by generating a contact sheet, compressing to viewable size, and viewing single images."
