@@ -50,7 +50,7 @@ git log --oneline '@{u}..HEAD'
 # --- Pre-flight: confirm SSH key is loaded -------------------------------
 Write-Host ''
 Write-Host '[preflight] testing GitHub SSH auth...' -ForegroundColor Cyan
-$probe = & ssh -T -o StrictHostKeyChecking=accept-new -o ConnectTimeout=10 git@github.com 2>&1
+$probe = & cmd /c "ssh -T -o StrictHostKeyChecking=accept-new -o ConnectTimeout=10 git@github.com" 2>&1
 if ($LASTEXITCODE -ne 1 -or $probe -notmatch 'successfully authenticated') {
     Write-Warning 'SSH auth failed. Make sure id_ed25519 is added at https://github.com/settings/keys'
     Write-Host ($probe -join "`n")
@@ -82,3 +82,4 @@ finally {
 Write-Host ''
 Write-Host 'Done. Remote is back to HTTPS.' -ForegroundColor Green
 git remote -v
+
