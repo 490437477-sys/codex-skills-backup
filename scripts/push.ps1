@@ -47,16 +47,27 @@ if ($ahead -eq '0') {
 Write-Host "Local is $ahead commit(s) ahead of origin/main." -ForegroundColor Cyan
 git log --oneline '@{u}..HEAD'
 
-# --- Pre-flight: confirm SSH key is loaded -------------------------------
+# --- Pre-flight: confirm SSH key is present and GitHub is reachable -------
 Write-Host ''
-Write-Host '[preflight] testing GitHub SSH auth...' -ForegroundColor Cyan
-$probe = & cmd /c "ssh -T -o StrictHostKeyChecking=accept-new -o ConnectTimeout=10 git@github.com" 2>&1
-if ($LASTEXITCODE -ne 1 -or $probe -notmatch 'successfully authenticated') {
-    Write-Warning 'SSH auth failed. Make sure id_ed25519 is added at https://github.com/settings/keys'
-    Write-Host ($probe -join "`n")
+Write-Host '[preflight] checking local SSH key...' -ForegroundColor Cyan
+$keyPath = Join-Path $env:USERPROFILE '.ssh\id_ed25519.pub'
+if (-not (Test-Path $keyPath)) {
+    throw "SSH public key not found at $keyPath. Run `ssh-keygen -t ed25519` first."
+}
+Write-Host ('  key   : {0}' -f $keyPath) -ForegroundColor DarkGray
+Write-Host ('  fp    : {0}' -f (Get-Content $keyPath).Substring(0, 30) + '...') -ForegroundColor DarkGray
+
+Write-Host '[preflight] probing GitHub over SSH (10s timeout)...' -ForegroundColor Cyan
+$probeFile = [System.IO.Path]::GetTempFileName()
+$probe     = & ssh.exe -T -o StrictHostKeyChecking=accept-new -o ConnectTimeout=10 -o BatchMode=yes git@github.com *>$null 2>"$probeFile"
+$probeText = (Get-Content -Raw $probeFile) -replace "`r?`n", ' '
+Remove-Item -Force $probeFile
+if ($probeText -notmatch 'successfully authenticated') {
+    Write-Warning 'SSH auth failed or timed out. Make sure id_ed25519 is added at https://github.com/settings/keys'
+    Write-Host ('  stderr: {0}' -f $probeText)
     throw 'SSH auth failed.'
 }
-Write-Host '  ok' -ForegroundColor Green
+Write-Host ('  ok    : {0}' -f $probeText.Trim()) -ForegroundColor Green
 
 if ($DryRun) {
     Write-Host ''
@@ -82,4 +93,5 @@ finally {
 Write-Host ''
 Write-Host 'Done. Remote is back to HTTPS.' -ForegroundColor Green
 git remote -v
+
 
