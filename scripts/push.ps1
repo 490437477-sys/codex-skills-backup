@@ -58,12 +58,21 @@ Write-Host ('  key   : {0}' -f $keyPath) -ForegroundColor DarkGray
 Write-Host ('  fp    : {0}' -f (Get-Content $keyPath).Substring(0, 30) + '...') -ForegroundColor DarkGray
 
 Write-Host '[preflight] probing GitHub over SSH (10s timeout)...' -ForegroundColor Cyan
-$probeFile = [System.IO.Path]::GetTempFileName()
-$probe     = & ssh.exe -T -o StrictHostKeyChecking=accept-new -o ConnectTimeout=10 -o BatchMode=yes git@github.com *>$null 2>"$probeFile"
-$probeText = (Get-Content -Raw $probeFile) -replace "`r?`n", ' '
-Remove-Item -Force $probeFile
+# Use [System.Diagnostics.Process] instead of & ssh.exe so PowerShell does
+# not promote ssh's non-zero exit code to a terminating error.
+$psi = New-Object System.Diagnostics.ProcessStartInfo
+$psi.FileName = 'ssh.exe'
+$psi.Arguments = '-T -o StrictHostKeyChecking=accept-new -o ConnectTimeout=10 -o BatchMode=yes git@github.com'
+$psi.UseShellExecute = $false
+$psi.RedirectStandardError = $true
+$psi.RedirectStandardOutput = $true
+$psi.CreateNoWindow = $true
+$proc = [System.Diagnostics.Process]::Start($psi)
+$proc.WaitForExit(15000) | Out-Null
+if (-not $proc.HasExited) { $proc.Kill(); throw 'SSH probe timed out (15s).' }
+$probeText = ($proc.StandardError.ReadToEnd() + $proc.StandardOutput.ReadToEnd()) -replace "`r?`n", ' '
 if ($probeText -notmatch 'successfully authenticated') {
-    Write-Warning 'SSH auth failed or timed out. Make sure id_ed25519 is added at https://github.com/settings/keys'
+    Write-Warning 'SSH auth failed. Make sure id_ed25519 is added at https://github.com/settings/keys'
     Write-Host ('  stderr: {0}' -f $probeText)
     throw 'SSH auth failed.'
 }
@@ -93,5 +102,6 @@ finally {
 Write-Host ''
 Write-Host 'Done. Remote is back to HTTPS.' -ForegroundColor Green
 git remote -v
+
 
 
