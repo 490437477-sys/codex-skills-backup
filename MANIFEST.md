@@ -1,6 +1,6 @@
 # Skills 清单
 
-> 备份时间：2026-06-28 10:35:05
+> 备份时间：2026-07-03 12:20:46
 > 来源：$env:USERPROFILE\.codex\skills 与 $env:USERPROFILE\.codex\plugins\cache\openai-bundled\*\skills
 
 ## 内置 Skills（skills/system/，5 项）
@@ -13,7 +13,7 @@
 | skill-creator | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an exis… |
 | skill-installer | Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list in… |
 
-## 用户 Skills（skills/user/，97 项）
+## 用户 Skills（skills/user/，100 项）
 
 | Skill | 用途 |
 |-------|------|
@@ -56,6 +56,8 @@
 | mercado-rich-content | Plan and create Mercado Libre 美客多 rich content modules. Rich content on MercadoLibre covers descripcion larga (5000 cha… |
 | mercado-sales-estimator | Mercado Libre sales volume estimator using search rank position, category best-seller rank, listing health score (Merca… |
 | mercado-shipping-calculator | Mercado Libre shipping cost calculator covering Mercado Envios standard, Mercado Envios Flex, Mercado Envios Full pick-… |
+| minimax-mcp-fallback |  |
+| MiniMax_web_search | Web search backed by the MiniMax (Token Plan) search engine. Use when Codex needs Chinese-language search results, Chin… |
 | mmx-cli | Use mmx to generate text, images, video, speech, and music via the MiniMax AI platform. Use when the user wants to crea… |
 | munger-perspective | \| 查理·芒格的思维框架与表达方式。基于《穷查理宝典》、伯克希尔/Daily Journal股东会、 USC/哈佛演讲、访谈记录、外部批评等50+来源的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维… |
 | noon-advertising-strategy | Build a comprehensive noon advertising strategy combining Sponsored Products, Sponsored Brands (where available), and d… |
@@ -97,6 +99,7 @@
 | soros-perspective | \| 乔治·索罗斯思维顾问：基于其6个维度的深度追踪，提炼5个核心心智模型（可错性、反射性、盛衰周期、结构脆弱点、开放社会）、7条决策启发式和完整的表达DNA。 用途：作为思维顾问，用索罗斯的视角分析宏观博弈、市场拐点、政策脆弱性和制度设… |
 | taiichi-ohno-perspective | \| 大野耐一 (Taiichi Ohno) 思维顾问：丰田生产方式 (TPS) 与精益生产之父。 专治流程臃肿、效率低下、掩盖问题和瞎忙活。核心包含：识别七大浪费、现场大野圈观察、连续推演5个为什么（5 Whys）以发掘根本原因、以及绝… |
 | taleb-perspective | \| 塔勒布(Nassim Nicholas Taleb)的思维框架与表达方式。基于40+个来源的深度调研， 提炼6个核心心智模型、9条决策启发式和完整的表达DNA。 用途：作为思维顾问，用塔勒布的视角分析问题、审视决策、质疑主流叙事。… |
+| Tavily_web_search | Web search and URL extraction backed by the Tavily API. Use when Codex needs to (1) search the public web for current i… |
 | temu-advertising-strategy | TEMU Ads 全站广告投放策略制定。覆盖搜索广告、推荐位广告、活动坑位争夺、关键词分层出价、预算分配与跨站点组合策略、ACOS 优化节奏、大促期 ROAS 目标管理、新品冷启动预算分配。当用户询问 TEMU 广告、TEMU Ads 投… |
 | temu-backend-keywords | TEMU 后台搜索词与商品标签优化。覆盖 TEMU 卖家中心「商品描述」「搜索词」「类目属性」字段的填法、多语言（英 / 德 / 法 / 西 / 日 / 韩 / 葡）本地化、去重排序、字符限制利用、TEMU 搜索 A9-like 算法适配… |
 | temu-competitor-analysis | TEMU 跨境卖家竞品全景分析。覆盖同款比价、Listing 拆解、TEMU 销量信号读取、TEMU Ads 投流反查、核价压力下的定价策略弱点识别、Review 痛点挖矿、跨站点竞品对照。当用户询问 TEMU 竞品分析、TEMU 同款比… |
@@ -126,6 +129,6 @@
 ## 总计
 
 - 内置 skills：5
-- 用户 skills：97
+- 用户 skills：100
 - 插件 skills：3
-- 合计：105
+- 合计：108
