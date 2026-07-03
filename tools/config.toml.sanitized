@@ -1,4 +1,4 @@
-﻿model = "MiniMax-M3"
+model = "MiniMax-M3"
 model_provider = "CodexPlusPlus"
 
 notify = [ "C:\\Users\\Administrator\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\789504f803e82e2b\\bin\\node_modules\\@oai\\sky\\bin\\windows\\codex-computer-use.exe", "turn-ended" ]
@@ -47,6 +47,11 @@ enabled = true
 [mcp_servers.tavily]
 command = "npx"
 args = ["-y", "tavily-mcp"]
+
+# npm-installed variant (parallel; installed via `npm install -g tavily-mcp` 2026-07-03)
+[mcp_servers.tavily_npm]
+command = "tavily-mcp"
+args = []
 env = { TAVILY_API_KEY = "tvly-dev-***REDACTED***" }
 
 [mcp_servers.minimax_coding_plan_mcp]
@@ -82,4 +87,5 @@ CODEX_CLI_PATH = 'C:\Users\Administrator\AppData\Local\OpenAI\Codex\bin\f1c7ee7a
 
 [features]
 js_repl = false
+
 
