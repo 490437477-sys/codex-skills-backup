@@ -3,25 +3,6 @@ name: mmx-cli
 description: Use mmx to generate text, images, video, speech, and music via the MiniMax AI platform. Use when the user wants to create media content, chat with MiniMax models, perform web search, or manage MiniMax API resources from the terminal.
 ---
 
-> ## Search Routing Policy (2026-06-26, revised)
->
-> Codex 没有"按任务自动分流国内 / 国外"的内置开关——本 skill 的使用方（agent）应按 query 的语言、目标区域、深度自行选择工具。
->
-> | 任务 | 首选 | 备选 / Fallback |
-> |---|---|---|
-> | **国内普通搜索** | `mmx search query --q "<query>"` | `mcp__tavily__tavily_search` |
-> | **国外搜索** | `mcp__tavily__tavily_search` | `mmx search query --q "<query>" --region global` |
-> | **国内深度汇总** | `mcp__tavily__tavily_research` | `mmx search query`（多跑几次人工合并） |
-> | 抓 URL 内容 | `mcp__tavily__tavily_extract` | `Invoke-WebRequest` 拉 HTML |
-> | 图片理解 | `mmx vision describe --image <path> --prompt "..."` | `mcp__minimax_coding_plan_mcp__understand_image` |
->
-> 决策依据：
-> - 国内普通搜索：`mmx search query` 中文召回强 + 编码正常（`minimax-coding-plan-mcp.web_search` 中文 mojibake 已知 bug）。
-> - 国外搜索：Tavily 英文 / 全球召回更广（`mmx --region global` 也可，但 Tavily 质量更稳）。
-> - 国内深度汇总：Tavily `research` 会自动"找 + 抓 + 读 + 汇总"多源信息，节省 agent token；`mmx search` 只能返回原始 organic 列表，需要 agent 自己合并。
-> - `minimax-coding-plan-mcp.web_search` 仍 enabled（兜底），仅在 mmx + tavily 均不可用时使用。
->
-> Fallback 详细说明见 `TOOL_POLICY.md` 第 5 节（项目根：`Documents\minimax mcp\TOOL_POLICY.md`）。
 # MiniMax CLI — Agent Skill Guide
 
 Use `mmx` to generate text, images, video, speech, music, and perform web search via the MiniMax AI platform.

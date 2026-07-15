@@ -1,6 +1,6 @@
 # Skills 清单
 
-> 备份时间：2026-07-03 12:20:46
+> 备份时间：2026-07-15 19:51:01
 > 来源：$env:USERPROFILE\.codex\skills 与 $env:USERPROFILE\.codex\plugins\cache\openai-bundled\*\skills
 
 ## 内置 Skills（skills/system/，5 项）
@@ -118,17 +118,18 @@
 | view-product-folder | \| Inspect a folder of product images for Amazon/noon/Ozon/TEMU listings when the user asks Codex to "看图"、"了解产品"、"浏览图片"… |
 | zhangxiaolong-perspective | \| 张小龙 (Allen Zhang) 思维顾问：基于微信背后的产品观、历年演讲及10年前饭否语录的深度调研。 提炼5个核心心智模型（极简与克制、上帝视角的生态演化、人性本能洞察、用完即走、去中心化连接），7条决策启发式和完整的表达DN… |
 
-## 插件贡献 Skills（plugins/skills/，3 项）
+## 插件贡献 Skills（plugins/skills/，4 项）
 
 | Skill 标识 | 路径 | 用途 |
 |-----------|------|------|
-| browser:control-in-app-browser | plugins/skills/browser/control-in-app-browser/SKILL.md | Control the in-app Browser. Use to open, navigate, inspect, test, click, type, screenshot, or verify local targets such as localhost, 127.0.0.1, ::1, file://, the current in-app browser tab, and webs… |
+| browser:control-in-app-browser | plugins/skills/browser/control-in-app-browser/SKILL.md | Control the in-app Browser for opening, navigating, inspecting visible or interactive page state, clicking, typing, screenshots, and local web testing. It can have existing signed-in sessions. For se… |
 | chrome:control-chrome | plugins/skills/chrome/control-chrome/SKILL.md | Control the user's Chrome browser for tasks that depend on existing Chrome state: tabs, logged-in sessions, or extensions. Prefer purpose-built connectors, APIs, or CLIs when available. |
-| computer-use:computer-use | plugins/skills/computer-use/computer-use/SKILL.md | Control Windows apps from Codex |
+| computer-use:computer-use | plugins/skills/computer-use/computer-use/SKILL.md | Control Windows apps from ChatGPT |
+| visualize:visualize | plugins/skills/visualize/visualize/SKILL.md | Create visualizations and interactive tools in conversation. Use when asked to show how something works, make simulators or labs, maps, plots, charts or graphs, comparisons, scenarios, adjustable inp… |
 
 ## 总计
 
 - 内置 skills：5
 - 用户 skills：100
-- 插件 skills：3
-- 合计：108
+- 插件 skills：4
+- 合计：109
