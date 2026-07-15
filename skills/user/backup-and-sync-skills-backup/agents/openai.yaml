@@ -1,0 +1,3 @@
+name: backup-and-sync-skills-backup
+display_label: Backup and Sync Skills
+summary: Mirror `~/.codex/skills` + `~/.agents/skills` + plugin skills into the local backup repo, regenerate MANIFEST.md, and push to GitHub. Falls back to SSH (port 22) when HTTPS (port 443) is blocked.

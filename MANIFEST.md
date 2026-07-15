@@ -1,6 +1,6 @@
 # Skills 清单
 
-> 备份时间：2026-07-15 19:51:01
+> 备份时间：2026-07-15 20:15:41
 > 来源：$env:USERPROFILE\.codex\skills 与 $env:USERPROFILE\.codex\plugins\cache\openai-bundled\*\skills
 
 ## 内置 Skills（skills/system/，5 项）
@@ -13,7 +13,7 @@
 | skill-creator | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an exis… |
 | skill-installer | Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list in… |
 
-## 用户 Skills（skills/user/，100 项）
+## 用户 Skills（skills/user/，102 项）
 
 | Skill | 用途 |
 |-------|------|
@@ -34,6 +34,7 @@
 | amazon-shipping-calculator | Amazon FBA and FBM shipping cost calculator and fulfillment optimization. Dimensional weight analysis, storage fee calc… |
 | andrew-ng-perspective | \| 吴恩达 (Andrew Ng) 思维顾问：AI教育家与AI工业落地布道者。 专治对AI大模型感到迷茫、技术焦虑或者不知道如何让大模型真正在业务流里产生价值的用户。核心包含：Agentic Workflow (四大智能体工作流设计模式… |
 | andy-grove-perspective | \| Andy Grove（安迪·格鲁夫）的思维框架与表达方式。基于《Only the Paranoid Survive》《High Output Management》、Intel转型与CEO时期访谈、外部评价与重大决策记录、关键历史节… |
+| backup-and-sync-skills-backup |  |
 | baiditu | 调用阿里云视觉智能平台（imageseg.cn-shanghai）对图片进行主体分割，输出白底图、透明 PNG 或裁剪图。默认在源目录创建「白底图」子目录保存结果。支持商品分割、人体分割、通用分割、食品分割、服饰分割、Logo 分割、车辆… |
 | dalio-perspective | \| 瑞·达利欧（Ray Dalio）思维顾问：基于桥水基业和《原则》的系统化模型。剥离人类自尊障碍，把经济、组织和自我看作一台机器。核心涵盖：大周期规律、极其机械化的因果倒推、以及"痛苦+反思=进步"纠错回路。 用途：作为思维顾问，用达… |
 | elon-musk-perspective | \| 马斯克的思维操作系统。基于传记、播客、推文、法庭证词、决策记录和外部批评的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用马斯克的视角分析问题、审视决策、拆解成本结构、挑战行业假设。 当用… |
@@ -97,6 +98,7 @@
 | reid-hoffman-perspective | \| 瑞德·霍夫曼(Reid Hoffman)的思维框架与表达方式。 核心定位：网络效应、冷启动、信任系统、职业联盟与平台扩张的专职专家。 不是"又一个懂增长的人"——不替代Thiel的竞争哲学、Bezos的规模飞轮、或张一鸣的推荐逻辑。… |
 | search-routing |  |
 | soros-perspective | \| 乔治·索罗斯思维顾问：基于其6个维度的深度追踪，提炼5个核心心智模型（可错性、反射性、盛衰周期、结构脆弱点、开放社会）、7条决策启发式和完整的表达DNA。 用途：作为思维顾问，用索罗斯的视角分析宏观博弈、市场拐点、政策脆弱性和制度设… |
+| sync-skills-backup-from-remote |  |
 | taiichi-ohno-perspective | \| 大野耐一 (Taiichi Ohno) 思维顾问：丰田生产方式 (TPS) 与精益生产之父。 专治流程臃肿、效率低下、掩盖问题和瞎忙活。核心包含：识别七大浪费、现场大野圈观察、连续推演5个为什么（5 Whys）以发掘根本原因、以及绝… |
 | taleb-perspective | \| 塔勒布(Nassim Nicholas Taleb)的思维框架与表达方式。基于40+个来源的深度调研， 提炼6个核心心智模型、9条决策启发式和完整的表达DNA。 用途：作为思维顾问，用塔勒布的视角分析问题、审视决策、质疑主流叙事。… |
 | Tavily_web_search | Web search and URL extraction backed by the Tavily API. Use when Codex needs to (1) search the public web for current i… |
@@ -130,6 +132,6 @@
 ## 总计
 
 - 内置 skills：5
-- 用户 skills：100
+- 用户 skills：102
 - 插件 skills：4
-- 合计：109
+- 合计：111

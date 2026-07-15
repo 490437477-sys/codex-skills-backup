@@ -1,0 +1,3 @@
+﻿name: sync-skills-backup-from-remote
+display_label: Sync Skills From Remote
+summary: Pull codex-skills-backup from GitHub into the local mirror, then restore `skills/user/*` to `~/.codex/skills` and `plugins/skills/*` to `~/.codex/plugins/cache/openai-bundled/<plugin>/<version>/skills/`. Auto-detects the current plugin version (falls back to 26.707.72221). Uses SSH when HTTPS push is blocked.
