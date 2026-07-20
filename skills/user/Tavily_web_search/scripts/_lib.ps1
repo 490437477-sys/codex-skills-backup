@@ -14,30 +14,9 @@ function Get-TavilyKey {
     return $k
 }
 
-function Invoke-Tavily {
-    [CmdletBinding()]
-    param(
-        [Parameter(Mandatory)] [string] $Endpoint,
-        [Parameter(Mandatory)] [hashtable] $Body,
-        [int] $TimeoutSec = 30
-    )
-    $key = Get-TavilyKey
-    $Body.api_key = $key
-    $json = $Body | ConvertTo-Json -Depth 10
-    $uri = "https://api.tavily.com/$Endpoint"
-    try {
-        $resp = Invoke-RestMethod -Uri $uri -Method Post -ContentType "application/json" -Body $json -TimeoutSec $TimeoutSec
-        return $resp
-    } catch {
-        $errBody = ""
-        if ($_.Exception.Response) {
-            $sr = New-Object System.IO.StreamReader($_.Exception.Response.GetResponseStream())
-            $errBody = $sr.ReadToEnd()
-        }
-        Write-Error ("Tavily $Endpoint failed: {0} | body={1}" -f $_.Exception.Message, $errBody)
-    }
-}
+function Invoke-TavilyTcpFallback { param([System.Net.Http.HttpRequestException]$Ex) Write-Error ("Tavily transport error: {0}" -f $Ex.Message) }
 
+function Invoke-TavilyStreamingCore { param([string]$Uri, [string]$Json, [int]$TimeoutSec, $Key) $client=[System.Net.Http.HttpClient]::new(); $client.Timeout=[TimeSpan]::FromSeconds($TimeoutSec); $req=[System.Net.Http.HttpRequestMessage]::new([System.Net.Http.HttpMethod]::Post,$Uri); $req.Headers.TryAddWithoutValidation("Authorization","Bearer $Key") | Out-Null; $content=[System.Net.Http.StringContent]::new($Json,[System.Text.Encoding]::UTF8,"application/json"); $req.Content=$content; $task=$client.SendAsync($req); $task.Wait(); $resp=$task.Result; $raw=$resp.Content.ReadAsStringAsync().Result; if(-not $resp.IsSuccessStatusCode){ Write-Error ("Tavily request failed: {0} {1}" -f [int]$resp.StatusCode,$raw); return } try { $obj=$raw | ConvertFrom-Json -Depth 10; return $obj } catch { Write-Error ("Tavily response parse error: {0}" -f $_.Exception.Message) } }
 function Format-SearchResult {
     param($Result, [switch] $SummaryOnly, [switch] $JsonOnly)
     if ($JsonOnly) { return ($Result | ConvertTo-Json -Depth 10) }

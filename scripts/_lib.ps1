@@ -10,7 +10,17 @@ $ErrorActionPreference = 'Stop'
 function Get-CodexHome          { return $env:USERPROFILE }
 function Get-SourceSkills       { return Join-Path (Get-CodexHome) '.codex\skills' }
 function Get-SourceAgentsSkills { return Join-Path (Get-CodexHome) '.agents\skills' }
-function Get-SourcePlugins      { return Join-Path (Get-CodexHome) '.codex\plugins\cache\openai-bundled' }
+# Returns all plugin-skill source roots under ~/.codex/plugins/cache/<marketplace>/.
+# Each marketplace contributes its own subdir; backup layout mirrors that as
+#   plugins/skills/<marketplace>/<plugin>/<ver>/skills/
+function Get-AllPluginSources {
+    $cache = Join-Path (Get-CodexHome) '.codex\plugins\cache'
+    if (-not (Test-Path $cache)) { return @() }
+    Get-ChildItem -Force -Directory $cache |
+        Where-Object { -not ($_.Name -match '^[._]') } |
+        ForEach-Object { $_.FullName }
+}
+function Get-SourcePlugins      { return (Join-Path (Get-CodexHome) '.codex\plugins\cache\openai-bundled') }
 function Get-ProjectRoot        { return (Resolve-Path (Join-Path $PSScriptRoot '..')).Path }
 function Get-BackupSkills       { return Join-Path (Get-ProjectRoot) 'skills' }
 function Get-BackupPlugins      { return Join-Path (Get-ProjectRoot) 'plugins\skills' }

@@ -136,15 +136,24 @@ if (-not $SkipPlugins) {
     if (-not (Test-Path $SourcePlugins)) {
         Write-Host '  (source plugins cache not found; skipping)' -ForegroundColor DarkGray
     } else {
-        foreach ($plugin in Get-ChildItem -Force -Directory $SourcePlugins | Sort-Object Name) {
-            $ver = Get-ChildItem -Force -Directory $plugin.FullName | Select-Object -First 1
-            if (-not $ver) { continue }
-            $srcSkillsDir = Join-Path $ver.FullName 'skills'
-            if (-not (Test-Path $srcSkillsDir)) { continue }
-            Write-Host ('  - ' + $plugin.Name) -ForegroundColor DarkCyan
-            $r = Sync-Directory $srcSkillsDir (Join-Path $BackupPlugins $plugin.Name) -WhatIf:$WhatIf -SkipDirs '^\.system$'
-            $pluginSummary.Copied += $r.Copied
-            $pluginSummary.Removed += $r.Removed
+        # Iterate every <marketplace> directory under ~/.codex/plugins/cache/.
+        foreach ($market in (Get-AllPluginSources | Sort-Object Name)) {
+            $marketName = Split-Path -Leaf $market
+            foreach ($plugin in (Get-ChildItem -Force -Directory $market | Sort-Object Name)) {
+                # Skip non-plugin entries like 'latest' (a symlink-junction used by Codex).
+                if ($plugin.Name -notmatch '^[A-Za-z0-9][A-Za-z0-9._-]*$') { continue }
+                $ver = Get-ChildItem -Force -Directory $plugin.FullName |
+                    Where-Object { $_.Name -match '^[0-9]+\.[0-9]+\.[0-9]+' -or $_.Name -eq 'latest' } |
+                    Select-Object -First 1
+                if (-not $ver) { continue }
+                $srcSkillsDir = Join-Path $ver.FullName 'skills'
+                if (-not (Test-Path $srcSkillsDir)) { continue }
+                $dest = Join-Path $BackupPlugins ('{0}\{1}' -f $marketName, $plugin.Name)
+                Write-Host ('  - {0}/{1}' -f $marketName, $plugin.Name) -ForegroundColor DarkCyan
+                $r = Sync-Directory $srcSkillsDir $dest -WhatIf:$WhatIf -SkipDirs '^\.system$'
+                $pluginSummary.Copied += $r.Copied
+                $pluginSummary.Removed += $r.Removed
+            }
         }
     }
 }

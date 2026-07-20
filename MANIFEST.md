@@ -1,19 +1,20 @@
 # Skills 清单
 
-> 备份时间：2026-07-15 20:15:41
+> 备份时间：2026-07-20 15:46:45
 > 来源：$env:USERPROFILE\.codex\skills 与 $env:USERPROFILE\.codex\plugins\cache\openai-bundled\*\skills
 
-## 内置 Skills（skills/system/，5 项）
+## 内置 Skills（skills/system/，6 项）
 
 | Skill | 用途 |
 |-------|------|
 | imagegen | Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, tex… |
 | openai-docs | Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, n… |
 | plugin-creator | Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/f… |
+| review-agent | Perform a read-only, defect-first review of a specified code change and return every actionable finding. Use when anoth… |
 | skill-creator | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an exis… |
 | skill-installer | Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list in… |
 
-## 用户 Skills（skills/user/，102 项）
+## 用户 Skills（skills/user/，103 项）
 
 | Skill | 用途 |
 |-------|------|
@@ -97,6 +98,7 @@
 | premium-a4-printable-pdfs | Use when creating polished A4 printable worksheets, canvases, checklists, scorecards, or report-style documents that ne… |
 | reid-hoffman-perspective | \| 瑞德·霍夫曼(Reid Hoffman)的思维框架与表达方式。 核心定位：网络效应、冷启动、信任系统、职业联盟与平台扩张的专职专家。 不是"又一个懂增长的人"——不替代Thiel的竞争哲学、Bezos的规模飞轮、或张一鸣的推荐逻辑。… |
 | search-routing |  |
+| search-toolkit | 三引擎自动分流搜索工具（Tavily + MiniMax + Exa）。当用户提出需要联网搜索的请求时使用此 skill——根据查询语言自动选择主引擎，失败时降级到下一引擎。中文查询走 MiniMax，英文/俄文走 uvx Tavily，… |
 | soros-perspective | \| 乔治·索罗斯思维顾问：基于其6个维度的深度追踪，提炼5个核心心智模型（可错性、反射性、盛衰周期、结构脆弱点、开放社会）、7条决策启发式和完整的表达DNA。 用途：作为思维顾问，用索罗斯的视角分析宏观博弈、市场拐点、政策脆弱性和制度设… |
 | sync-skills-backup-from-remote |  |
 | taiichi-ohno-perspective | \| 大野耐一 (Taiichi Ohno) 思维顾问：丰田生产方式 (TPS) 与精益生产之父。 专治流程臃肿、效率低下、掩盖问题和瞎忙活。核心包含：识别七大浪费、现场大野圈观察、连续推演5个为什么（5 Whys）以发掘根本原因、以及绝… |
@@ -120,18 +122,24 @@
 | view-product-folder | \| Inspect a folder of product images for Amazon/noon/Ozon/TEMU listings when the user asks Codex to "看图"、"了解产品"、"浏览图片"… |
 | zhangxiaolong-perspective | \| 张小龙 (Allen Zhang) 思维顾问：基于微信背后的产品观、历年演讲及10年前饭否语录的深度调研。 提炼5个核心心智模型（极简与克制、上帝视角的生态演化、人性本能洞察、用完即走、去中心化连接），7条决策启发式和完整的表达DN… |
 
-## 插件贡献 Skills（plugins/skills/，4 项）
+## 插件贡献 Skills（plugins/skills/，10 项）
 
 | Skill 标识 | 路径 | 用途 |
 |-----------|------|------|
-| browser:control-in-app-browser | plugins/skills/browser/control-in-app-browser/SKILL.md | Control the in-app Browser for opening, navigating, inspecting visible or interactive page state, clicking, typing, screenshots, and local web testing. It can have existing signed-in sessions. For se… |
-| chrome:control-chrome | plugins/skills/chrome/control-chrome/SKILL.md | Control the user's Chrome browser for tasks that depend on existing Chrome state: tabs, logged-in sessions, or extensions. Prefer purpose-built connectors, APIs, or CLIs when available. |
-| computer-use:computer-use | plugins/skills/computer-use/computer-use/SKILL.md | Control Windows apps from ChatGPT |
-| visualize:visualize | plugins/skills/visualize/visualize/SKILL.md | Create visualizations and interactive tools in conversation. Use when asked to show how something works, make simulators or labs, maps, plots, charts or graphs, comparisons, scenarios, adjustable inp… |
+| openai-bundled:browser | plugins/skills/openai-bundled/browser/control-in-app-browser/SKILL.md | Control the in-app Browser for opening, navigating, inspecting visible or interactive page state, clicking, typing, screenshots, and local web testing. It can have existing signed-in sessions. For se… |
+| openai-bundled:chrome | plugins/skills/openai-bundled/chrome/control-chrome/SKILL.md | Control the user's Chrome browser for tasks that depend on existing Chrome state: tabs, logged-in sessions, or extensions. Prefer purpose-built connectors, APIs, or CLIs when available. |
+| openai-bundled:computer-use | plugins/skills/openai-bundled/computer-use/computer-use/SKILL.md | Control Windows apps from ChatGPT |
+| openai-bundled:visualize | plugins/skills/openai-bundled/visualize/visualize/SKILL.md | Create visualizations and interactive tools in conversation. Use when asked to show how something works, make simulators or labs, maps, plots, charts or graphs, comparisons, scenarios, adjustable inp… |
+| openai-primary-runtime:documents | plugins/skills/openai-primary-runtime/documents/documents/SKILL.md | Create, edit, redline, and comment on `.docx`, Word, and Google Docs-targeted document artifacts inside the container, with a strict render-and-verify workflow. Use `render_docx.py` to generate page… |
+| openai-primary-runtime:pdf | plugins/skills/openai-primary-runtime/pdf/pdf/SKILL.md | Read, create, inspect, render, and verify PDF files where visual layout matters. Use Poppler rendering plus Python tools such as reportlab, pdfplumber, and pypdf for generation and extraction. |
+| openai-primary-runtime:presentations | plugins/skills/openai-primary-runtime/presentations/presentations/SKILL.md | Create or edit PowerPoint or Google Slides decks |
+| openai-primary-runtime:spreadsheets | plugins/skills/openai-primary-runtime/spreadsheets/spreadsheets/SKILL.md | Create, edit, analyze, and verify standalone spreadsheet files or Google Sheets-ready workbooks, including .xlsx, .xls, .csv, and .tsv. Do not use for live controlling Microsoft Excel app or a live E… |
+| openai-primary-runtime:template-creator | plugins/skills/openai-primary-runtime/template-creator/template-creator/SKILL.md | Create or update a reusable personal Codex artifact-template skill. Use when the user invokes $template-creator or asks in natural language to create a template using, from, or based on an attached W… |
+| personal:cowart | plugins/skills/personal/cowart/cowart-image-edit/SKILL.md | Generate new AI images from user-supplied Cowart annotation screenshots. Use when the user provides one or more screenshots showing Cowart images marked with the 批注 tool, arrows, or visible edit note… |
 
 ## 总计
 
-- 内置 skills：5
-- 用户 skills：102
-- 插件 skills：4
-- 合计：111
+- 内置 skills：6
+- 用户 skills：103
+- 插件 skills：10
+- 合计：119

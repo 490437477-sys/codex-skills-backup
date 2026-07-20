@@ -53,12 +53,27 @@ if ($IncludePlugins) {
     if (-not (Test-Path $BackupPlugins)) {
         Write-Host '  (no plugin skills in backup)' -ForegroundColor DarkGray
     } else {
-        foreach ($plugin in Get-ChildItem -Force -Directory $BackupPlugins | Sort-Object Name) {
-            $targetPluginDir = Join-Path $TargetPlugins ('{0}\{1}\skills' -f $plugin.Name, $PluginVersion)
-            Write-Host ('  - ' + $plugin.Name + ' -> ' + $targetPluginDir) -ForegroundColor DarkCyan
-            $r = Sync-Directory $plugin.FullName $targetPluginDir -WhatIf:$WhatIf -SkipDirs '^\.system$'
-            $pluginSummary.Copied += $r.Copied
-            $pluginSummary.Removed += $r.Removed
+        # Backup layout: plugins/skills/<marketplace>/<plugin>/
+        # Target layout: ~/.codex/plugins/cache/<marketplace>/<plugin>/<ver>/skills/
+        foreach ($market in (Get-ChildItem -Force -Directory $BackupPlugins | Sort-Object Name)) {
+            $marketName = $market.Name
+            $targetMarket = Join-Path $TargetPlugins $marketName
+            foreach ($plugin in (Get-ChildItem -Force -Directory $market.FullName | Sort-Object Name)) {
+                # Detect the version Codex currently has for this plugin; fall back to -PluginVersion.
+                $ver = $PluginVersion
+                $cached = Join-Path $targetMarket $plugin.Name
+                if (Test-Path $cached) {
+                    $detected = Get-ChildItem -Force -Directory $cached |
+                        Where-Object { $_.Name -match '^[0-9]+\.[0-9]+\.[0-9]+' } |
+                        Select-Object -ExpandProperty Name -First 1
+                    if ($detected) { $ver = $detected }
+                }
+                $targetPluginDir = Join-Path $targetMarket ('{0}\{1}\skills' -f $plugin.Name, $ver)
+                Write-Host ('  - {0}/{1} (v{2}) -> {3}' -f $marketName, $plugin.Name, $ver, $targetPluginDir) -ForegroundColor DarkCyan
+                $r = Sync-Directory $plugin.FullName $targetPluginDir -WhatIf:$WhatIf -SkipDirs '^\.system$'
+                $pluginSummary.Copied += $r.Copied
+                $pluginSummary.Removed += $r.Removed
+            }
         }
     }
 } else {
